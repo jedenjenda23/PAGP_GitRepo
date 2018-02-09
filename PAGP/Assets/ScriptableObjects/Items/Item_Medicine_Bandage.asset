@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ec5737d20ac5143b0fc7caf2c70741, type: 3}
+  m_Name: Item_Medicine_Bandage
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: Bandage
+  itemIcon: {fileID: 21300016, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
+  itemMesh: {fileID: 4300000, guid: 6e2053191f00d3d43a2ac07ce0460975, type: 3}
+  itemMaterial: {fileID: 2100000, guid: 4cbf2f1cb20000545b3b80b6be959b21, type: 2}
+  itemWeight: 0.01
+  itemMaxStack: 4
+  itemAbility: {fileID: 11400000, guid: fd7e22dc203084b47977b0441d44dbb7, type: 2}
