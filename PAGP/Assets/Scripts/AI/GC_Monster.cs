@@ -101,6 +101,8 @@ public class GC_Monster : GameCharacter
 
         nextCharge = Time.time + chargeRate;
         lastCharge = Time.time;
+
+        nextDamageDeal = Time.time;
         }
 
     }
