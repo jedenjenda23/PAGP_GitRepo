@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class PlayerSpawner : Spawner
 {
-    //public GameObject playerUIPrefab;
-    public GameObject playerPrefab;
+  
     public GameObject cameraPrefab;
-    public bool spawnOnAwake = true;
 
+    private GameObject playerPrefab;
     GameObject spawnedPlayer;
     GameObject spawnedCamera;
 
     private void Awake()
     {
-        if (spawnOnAwake)
-        {
-            SpawnPlayer();
-        }   
+        GlobalGameManager gGameManager = GameObject.Find("_GlobalGameManager").GetComponent<GlobalGameManager>();
+        playerPrefab = gGameManager.missionCharacter;
+        SpawnPlayer();
+
+
     }
 
     public void SpawnPlayer()
@@ -64,6 +64,11 @@ public class PlayerSpawner : Spawner
         CameraController cam = spawnedCamera.GetComponent<CameraController>();
         cam.cameraTarget = spawnedPlayer.transform;
         cam.transform.rotation = Quaternion.Euler(60, 0, 0);
+
+        //Sort player object
+
+        GameObject charactersHolder = GameObject.Find("_Characters");
+        spawnedPlayer.transform.parent = charactersHolder.transform;
 
     }
 }

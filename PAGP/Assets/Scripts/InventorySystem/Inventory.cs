@@ -5,25 +5,25 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public PrefabHolder guiPrefabHolder;
-
+    public bool canDropItems = true;
     public int maxInventorySlots = 5;
     public int selectedSlot;
     public bool playerInventory = false;
     public bool lockSelection = true;
-    GameObject myInventoryObject;
-    Vector3 lastInventoryPosition;
-    List<GameObject> itemSlots;
-    List<GameObject> equipementItemSlots;
+    protected GameObject myInventoryObject;
+    protected Vector3 lastInventoryPosition;
+    protected List<GameObject> itemSlots;
+    protected List<GameObject> equipementItemSlots;
 
     [SerializeField]
-    List<VirtualItem> items = new List<VirtualItem>(1);
-    List<VirtualItem> equipedItems = new List<VirtualItem>(1);
+    protected List<VirtualItem> items = new List<VirtualItem>(1);
+    protected List<VirtualItem> equipedItems = new List<VirtualItem>(1);
 
 
     private void Start()
     {
 
-        for (int i = 0; i < maxInventorySlots - 1; i++)
+        for (int i = 0; i < maxInventorySlots; i++)
         {
             items.Add(guiPrefabHolder.GetNullItem());
         }

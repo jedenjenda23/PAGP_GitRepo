@@ -127,11 +127,12 @@ public class Gui_Item : MonoBehaviour
                 closestItem.GetInventory().UpdateInventoryAccordingToUI();
             }
 
-            // If we DO NOT have any slot close to our itemGui prefab, and it's too far from original slot (if we drag item from inventory)
+            // If we DO NOT have any slot close to our itemGui prefab, and it's too far from original slot (if we drag item from inventory) and item can be dropped
             // -drop item
            
 
-            else if (distance > (rt.sizeDelta.x / Screen.width) * 2f && distToOriginalSlot > (rt.sizeDelta.x / Screen.width) * 2f)
+            else if (distance > (rt.sizeDelta.x / Screen.width) * 2f && distToOriginalSlot > (rt.sizeDelta.x / Screen.width) * 2f 
+                && myInventory.canDropItems)
             {
                 myInventory.InventoryDropItem(itemInventoryIndex);
             }

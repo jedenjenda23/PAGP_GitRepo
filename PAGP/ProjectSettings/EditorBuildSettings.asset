@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/map_cityMap.unity
     guid: 635e3581e558a134dbfc0fa06f5e5fbd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/map_shelter.unity
     guid: 1a2ce776cb3dbeb41a45473020fba555
   - enabled: 0
     path: 
     guid: 35ae0ee9958e6cb40b1c4ef705fc9a63
+  - enabled: 1
+    path: Assets/Scenes/map_newGameStartMap.unity
+    guid: 1602e0c519d93e44788cdba6f9842065

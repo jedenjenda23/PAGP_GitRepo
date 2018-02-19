@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guiPrefabHolder: {fileID: 11400000, guid: cfe9ea66ab1c25942b2e6b57884e186a, type: 2}
-  maxInventorySlots: 5
+  maxInventorySlots: 6
   selectedSlot: 0
   playerInventory: 1
   lockSelection: 0
