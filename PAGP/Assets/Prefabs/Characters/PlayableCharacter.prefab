@@ -315,7 +315,7 @@ MonoBehaviour:
   runningSpeed: 4
   isMoving: 0
   isCrouching: 0
-  inventoryPosition: {x: 0, y: -190, z: 0}
+  inventoryPosition: {x: 0, y: -300, z: 0}
   inventory: {fileID: 0}
   aimingSpeed: 2
   lootingDistance: 2
@@ -342,6 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guiPrefabHolder: {fileID: 11400000, guid: cfe9ea66ab1c25942b2e6b57884e186a, type: 2}
+  canDropItems: 1
   maxInventorySlots: 6
   selectedSlot: 0
   playerInventory: 1

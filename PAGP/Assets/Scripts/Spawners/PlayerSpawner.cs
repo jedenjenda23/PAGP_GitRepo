@@ -7,48 +7,13 @@ public class PlayerSpawner : Spawner
   
     public GameObject cameraPrefab;
 
-    private GameObject playerPrefab;
     GameObject spawnedPlayer;
     GameObject spawnedCamera;
 
-    private void Awake()
+
+    public override void Spawn()
     {
-        GlobalGameManager gGameManager = GameObject.Find("_GlobalGameManager").GetComponent<GlobalGameManager>();
-        playerPrefab = gGameManager.missionCharacter;
-        SpawnPlayer();
-
-
-    }
-
-    public void SpawnPlayer()
-    {
-        //Spawn Player UI
-        /*
-        GameObject oldPlayerUI = GameObject.Find("PlayerUI");
-
-        if (oldPlayerUI != null)
-        {
-            Destroy(oldPlayerUI);
-            Debug.Log("Deleted player UI. New one will be spawned");
-        }
-
-        Instantiate(playerUIPrefab, transform.position, Quaternion.identity);
-        */
-
-        //spawnedCamera = Instantiate(cameraPrefab, transform.position, Quaternion.identity);
-        //Spawn player object
-        //Singleton
-        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        if (players.Length > 0)
-        {
-            foreach (GameObject obj in players)
-            {
-                Destroy(obj);
-            }
-        }
-
-        spawnedPlayer = Instantiate(playerPrefab, transform.position, Quaternion.identity);
-
+        spawnedPlayer = Instantiate(GlobalGameManager.instance.missionCharacter, transform.position, Quaternion.identity);
 
         //Spawn main camera
         //Singleton
@@ -69,6 +34,7 @@ public class PlayerSpawner : Spawner
 
         GameObject charactersHolder = GameObject.Find("_Characters");
         spawnedPlayer.transform.parent = charactersHolder.transform;
+        GlobalGameManager.instance.deployedCharacter = spawnedPlayer;
 
     }
 }

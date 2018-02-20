@@ -8,6 +8,7 @@ using UnityEditor;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(CapsuleCollider))]
+
 public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
 {
     public enum movStates { Walking, Sprinting, Crouching, Standing}

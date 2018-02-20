@@ -7,9 +7,9 @@ using UnityEditor;
 
 public class Spawner : MonoBehaviour
 {
-    public virtual void Spawn(GameObject spawnedObject)
+    public virtual void Spawn()
     {
-        Instantiate(spawnedObject, transform.position, Quaternion.identity);
+       
     }
 
 

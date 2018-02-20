@@ -2,33 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissionGameManager : LocalGameManager
+public class MissionGameManager : MonoBehaviour
 {
-    public GameObject[] npcSpawnPoints;
+    public static MissionGameManager mgmInstance;
     public GameObject playerSpawnPoint;
 
-
+    public void Awake()
+    {
+        mgmInstance = this;
+        MGM_StartMission();
+    }
 
     public  void MGM_EndMisson()
     {
-        
+        //save loot, save character, return to shelter, 
+        GlobalGameManager.instance.GGM_SaveGame();
+        GlobalGameManager.instance.GGM_LoadScene("map_shelter");
     }
 
     public  void MGM_StartMission()
     {
+        GlobalGameManager.instance.SetCurentMissionManager(this);
         SpawnNpcsAndPlayer();
     }
 
     public void SpawnNpcsAndPlayer()
     {
-        foreach (GameObject spawnObj in npcSpawnPoints)
-        {
-            //initiate npcSpawners
-            //spawnobj.GetComponent<Spawner>().Spawn();
-        }
+        Spawner[] spawners = GetComponentsInChildren<Spawner>(false);
 
-        //initiate playerSpawners
-        //playerSpawnPoint.GetComponent<Spawner>().Spawn();
+        foreach(Spawner spawner in spawners)
+        {
+            spawner.Spawn();
+        }
     }
 
 }
