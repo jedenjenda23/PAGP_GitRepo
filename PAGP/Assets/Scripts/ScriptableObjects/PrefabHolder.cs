@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PrefabHolder : ScriptableObject
 {
+    public GameObject guiItemPrefab;
+    public GameObject guiItemSlotPrefab;
     public GameObject[] prefabs;
     internal int Length;
     public VirtualItem nullItem;
@@ -27,4 +29,6 @@ public class PrefabHolder : ScriptableObject
     {
         return nullItem;
     }
+
+
 }

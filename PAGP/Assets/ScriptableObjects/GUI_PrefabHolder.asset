@@ -11,6 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c074edf21fcfe3747971b4d3bef745ec, type: 3}
   m_Name: GUI_PrefabHolder
   m_EditorClassIdentifier: 
+  guiItemPrefab: {fileID: 1311658106947728, guid: 0b6fa27546be81a47825b3905c7df5de,
+    type: 2}
+  guiItemSlotPrefab: {fileID: 1299715006704358, guid: 0fdcd4465ba60cd438b484230cd9004b,
+    type: 2}
   prefabs:
   - {fileID: 1316202634868060, guid: 8cea610fb8566794da3346d836a47dc8, type: 2}
   - {fileID: 1420453627344892, guid: e5a85d332d3ecc34e89af22cc75bd247, type: 2}

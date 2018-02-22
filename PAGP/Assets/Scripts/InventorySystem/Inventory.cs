@@ -20,9 +20,8 @@ public class Inventory : MonoBehaviour
     protected List<VirtualItem> equipedItems = new List<VirtualItem>(1);
 
 
-    private void Start()
+    protected void Start()
     {
-
         for (int i = 0; i < maxInventorySlots; i++)
         {
             items.Add(guiPrefabHolder.GetNullItem());
@@ -179,8 +178,9 @@ public class Inventory : MonoBehaviour
         return equipedItems;
     }
 
-    public void DrawInventory(bool drawInventory, Vector3 inventoryPosition)
+    public virtual void DrawInventory(bool drawInventory, Vector3 inventoryPosition)
     {
+        Debug.Log("inventory");
         // Remember where to spawn (only for RefreshInventory() function)
         lastInventoryPosition = inventoryPosition;
 
@@ -281,8 +281,9 @@ public class Inventory : MonoBehaviour
 
     }
 
-    public void DrawInventoryUpdate()
+    public virtual void DrawInventoryUpdate()
     {
+        Debug.Log("updating inventory");
         //if we update nonexistent inventory ui
         bool inventoryActive;
         if (myInventoryObject == null) inventoryActive = false;

@@ -5,8 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Gui_Item : MonoBehaviour
-{
-   
+{   
     public Image itemImage;
     public Text itemNameText;
     public Text itemAmountText;
@@ -21,9 +20,7 @@ public class Gui_Item : MonoBehaviour
     Transform prevParent;
     RectTransform rt;
     List<GameObject> items;
-
- 
-
+    
     public void Start()
     {
         rt = GetComponent<RectTransform>();

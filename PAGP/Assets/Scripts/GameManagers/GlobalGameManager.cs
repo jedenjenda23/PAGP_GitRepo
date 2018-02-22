@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GlobalGameManager : MonoBehaviour {
 
-    public static GlobalGameManager instance;
-    public MissionGameManager curentMissionManager;
+    public static GlobalGameManager instance;           //instance of GGM
+    public MissionGameManager currentMissionManager;    //save mission manager (potentialy usefull one day)
 
     public int totalDays;
     public GameObject[] initialShelterCharacters;
@@ -13,9 +13,10 @@ public class GlobalGameManager : MonoBehaviour {
     public  GameObject missionCharacter;
     public  GameObject[] shelterCharacters;
 
-    public  Inventory missionLoadOut;
+    public List<VirtualItem> missionLoadOut;
     public List<VirtualItem> shelterInventoryItems;
-
+    
+    [HideInInspector]
     public GameObject deployedCharacter;    //only for mission manager and exit trigger
 
     void Awake()
@@ -74,6 +75,6 @@ public class GlobalGameManager : MonoBehaviour {
 
     public void SetCurentMissionManager(MissionGameManager missionManager)
     {
-        curentMissionManager = missionManager;
+        currentMissionManager = missionManager;
     }
 }

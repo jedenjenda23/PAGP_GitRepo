@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 54987432018886982}
   - component: {fileID: 114557228018336006}
   - component: {fileID: 114164424174551028}
-  - component: {fileID: 114752772717295628}
+  - component: {fileID: 114157881728198120}
   m_Layer: 8
   m_Name: PlayableCharacter
   m_TagString: Player
@@ -268,6 +268,24 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114157881728198120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1159614607822606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0921f83fb9ab8c4d9a2418ae043b831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiPrefabHolder: {fileID: 11400000, guid: cfe9ea66ab1c25942b2e6b57884e186a, type: 2}
+  canDropItems: 1
+  maxInventorySlots: 5
+  selectedSlot: 0
+  playerInventory: 1
+  lockSelection: 0
+  items: []
 --- !u!114 &114164424174551028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -316,7 +334,7 @@ MonoBehaviour:
   isMoving: 0
   isCrouching: 0
   inventoryPosition: {x: 0, y: -300, z: 0}
-  inventory: {fileID: 0}
+  inventory: {fileID: 114157881728198120}
   aimingSpeed: 2
   lootingDistance: 2
   playerControl: 1
@@ -330,24 +348,6 @@ MonoBehaviour:
   detectLayer:
     serializedVersion: 2
     m_Bits: 1024
---- !u!114 &114752772717295628
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1159614607822606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0921f83fb9ab8c4d9a2418ae043b831, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  guiPrefabHolder: {fileID: 11400000, guid: cfe9ea66ab1c25942b2e6b57884e186a, type: 2}
-  canDropItems: 1
-  maxInventorySlots: 6
-  selectedSlot: 0
-  playerInventory: 1
-  lockSelection: 0
-  items: []
 --- !u!136 &136134234487420656
 CapsuleCollider:
   m_ObjectHideFlags: 1
