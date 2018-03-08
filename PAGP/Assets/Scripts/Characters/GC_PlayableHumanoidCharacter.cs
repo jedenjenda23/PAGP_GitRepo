@@ -226,26 +226,38 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
                 else movementState = movStates.Walking;
             }
 
+        charAnim.movementDirection = targetVelocity.normalized;
+
            
 
         switch (movementState)
         {
+
             case movStates.Standing:
+                isSprinting = false;
+
                 lookAtMouse = true;
                 movementSpeed = normalSpeed;
                 break;
 
             case movStates.Walking:
+                isSprinting = false;
+
                 lookAtMouse = true;
                 movementSpeed = normalSpeed;
                 break;
 
             case movStates.Sprinting:
+                isSprinting = true;
+
                 lookAtMouse = false;
+
                 movementSpeed = runningSpeed;
                 break;
 
             case movStates.Crouching:
+                isSprinting = false;
+
                 lookAtMouse = true;
                 movementSpeed = crouchSpeed;
                 break;

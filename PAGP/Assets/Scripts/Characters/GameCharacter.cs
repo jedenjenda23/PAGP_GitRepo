@@ -12,23 +12,27 @@ public class GameCharacter : MonoBehaviour
 {
     [Header("GameCharacter")]
     [SerializeField]
-    protected float normalSpeed = 2;
+    public float normalSpeed = 2;
     [SerializeField]
-    protected float crouchSpeed = 1.5f;
+    public float crouchSpeed = 1.5f;
     [SerializeField]
-    protected float runningSpeed = 4f;
+    public float runningSpeed = 4f;
 
-    protected float movementSpeed;
+    [HideInInspector]
+    public float movementSpeed;
     [SerializeField]
-    protected bool isMoving;
+    public bool isMoving;
     [SerializeField]
     protected bool isCrouching;
-
+    [HideInInspector]
+    public bool isSprinting;
     [SerializeField]
     protected Vector3 inventoryPosition;
     [SerializeField]
     protected Inventory inventory;
     protected CharacterAttributes charAttributes;
+    [HideInInspector]
+    public CharacterAnimationController charAnim;
 
     virtual public void Start()
     {

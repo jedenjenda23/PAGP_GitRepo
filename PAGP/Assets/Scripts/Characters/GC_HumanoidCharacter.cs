@@ -32,6 +32,8 @@ public class GC_HumanoidCharacter : GameCharacter
 
     public void TakeItem(GameObject item, bool skipTagRecognition)
     {
+        charAnim.PickUpAnimation();
+        //skip if we know that is not ItemPickUpContainer
         if(item.CompareTag("ItemPickUpContainer") && !skipTagRecognition)
         {
             VirtualItem newItem;
