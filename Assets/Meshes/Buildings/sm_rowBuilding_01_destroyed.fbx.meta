@@ -7,16 +7,26 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: sm_rowbuilding_01_desroyed
+    100004: bricks
+    100006: floor
     400000: //RootNode
     400002: sm_rowbuilding_01_desroyed
+    400004: bricks
+    400006: floor
     2300000: //RootNode
     2300002: sm_rowbuilding_01_desroyed
+    2300004: bricks
+    2300006: floor
     3300000: //RootNode
     3300002: sm_rowbuilding_01_desroyed
+    3300004: bricks
+    3300006: floor
     4300000: sm_rowbuilding_01_desroyed
+    4300002: bricks
+    4300004: floor
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
