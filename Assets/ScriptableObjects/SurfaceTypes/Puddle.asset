@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e2ac8d4fd1ba464ba00fdb3aae6d622, type: 3}
-  m_Name: PlayerDefault
+  m_Name: Puddle
   m_EditorClassIdentifier: 
-  humanoidMovementMultiplier: 1
+  humanoidMovementMultiplier: 0.88
   monsterMovementMultiplier: 1
   surfaceStepSounds:
-  - {fileID: 8300000, guid: c75a90ce5f83e814f8e9edecf9748269, type: 3}
-  - {fileID: 8300000, guid: 7354f1673341e44449f59bed48a44cb9, type: 3}
+  - {fileID: 8300000, guid: 687b9876b3c5fdf43b8f5532cedeb87f, type: 3}
+  - {fileID: 8300000, guid: 4310566cc6fa30b44900ca217fb6f0e9, type: 3}
+  - {fileID: 8300000, guid: e62e5762f6fa3a3418be304e0ed7633b, type: 3}
   surfaceImpactSounds: []
   surfaceStepParticles: []
   surfaceImpactParticles: []

@@ -114,8 +114,6 @@ public class GameCharacter : MonoBehaviour
 
     public void CheckSurfaceType()
     {
-
-        Debug.Log("kĺasdasd");
         RaycastHit surfaceHit;
         if (Physics.Raycast(transform.position, Vector3.down, out surfaceHit, 1.1f, surfaceRecognitionLayer))
         {
