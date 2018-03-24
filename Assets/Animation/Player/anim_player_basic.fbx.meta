@@ -247,7 +247,69 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: RightFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 6.1538067
+            outSlope: 6.1538067
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.16250104
+            value: 1
+            inSlope: 1.454544
+            outSlope: 1.454544
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.7788873
+            value: -1
+            inSlope: 0.6389307
+            outSlope: 0.6389307
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 4.52258
+            outSlope: 4.52258
+            tangentMode: 34
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      - name: LeftFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: -10.300866
+            outSlope: -10.300866
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.09707922
+            value: -1
+            inSlope: -3.8148937
+            outSlope: -3.8148937
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.84584045
+            value: 1
+            inSlope: -1.9078537
+            outSlope: -1.9078537
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: -6.486786
+            outSlope: -6.486786
+            tangentMode: 34
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
       events: []
       transformMask: []
       maskType: 3
@@ -275,7 +337,69 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: RightFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 6.1538067
+            outSlope: 6.1538067
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.16250104
+            value: 1
+            inSlope: 1.454544
+            outSlope: 1.454544
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.7788873
+            value: -1
+            inSlope: 0.6389307
+            outSlope: 0.6389307
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 4.52258
+            outSlope: 4.52258
+            tangentMode: 34
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      - name: LeftFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: -10.300866
+            outSlope: -10.300866
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.09707922
+            value: -1
+            inSlope: -3.8148937
+            outSlope: -3.8148937
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.84584045
+            value: 1
+            inSlope: -1.9078537
+            outSlope: -1.9078537
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: -6.486786
+            outSlope: -6.486786
+            tangentMode: 34
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
       events: []
       transformMask: []
       maskType: 3
@@ -303,7 +427,69 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: RightFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: -10.300866
+            outSlope: -10.300866
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.09707922
+            value: -1
+            inSlope: -3.8148937
+            outSlope: -3.8148937
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.84584045
+            value: 1
+            inSlope: -1.9078537
+            outSlope: -1.9078537
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: -6.486786
+            outSlope: -6.486786
+            tangentMode: 34
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      - name: LeftFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 6.1538067
+            outSlope: 6.1538067
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.16250104
+            value: 1
+            inSlope: 1.454544
+            outSlope: 1.454544
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.7788873
+            value: -1
+            inSlope: 0.6389307
+            outSlope: 0.6389307
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 4.52258
+            outSlope: 4.52258
+            tangentMode: 34
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
       events: []
       transformMask: []
       maskType: 3
@@ -331,7 +517,69 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: RightFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 6.1538067
+            outSlope: 6.1538067
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.16250104
+            value: 1
+            inSlope: 1.454544
+            outSlope: 1.454544
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.7788873
+            value: -1
+            inSlope: 0.6389307
+            outSlope: 0.6389307
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 4.52258
+            outSlope: 4.52258
+            tangentMode: 34
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      - name: LeftFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: -10.300866
+            outSlope: -10.300866
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.09707922
+            value: -1
+            inSlope: -3.8148937
+            outSlope: -3.8148937
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.84584045
+            value: 1
+            inSlope: -1.9078537
+            outSlope: -1.9078537
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: -6.486786
+            outSlope: -6.486786
+            tangentMode: 34
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
       events: []
       transformMask: []
       maskType: 3
@@ -359,7 +607,69 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: RightFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: -10.300866
+            outSlope: -10.300866
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.09707922
+            value: -1
+            inSlope: -3.8148937
+            outSlope: -3.8148937
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.84584045
+            value: 1
+            inSlope: -1.9078537
+            outSlope: -1.9078537
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: -6.486786
+            outSlope: -6.486786
+            tangentMode: 34
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      - name: LeftFoot
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 6.1538067
+            outSlope: 6.1538067
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.16250104
+            value: 1
+            inSlope: 1.454544
+            outSlope: 1.454544
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.7788873
+            value: -1
+            inSlope: 0.6389307
+            outSlope: 0.6389307
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 4.52258
+            outSlope: 4.52258
+            tangentMode: 34
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
       events: []
       transformMask: []
       maskType: 3

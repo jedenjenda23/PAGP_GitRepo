@@ -7,6 +7,9 @@ public class InteractibleDoor : MonoBehaviour
     public GameObject myUI;
     bool open;
     Animator animator;
+    public AudioClip soundDoorOpen;
+    public AudioClip soundDoorClose;
+    public AudioSource source;
 
 
     private void Awake()
@@ -20,6 +23,14 @@ public class InteractibleDoor : MonoBehaviour
     {
         open = !open;
         animator.SetBool("Open", open);
+        if (open)
+        {
+            source.PlayOneShot(soundDoorOpen);
+        }
+        else
+        {
+            source.PlayOneShot(soundDoorClose);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

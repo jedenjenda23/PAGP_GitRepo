@@ -36,9 +36,13 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
     public LayerMask detectLayer;
     List<Transform> nearbyEntities;
 
+    // Reference to audio script
+    private AudioCharacter sound;
+
     // Use this for initialization
     public new void Start ()
     {
+        sound = GetComponent<AudioCharacter>();
         charAttributes = GetComponent<CharacterAttributes>();
 
         rb = GetComponent<Rigidbody>();
@@ -272,6 +276,8 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
     {
         if (Time.time > nextDash)
         {
+            sound.PlayDash();
+
             if (isMoving)
             {
                 Vector3 dashVector = targetVelocity.normalized * dashForce;
