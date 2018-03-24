@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 54023496801470452}
   - component: {fileID: 114849306184532576}
   - component: {fileID: 114975921579631378}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 33650973018264586}
   - component: {fileID: 23133775145258962}
   - component: {fileID: 95044911211505340}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: chm_elkasei (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,14 +70,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1596472413115480}
-  m_LocalRotation: {x: -0, y: 0.33993387, z: -0, w: 0.94044936}
-  m_LocalPosition: {x: 275.49, y: 1, z: 117.72}
+  m_LocalRotation: {x: -0, y: 0.79937756, z: -0, w: -0.60082906}
+  m_LocalPosition: {x: 277.35, y: 1, z: 111.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4094788347879716}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 39.746002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -1546.141, z: 0}
 --- !u!23 &23133775145258962
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -193,10 +193,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 1024
   linecastLayer:
     serializedVersion: 2
-    m_Bits: 4294967003
+    m_Bits: 1
   target: {fileID: 0}
   seeTarget: 0
   targetLastPos: {x: 0, y: 0, z: 0}
@@ -223,6 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guiPrefabHolder: {fileID: 0}
+  canDropItems: 1
   maxInventorySlots: 5
   selectedSlot: 0
   playerInventory: 0
@@ -239,18 +240,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947e587bf230d404ea4138c37af403f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  autoCheckSurfaceType: 1
+  surfaceRecognitionLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  surfaceCheckFrequency: 1
+  currentSurface: {fileID: 0}
+  defaultSurfaceType: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}
   normalSpeed: 2
   crouchSpeed: 1.5
   runningSpeed: 4
+  movementSpeed: 0
   isMoving: 0
   isCrouching: 0
+  isSprinting: 0
   inventoryPosition: {x: 0, y: 0, z: 0}
   inventory: {fileID: 0}
-  recoveryAfterCharge: 1.5
-  chargeRate: 3.2
+  charAnim: {fileID: 0}
+  damageDealRadius: 2
+  damageDealRate: 1
+  recoveryAfterCharge: 1.2
+  chargeRate: 2
   chargeForce: 250
-  chargeAngle: 60
+  chargeAngle: 33
 --- !u!136 &136101388571273528
 CapsuleCollider:
   m_ObjectHideFlags: 1

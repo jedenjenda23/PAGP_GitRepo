@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 114164424174551028}
   - component: {fileID: 114157881728198120}
   - component: {fileID: 114675006772433106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PlayableCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4083200302847570}
   - component: {fileID: 137513297858666786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Low_poly_human
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1336,7 +1336,7 @@ MonoBehaviour:
   autoCheckSurfaceType: 1
   surfaceRecognitionLayer:
     serializedVersion: 2
-    m_Bits: 4294966527
+    m_Bits: 4294966523
   surfaceCheckFrequency: 1
   currentSurface: {fileID: 0}
   defaultSurfaceType: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}

@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114562395328843632}
   - component: {fileID: 114889122383865780}
   - component: {fileID: 114954104109547044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ItemContainerInventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,8 +151,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guiPrefabHolder: {fileID: 11400000, guid: cfe9ea66ab1c25942b2e6b57884e186a, type: 2}
+  canDropItems: 1
   maxInventorySlots: 5
   selectedSlot: 0
+  playerInventory: 0
   lockSelection: 1
   items: []
   itemContainers: []

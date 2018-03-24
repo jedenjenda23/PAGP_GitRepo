@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23891599370891868}
   - component: {fileID: 114789532320317718}
   - component: {fileID: 111523682039250834}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ItemPickupContainer
   m_TagString: ItemPickUpContainer
   m_Icon: {fileID: 0}
