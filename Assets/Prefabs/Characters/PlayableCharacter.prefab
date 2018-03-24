@@ -1376,21 +1376,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Anim: {fileID: 1662672002243906}
-  soundsConcrete:
-  - {fileID: 8300000, guid: c75a90ce5f83e814f8e9edecf9748269, type: 3}
-  - {fileID: 8300000, guid: 7354f1673341e44449f59bed48a44cb9, type: 3}
-  soundsWood: []
-  soundsGravel: []
-  soundsRubble: []
-  soundsMud: []
-  soundsGrass: []
-  soundsDirt: []
-  soundsWater: []
-  soundsMetal: []
+  Dirt: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}
+  Puddle: {fileID: 11400000, guid: a1e5b49f11b302d4dafcd8090d72c327, type: 2}
   dashSound: {fileID: 8300000, guid: 8e7d23088a1080e45b3d244e02baeb7b, type: 3}
   source: {fileID: 82427258064684730}
-  pitchVariation: 0.7
-  volumeVariation: 0
+  terrain: {fileID: 0}
 --- !u!136 &136134234487420656
 CapsuleCollider:
   m_ObjectHideFlags: 1

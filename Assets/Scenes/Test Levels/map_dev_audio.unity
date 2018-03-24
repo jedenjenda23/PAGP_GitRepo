@@ -1630,7 +1630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd5f77f70589c5b4197a2fd4936e1936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceType: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}
+  surfaceType: {fileID: 11400000, guid: 1e669e5ea62bb3b45b6aceaf6b383c29, type: 2}
 --- !u!4 &736351485 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4773802774413554, guid: 765b4f0332eb8d74e8afcdd6b4eca9b5,

@@ -14,6 +14,7 @@ public class GameCharacter : MonoBehaviour
     [Header("SurfaceRecognition")]
     public bool autoCheckSurfaceType;
     public LayerMask surfaceRecognitionLayer;
+    GameObject currentTerrain;
     [SerializeField]
     protected float surfaceCheckFrequency = 1f;
     protected float nextSurfaceCheck;
@@ -44,6 +45,8 @@ public class GameCharacter : MonoBehaviour
     protected CharacterAttributes charAttributes;
     [HideInInspector]
     public CharacterAnimationController charAnim;
+
+   
 
 
     virtual public void Start()
@@ -117,29 +120,61 @@ public class GameCharacter : MonoBehaviour
         RaycastHit surfaceHit;
         if (Physics.Raycast(transform.position, Vector3.down, out surfaceHit, 1.1f, surfaceRecognitionLayer))
         {
+            //if we hit object with defined surface
             if (surfaceHit.collider.GetComponent<SurfaceComponent>())
             {
+                //some surface
                 SurfaceComponent surface = surfaceHit.collider.GetComponent<SurfaceComponent>();
                 if (surface.surfaceType != null && !surface.surfaceType.IsTerrain())
                 {
                     currentSurface = surface.surfaceType;
                     Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.green, 0.5f);
+                    currentTerrain = null;
                 }
-
+                //terrain hit
+                else if (surface.surfaceType != null && surface.surfaceType.IsTerrain())
+                {
+                    currentSurface = surface.surfaceType;
+                    currentTerrain = surfaceHit.collider.gameObject;
+                }
+                //else set default surfaceType to this character
                 else
                 {
                     currentSurface = defaultSurfaceType;
                     Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.red, 0.5f);
+                    currentTerrain = null;
                 }
             }
+            /*
+            //if we hit terrain but it has not SurfaceComponent for some reason. We want to save this terrain and use it.
+            else if (gameObject.GetComponent<Terrain>())
+            {
+                Debug.Log("asdasd");
+                currentSurface = defaultSurfaceType;
+                currentTerrain = surfaceHit.collider.gameObject;
+                currentTerrain = null;
+            }
+            */
 
+            // else apply default surface type
             else
             {
                 currentSurface = defaultSurfaceType;
                 Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.yellow, 0.5f);
+                currentTerrain = null;
             }
         }
 
-        else currentSurface = defaultSurfaceType;
+        // if we hit nothing apply default surface type
+        else
+        {
+            currentSurface = defaultSurfaceType;
+            currentTerrain = null;
+        }
+    }
+
+    public GameObject GetCurrentTerrain()
+    {
+        return currentTerrain;
     }
 }

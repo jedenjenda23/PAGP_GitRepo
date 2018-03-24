@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2ac8d4fd1ba464ba00fdb3aae6d622, type: 3}
   m_Name: Terrain
   m_EditorClassIdentifier: 
-  terrainSurface: 0
+  terrainSurface: 1
   humanoidMovementMultiplier: 1
   monsterMovementMultiplier: 1
   surfaceStepSounds: []

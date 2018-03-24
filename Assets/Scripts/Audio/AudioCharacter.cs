@@ -27,10 +27,6 @@ public class AudioCharacter : MonoBehaviour {
     {
         playerAnimator = Anim.GetComponent<Animator>();
         player = GetComponent<GC_PlayableHumanoidCharacter>();
-        terrainData = terrain.GetComponent<Terrain>().terrainData;
-        terrainPos = terrain.transform.position;
-
-
     }
 
     private void Update()
@@ -38,9 +34,16 @@ public class AudioCharacter : MonoBehaviour {
         currentRightFoot = playerAnimator.GetFloat("RightFoot");
         currentLeftFoot = playerAnimator.GetFloat("LeftFoot");
 
-        Debug.Log(GetMainTexture(transform.position));
-        if (terrain != null)
-        {    //IS THERE A TERRAIN IN THE SCENE?
+        //Debug.Log(GetMainTexture(transform.position));
+
+        terrain = player.GetCurrentTerrain();
+
+        if (terrain != null && player.currentSurface.IsTerrain())
+        {
+            terrainData = terrain.GetComponent<Terrain>().terrainData;
+            terrainPos = terrain.transform.position;
+
+            //IS THERE A TERRAIN IN THE SCENE?
             surfaceIndex = GetMainTexture(transform.position);
             //Not that it matters, but here we determine what position the Terrain Textures are in.
             //For example, If you added a grass texture, then a dirt, then a rock, you'd have grass=0, dirt=1, rock=2.
