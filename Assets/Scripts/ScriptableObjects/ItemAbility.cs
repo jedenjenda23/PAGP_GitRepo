@@ -6,7 +6,7 @@ using UnityEngine;
 
 public enum abilities { Heal, ShootProjectile, MeleeAttack }
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "PAGP/ItemAbility")]
 public class ItemAbility : ScriptableObject
 {
     public abilities itemAbility;

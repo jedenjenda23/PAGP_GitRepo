@@ -270,6 +270,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
                 break;
         }
 
+        movementSpeed = movementSpeed * currentSurface.GetHumanoidMovementMultiplier();
     }
 
     public void Dash()

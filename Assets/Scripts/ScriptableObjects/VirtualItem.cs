@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "PAGP/Don't use/VirtualItem")]
+
 public class VirtualItem : InventoryItem
 {
     int itemAmount;

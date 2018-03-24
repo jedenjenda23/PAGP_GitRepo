@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33835528993228358}
   - component: {fileID: 65375615052289106}
   - component: {fileID: 23271919675395830}
-  - component: {fileID: 114402299870938774}
+  - component: {fileID: 114458541247073018}
   m_Layer: 8
-  m_Name: ExitArea
+  m_Name: HideTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,7 +94,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114402299870938774
+--- !u!114 &114458541247073018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -102,6 +102,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1164222652182542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4257d510f2bd6484bab9aceb6ed186c7, type: 3}
+  m_Script: {fileID: 11500000, guid: c4a70024bb41a3545b4ee90e9b7a211c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  child: {fileID: 0}
+  hidingSpeed: 10
+  hidingHeight: -1

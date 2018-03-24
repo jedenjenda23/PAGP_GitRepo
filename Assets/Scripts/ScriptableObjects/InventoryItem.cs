@@ -4,7 +4,8 @@ using UnityEngine;
 
 
 public enum types { Weapon, Ammo, Medicine, Nutrition, Null };
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "PAGP/InventoryItem")]
+
 public class InventoryItem : ScriptableObject
 
 {

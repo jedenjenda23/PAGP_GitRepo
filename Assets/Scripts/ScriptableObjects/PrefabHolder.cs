@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "PAGP/PrefabHolder")]
+
 public class PrefabHolder : ScriptableObject
 {
     public GameObject guiItemPrefab;

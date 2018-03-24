@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4315349614426134}
   - component: {fileID: 108962199110055494}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,8 +88,8 @@ GameObject:
   - component: {fileID: 114046360732460960}
   - component: {fileID: 114164424174551028}
   - component: {fileID: 114157881728198120}
-  - component: {fileID: 114184731725240724}
-  m_Layer: 8
+  - component: {fileID: 114675006772433106}
+  m_Layer: 0
   m_Name: PlayableCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 4856793748741754}
   - component: {fileID: 33434453961383382}
   - component: {fileID: 23351316680686610}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,36 +1322,6 @@ MonoBehaviour:
   disease: 0
   illnes: 0
   illnesTreatment: 0
---- !u!114 &114184731725240724
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1159614607822606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cdf01dc3744cc444a865595e42ebbdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Anim: {fileID: 0}
-  soundsConcrete: []
-  soundsWood: []
-  soundsGravel: []
-  soundsRubble: []
-  soundsMud: []
-  soundsGrass: []
-  soundsDirt: []
-  soundsWater: []
-  soundsMetal: []
-  dashSound: {fileID: 0}
-  source: {fileID: 82427258064684730}
-  pitchVariation: 0
-  volumeVariation: 0
-  playerAnimator: {fileID: 0}
-  currentRightFoot: 0
-  lastFrameRightFoot: 0
-  currentLeftFoot: 0
-  lastFrameLeftFoot: 0
 --- !u!114 &114557228018336006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1363,6 +1333,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069d3b7625d00f94e9885310f08f80aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoCheckSurfaceType: 1
+  surfaceRecognitionLayer:
+    serializedVersion: 2
+    m_Bits: 4294966527
+  surfaceCheckFrequency: 1
+  currentSurface: {fileID: 0}
+  defaultSurfaceType: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}
   normalSpeed: 1.8
   crouchSpeed: 1.5
   runningSpeed: 4
@@ -1386,7 +1363,34 @@ MonoBehaviour:
   targetVelocity: {x: 0, y: 0, z: 0}
   detectLayer:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 4294966523
+--- !u!114 &114675006772433106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1159614607822606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62847b68f08d97e45bf0589a3523f579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1662672002243906}
+  soundsConcrete:
+  - {fileID: 8300000, guid: c75a90ce5f83e814f8e9edecf9748269, type: 3}
+  - {fileID: 8300000, guid: 7354f1673341e44449f59bed48a44cb9, type: 3}
+  soundsWood: []
+  soundsGravel: []
+  soundsRubble: []
+  soundsMud: []
+  soundsGrass: []
+  soundsDirt: []
+  soundsWater: []
+  soundsMetal: []
+  dashSound: {fileID: 8300000, guid: 8e7d23088a1080e45b3d244e02baeb7b, type: 3}
+  source: {fileID: 82427258064684730}
+  pitchVariation: 0.7
+  volumeVariation: 0
 --- !u!136 &136134234487420656
 CapsuleCollider:
   m_ObjectHideFlags: 1

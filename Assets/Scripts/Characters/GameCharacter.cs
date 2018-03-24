@@ -11,6 +11,17 @@ using UnityEditor;
 public class GameCharacter : MonoBehaviour
 {
     [Header("GameCharacter")]
+    [Header("SurfaceRecognition")]
+    public bool autoCheckSurfaceType;
+    public LayerMask surfaceRecognitionLayer;
+    [SerializeField]
+    protected float surfaceCheckFrequency = 1f;
+    protected float nextSurfaceCheck;
+
+
+    public SurfaceType currentSurface;
+    public SurfaceType defaultSurfaceType;
+
     [SerializeField]
     public float normalSpeed = 2;
     [SerializeField]
@@ -34,10 +45,20 @@ public class GameCharacter : MonoBehaviour
     [HideInInspector]
     public CharacterAnimationController charAnim;
 
+
     virtual public void Start()
     {
         inventory = GetComponent<Inventory>();
         charAttributes = GetComponent<CharacterAttributes>();
+    }
+
+    private void LateUpdate()
+    {
+        if (autoCheckSurfaceType && Time.time > nextSurfaceCheck)
+        {
+            CheckSurfaceType();
+            nextSurfaceCheck = Time.time + surfaceCheckFrequency;
+        }
     }
 
     public IEnumerator MovementDetection()
@@ -89,5 +110,38 @@ public class GameCharacter : MonoBehaviour
 
 
         }
+    }
+
+    public void CheckSurfaceType()
+    {
+
+        Debug.Log("kĺasdasd");
+        RaycastHit surfaceHit;
+        if (Physics.Raycast(transform.position, Vector3.down, out surfaceHit, 1.1f, surfaceRecognitionLayer))
+        {
+            if (surfaceHit.collider.GetComponent<SurfaceComponent>())
+            {
+                SurfaceComponent surface = surfaceHit.collider.GetComponent<SurfaceComponent>();
+                if (surface.surfaceType != null)
+                {
+                    currentSurface = surface.surfaceType;
+                    Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.green, 0.5f);
+                }
+
+                else 
+                {
+                    currentSurface = defaultSurfaceType;
+                    Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.red, 0.5f);
+                }
+            }
+
+            else
+            {
+                currentSurface = defaultSurfaceType;
+                Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.yellow, 0.5f);
+            }
+        }
+
+        else currentSurface = defaultSurfaceType;
     }
 }

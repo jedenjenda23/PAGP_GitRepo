@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum factions { PlayerGroup, Civillist, Military, Mutant }
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "PAGP/CharacterPreset")]
+
 public class CharacterPreset : ScriptableObject
 {
   
