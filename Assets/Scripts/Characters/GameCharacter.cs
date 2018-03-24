@@ -122,13 +122,13 @@ public class GameCharacter : MonoBehaviour
             if (surfaceHit.collider.GetComponent<SurfaceComponent>())
             {
                 SurfaceComponent surface = surfaceHit.collider.GetComponent<SurfaceComponent>();
-                if (surface.surfaceType != null)
+                if (surface.surfaceType != null && !surface.surfaceType.IsTerrain())
                 {
                     currentSurface = surface.surfaceType;
                     Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.green, 0.5f);
                 }
 
-                else 
+                else
                 {
                     currentSurface = defaultSurfaceType;
                     Debug.DrawRay(surfaceHit.point, Vector3.up * 2, Color.red, 0.5f);

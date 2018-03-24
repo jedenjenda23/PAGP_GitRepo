@@ -7,6 +7,7 @@ using UnityEngine;
 public class SurfaceType : ScriptableObject
 {
 
+    public bool terrainSurface;
 
     public float humanoidMovementMultiplier = 1f;
     public float monsterMovementMultiplier = 1f;
@@ -31,6 +32,11 @@ public class SurfaceType : ScriptableObject
     public GameObject GetRandomImpactParticle()
     {
         return surfaceImpactParticles[randomIndex(surfaceImpactParticles.Length)];
+    }
+
+    public bool IsTerrain()
+    {
+        return terrainSurface;
     }
 
     int randomIndex(int max)
