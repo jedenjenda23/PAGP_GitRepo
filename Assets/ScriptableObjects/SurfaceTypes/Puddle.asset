@@ -20,5 +20,5 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e62e5762f6fa3a3418be304e0ed7633b, type: 3}
   surfaceImpactSounds: []
   surfaceStepParticles:
-  - {fileID: 1881792625755482, guid: 953fafc30b655f543890ace62b52e343, type: 2}
+  - {fileID: 1740371534363876, guid: 953fafc30b655f543890ace62b52e343, type: 2}
   surfaceImpactParticles: []
