@@ -57,11 +57,11 @@ public class GameCharacter : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (autoCheckSurfaceType && Time.time > nextSurfaceCheck)
-        {
-            CheckSurfaceType();
-            nextSurfaceCheck = Time.time + surfaceCheckFrequency;
-        }
+        //if (autoCheckSurfaceType && Time.time > nextSurfaceCheck)
+        //{
+        //    CheckSurfaceType();
+        //    nextSurfaceCheck = Time.time + surfaceCheckFrequency;
+        //}
     }
 
     public IEnumerator MovementDetection()

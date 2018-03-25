@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioCharacter : MonoBehaviour {
-    public GameObject Anim;                 // Animator refernce,
+    public GameObject Anim;                         // Animator refernce
+
+    // Reference SurfaceTypů pro terén
     public SurfaceType Dirt;
     public SurfaceType Puddle;
 
-    public AudioClip dashSound;             // Dash sound
+    public AudioClip dashSound;                     // Dash sound
     public AudioSource source;
     private GC_PlayableHumanoidCharacter player;
 
@@ -18,9 +20,9 @@ public class AudioCharacter : MonoBehaviour {
     private float lastFrameLeftFoot;
 
     private SurfaceType currentSurface;
-    public GameObject terrain;   //Stores the Terrain GameObject out of the Scene for use later.
-    private Vector3 terrainPos;         //Where are we on the Splatmap?
-    private TerrainData terrainData;    //Lets us get to the Terrain's splatmap.
+    public GameObject terrain;                      //Stores the Terrain GameObject out of the Scene for use later.
+    private Vector3 terrainPos;                     //Where are we on the Splatmap?
+    private TerrainData terrainData;                //Lets us get to the Terrain's splatmap.
     public static int surfaceIndex = 0;
 
     private void Start()
@@ -31,22 +33,41 @@ public class AudioCharacter : MonoBehaviour {
 
     private void Update()
     {
+        // Současná hodnota křivek pro porovnání
         currentRightFoot = playerAnimator.GetFloat("RightFoot");
         currentLeftFoot = playerAnimator.GetFloat("LeftFoot");
 
-        //Debug.Log(GetMainTexture(transform.position));
+        
+
+        // Pravá noha
+        if (currentRightFoot < 0 && lastFrameRightFoot > 0)
+        {
+            PlayFootstep();
+        }
+
+        // Levá noha
+        if (currentLeftFoot < 0 && lastFrameLeftFoot > 0)
+        {
+            PlayFootstep();
+        }
+
+        // Save current curve value for comparsion
+        lastFrameRightFoot = currentRightFoot;
+        lastFrameLeftFoot = currentLeftFoot;
+    }
+
+    private void PlayFootstep()
+    {
+        player.CheckSurfaceType();
 
         terrain = player.GetCurrentTerrain();
 
+        // Na jaké textuře terénu hráč právě stojí?
         if (terrain != null && player.currentSurface.IsTerrain())
         {
             terrainData = terrain.GetComponent<Terrain>().terrainData;
             terrainPos = terrain.transform.position;
-
-            //IS THERE A TERRAIN IN THE SCENE?
             surfaceIndex = GetMainTexture(transform.position);
-            //Not that it matters, but here we determine what position the Terrain Textures are in.
-            //For example, If you added a grass texture, then a dirt, then a rock, you'd have grass=0, dirt=1, rock=2.
             switch (terrainData.splatPrototypes[surfaceIndex].texture.name)
             {
                 case "T_Dirt_01_A":
@@ -55,28 +76,28 @@ public class AudioCharacter : MonoBehaviour {
                 case "T_WaterPuddle_AS":
                     currentSurface = Puddle;
                     break;
+                default:
+                    currentSurface = Dirt;
+                    break;
 
             }
-
-            //Instead of messing around with numbers, we'll just check the texture's filename.
         }
 
-        // Pravá noha
-        if (currentRightFoot < 0 && lastFrameRightFoot > 0)
+        // Pokud hráč nestojí na terénu, použij raycast
+        //Debug.Log(player.currentSurface.IsTerrain());
+        if (player.currentSurface != null)
         {
-            source.PlayOneShot(currentSurface.GetRandomStepSound());
-            source.pitch = Random.Range(0.85f, 1.4f);
+            if (player.currentSurface.IsTerrain() != true)
+            {
+                currentSurface = player.currentSurface;
+            }
         }
 
-        // Levá noha
-        if (currentLeftFoot < 0 && lastFrameLeftFoot > 0)
-        {
-            source.PlayOneShot(currentSurface.GetRandomStepSound());
-            source.pitch = Random.Range(0.85f, 1.4f);
-        }
 
-        lastFrameRightFoot = currentRightFoot;
-        lastFrameLeftFoot = currentLeftFoot;
+        source.pitch = Random.Range(0.85f, 1.4f);
+        source.PlayOneShot(currentSurface.GetRandomStepSound());
+        GameObject newParticle = Instantiate(currentSurface.GetRandomStepParticle(), new Vector3(player.transform.position.x,player.transform.position.y-0.85f,player.transform.position.z),new Quaternion(0,0,0,0));
+        Destroy(newParticle, 2f);
     }
 
     //Puts ALL TEXTURES from the Terrain into an array, represented by floats (0=first texture, 1=second texture, etc).
@@ -123,7 +144,7 @@ public class AudioCharacter : MonoBehaviour {
 
     public void PlayDash()
     {
-        Debug.Log("Dash");
+        //Debug.Log("Dash");
         source.pitch = 1.2f;
         source.PlayOneShot(dashSound);
     }

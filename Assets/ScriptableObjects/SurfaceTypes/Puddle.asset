@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2ac8d4fd1ba464ba00fdb3aae6d622, type: 3}
   m_Name: Puddle
   m_EditorClassIdentifier: 
+  terrainSurface: 0
   humanoidMovementMultiplier: 0.88
   monsterMovementMultiplier: 1
   surfaceStepSounds:
@@ -18,5 +19,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4310566cc6fa30b44900ca217fb6f0e9, type: 3}
   - {fileID: 8300000, guid: e62e5762f6fa3a3418be304e0ed7633b, type: 3}
   surfaceImpactSounds: []
-  surfaceStepParticles: []
+  surfaceStepParticles:
+  - {fileID: 1881792625755482, guid: 953fafc30b655f543890ace62b52e343, type: 2}
   surfaceImpactParticles: []

@@ -11,11 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2ac8d4fd1ba464ba00fdb3aae6d622, type: 3}
   m_Name: PlayerDefault
   m_EditorClassIdentifier: 
+  terrainSurface: 0
   humanoidMovementMultiplier: 1
   monsterMovementMultiplier: 1
   surfaceStepSounds:
   - {fileID: 8300000, guid: c75a90ce5f83e814f8e9edecf9748269, type: 3}
   - {fileID: 8300000, guid: 7354f1673341e44449f59bed48a44cb9, type: 3}
   surfaceImpactSounds: []
-  surfaceStepParticles: []
+  surfaceStepParticles:
+  - {fileID: 1881792625755482, guid: 0c3790f8afb0ade4ea9df672445fd814, type: 2}
   surfaceImpactParticles: []
