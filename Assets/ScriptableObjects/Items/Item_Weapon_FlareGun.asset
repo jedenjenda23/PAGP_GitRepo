@@ -14,6 +14,10 @@ MonoBehaviour:
   itemType: 0
   itemName: Flare Gun
   itemIcon: {fileID: 21300026, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
+  itemPrefabGround: {fileID: 1436767483802682, guid: 9dc14725bd8273d42858b4a7de614216,
+    type: 2}
+  itemPrefabHands: {fileID: 1436767483802682, guid: c9e73c2390b17c246983ba3e7ef45b24,
+    type: 2}
   itemMesh: {fileID: 4300000, guid: 0cd0da17923350e4cb85d53d74515f69, type: 3}
   itemMaterial: {fileID: 2100000, guid: 69f540282704d3943aaa665ed5320010, type: 2}
   itemWeight: 0.7

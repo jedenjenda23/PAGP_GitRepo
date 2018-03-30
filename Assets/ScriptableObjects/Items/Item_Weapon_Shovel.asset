@@ -14,6 +14,10 @@ MonoBehaviour:
   itemType: 0
   itemName: Shovel
   itemIcon: {fileID: 21300024, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
+  itemPrefabGround: {fileID: 1893209837308750, guid: f88593bd852d6174c8bfe62d29539032,
+    type: 2}
+  itemPrefabHands: {fileID: 1588486512132380, guid: 472df5d89c67f6744a540fc13f61bd11,
+    type: 2}
   itemMesh: {fileID: 4300000, guid: 0dadde071668a05498e2242b19d475cc, type: 3}
   itemMaterial: {fileID: 2100000, guid: 69f540282704d3943aaa665ed5320010, type: 2}
   itemWeight: 0.7

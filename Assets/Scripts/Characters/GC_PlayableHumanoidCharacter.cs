@@ -31,6 +31,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
     bool grounded = true;
     Rigidbody rb;
     RaycastHit mouseRaycastHit;
+    public LayerMask mouseRaycastLayer;
 
     [Header("Interaction")]
     public LayerMask detectLayer;
@@ -60,8 +61,8 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
             StartCoroutine("MovementDetection");
             PlayerInputReader();
 
-            UI_PlayerUI.UI_PlayerHp.text = "HP: " + charAttributes.hp + " / " + charAttributes.maxHp;
-            if(charAttributes.hp <= 0) UI_PlayerUI.UI_PlayerHp.text = "DEAD";
+            UI_PlayerUI.instance.playerHp.text = "HP: " + charAttributes.hp + " / " + charAttributes.maxHp;
+            if(charAttributes.hp <= 0) UI_PlayerUI.instance.playerHp.text = "DEAD";
 
             if (lootInv != null && isMoving)
             {
@@ -114,8 +115,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
         if (Input.GetAxis("Mouse ScrollWheel") < 0) inventory.SetSelectedSlot(inventory.GetSelectedSlot() + 1);
         if (Input.GetAxis("Mouse ScrollWheel") > 0) inventory.SetSelectedSlot(inventory.GetSelectedSlot() - 1);
 
-        //show selected item in game
-        EquipItemFromInventory(inventory.GetSelectedSlot());
+
 
 
         if (Input.GetButtonDown("Fire1") && !aiming)
@@ -132,7 +132,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
                 /*
                    else if (clickedObject.CompareTag("Interaction"))
                   {
-                      if (clickedObject.GetComponent<InteractibleDoor>())
+                      if (clickedObcject.GetComponent<InteractibleDoor>())
                       {
                           clickedObject.GetComponent<InteractibleDoor>().DoorToggleOpen();
                       }
@@ -148,24 +148,22 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
                           lootInv.DrawInventory(false, Vector3.zero);
                           lootInv = clickedObject.GetComponent<LootInventory>();
                           lootInv.DrawInventory(true, Vector3.zero);
-
-                          Debug.Log("s");
                       }
 
                       else if (clickedObject.GetComponent<LootInventory>() && lootInv == null)
                       {
                           lootInv = clickedObject.GetComponent<LootInventory>();
                           lootInv.DrawInventory(true, Vector3.zero);
-                          Debug.Log("b");
-
                       }
                   }
               }
         }
 
         //Use slectedItem
-        else if (Input.GetButtonDown("Fire1") && aiming && selectedItem.GetItemAbility() != null)
+        else if (Input.GetButtonDown("Fire1") && aiming)
         {
+            handsPoint.SendMessage("UseFunction");
+            /* whole itemAbility system is obsolete after ItemPrefab update (JF)  30.03.2018
             ItemAbility ability = selectedItem.GetItemAbility();
 
             switch (ability.GetAbility())
@@ -180,6 +178,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
                     if (selectedItem.GetItemWeaponAimed()) ability.MeleeAttack();
                     break;
             }
+            */
         }
 
         //Aiming
@@ -371,7 +370,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
           // Get mouse position on Main Camera screen
           Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
           // If Raycast hit something, return hit position
-          if (Physics.Raycast(ray, out mouseRaycastHit))
+          if (Physics.Raycast(ray, out mouseRaycastHit, Mathf.Infinity, mouseRaycastLayer))
           {
               return mouseRaycastHit.point;
           }

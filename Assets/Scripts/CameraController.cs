@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour
 {
     [Header("Camera")]
     public Transform cameraTarget;
+    public Transform audioListener;
     public float cameraFollowSpeed;
     public Vector3 cameraFollowOffset = new Vector3(0, 10, 10);
     public bool hideObjects;
@@ -17,6 +18,9 @@ public class CameraController : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate ()
     {
+        if (cameraTarget) audioListener.position = cameraTarget.position;
+        else audioListener.position = transform.position;
+
         transform.position = Vector3.Slerp(transform.position, cameraTarget.position + cameraFollowOffset, cameraFollowSpeed * Time.deltaTime);
         /*
         if(hideObjects)

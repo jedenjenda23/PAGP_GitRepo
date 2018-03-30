@@ -8,7 +8,7 @@ public class VirtualItem : InventoryItem
 {
     int itemAmount;
     bool itemWeaponAimed;
-    public VirtualItem(types newItemType, string newItemName, Sprite newItemIcon, Mesh newItemMesh, Material newItemMaterial, int newItemMaxStack, int newItemAmount, ItemAbility newItemAbility)
+    public VirtualItem(types newItemType, string newItemName, Sprite newItemIcon, Mesh newItemMesh, Material newItemMaterial, int newItemMaxStack, int newItemAmount, ItemAbility newItemAbility, GameObject newItemPrefabHands, GameObject newItemPrefabGround)
     {
         itemType = newItemType;
         itemName = newItemName;
@@ -18,6 +18,8 @@ public class VirtualItem : InventoryItem
         itemMaxStack = newItemMaxStack;
         itemAmount = newItemAmount;
         itemAbility = newItemAbility;
+        itemPrefabHands = newItemPrefabHands;
+        itemPrefabGround = newItemPrefabGround;
     }
     public void SetAllVariables(InventoryItem inventoryItem, int newItemAmount)
     {
@@ -29,7 +31,8 @@ public class VirtualItem : InventoryItem
         itemMaxStack = inventoryItem.itemMaxStack;
         itemAmount = newItemAmount;
         itemAbility = inventoryItem.itemAbility;
-
+        itemPrefabHands = inventoryItem.itemPrefabHands;
+        itemPrefabGround = inventoryItem.itemPrefabGround;
     }
 
     public void MakeItemNull()
@@ -42,6 +45,8 @@ public class VirtualItem : InventoryItem
         itemMaxStack = 1;
         itemAmount = 1;
         itemAbility = null;
+        itemPrefabHands = null;
+        itemPrefabGround = null;
     }
 
     public int GetItemAmount()

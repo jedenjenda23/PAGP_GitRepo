@@ -13,12 +13,15 @@ public class InventoryItem : ScriptableObject
 
     public string itemName = "NewItem";
     public Sprite itemIcon;
+    public GameObject itemPrefabGround;
+    public GameObject itemPrefabHands;
     public Mesh itemMesh;
     public Material itemMaterial;
 
     public float itemWeight;
     public int itemMaxStack = 10;
 
+    [HideInInspector]//obsolete after ItemPrefab Update (JF) 30.03.2018 - Don't use
     public ItemAbility itemAbility;
 
     public string GetItemName()
@@ -30,7 +33,6 @@ public class InventoryItem : ScriptableObject
     {
         return itemMaxStack;
     }
-
 
     public float GetItemWeigh()
     {

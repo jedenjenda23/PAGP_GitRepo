@@ -312,7 +312,8 @@ public class Inventory : MonoBehaviour
 
     public void InventoryDropItem(int index)
     {
-        if (items[index] != null && index < maxInventorySlots)
+        //create object and load mesh with material (second method is with prefab)
+        if (items[index] != null && index < maxInventorySlots && !items[index].itemPrefabGround)
         {
             // Get spawn position in radius
             float dropRadius = 1.5f;
@@ -325,7 +326,7 @@ public class Inventory : MonoBehaviour
             // We want place our item on surface
             if (Physics.Raycast(spawnPos, Vector3.down, out hit))
             {
-                spawnPos.y = hit.distance - 0.1f;
+                spawnPos.y = hit.point.y + 0.1f;
             }
 
             // Get item to drop
@@ -352,6 +353,43 @@ public class Inventory : MonoBehaviour
             RemoveItemFromList(index, true);
         }
 
+        //drop prefab
+        else if (items[index] != null && index < maxInventorySlots && items[index].itemPrefabGround)
+        {
+            // Get spawn position in radius
+            float dropRadius = 1.5f;
+            Vector3 spawnPos = transform.position;
+
+            spawnPos.x = spawnPos.x + Random.Range(-dropRadius, dropRadius);
+            spawnPos.z = spawnPos.z + Random.Range(-dropRadius, dropRadius);
+            RaycastHit hit;
+
+            // We want place our item on surface
+            if (Physics.Raycast(spawnPos, Vector3.down, out hit))
+            {
+                spawnPos.y = hit.point.y + 0.1f;
+            }
+
+            // Get item to drop
+            VirtualItem itemToDrop = items[index];
+
+            // Create Empty Object
+            GameObject droppedItem = Instantiate(itemToDrop.itemPrefabGround);
+
+            // Create Components
+            if(!droppedItem.GetComponent<ItemContainer>())droppedItem.GetComponent<ItemContainer>();
+
+
+
+            // Set Components
+            droppedItem.transform.position = spawnPos;
+            droppedItem.gameObject.tag = "ItemPickUpContainer";
+            droppedItem.GetComponent<ItemContainer>().SetVirtualItem(CreateVirtualItem(itemToDrop), itemToDrop.GetItemAmount());
+
+            // Remove item from list and update inventory
+            RemoveItemFromList(index, true);
+        }
+
     }
 
     public void InsertItemInSlot(VirtualItem item, int slotIndex)
@@ -361,7 +399,7 @@ public class Inventory : MonoBehaviour
        // Debug.Log(items[slotIndex]);
     }
 
-    public void RemoveItemFromList(int index, bool updateInventory)
+    public virtual void RemoveItemFromList(int index, bool updateInventory)
     {
         items[index].MakeItemNull();
         if (updateInventory) DrawInventoryUpdate();

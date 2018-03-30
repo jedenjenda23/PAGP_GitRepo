@@ -10,6 +10,7 @@ public class GC_HumanoidCharacter : GameCharacter
 {
     [Header("Hands")]
     public GameObject handsPoint;
+    GameObject currentItemPrefab;
 
     [SerializeField]
     protected float aimingSpeed;
@@ -55,9 +56,18 @@ public class GC_HumanoidCharacter : GameCharacter
     public void EquipItemFromInventory(int itemIndex)
     {
         VirtualItem itemToEquip = inventory.GetInventoryItems()[itemIndex];
-
         //if item to equip is weapon
-        if (itemToEquip.GetItemType() == types.Weapon) CallItemModel(itemToEquip.GetItemMesh(), itemToEquip.GetItemMaterial(), itemToEquip.GetItemName());
+        if (currentItemPrefab) Destroy(currentItemPrefab);
+
+        if (itemToEquip.GetItemType() == types.Weapon)
+        {
+            if (itemToEquip.itemPrefabHands)
+            {
+                CallItemPrefab(itemToEquip.itemPrefabHands);
+            }
+
+            else CallItemModel(itemToEquip.GetItemMesh(), itemToEquip.GetItemMaterial(), itemToEquip.GetItemName());           
+        }
         else CallItemModel(null, null, itemToEquip.GetItemName());
 
     }
@@ -70,6 +80,13 @@ public class GC_HumanoidCharacter : GameCharacter
         itemMeshFilter.mesh = itemMesh;
         itemRenderer.material = itemMaterial;
         handsPoint.name = itemName;
+    }
+
+    public void CallItemPrefab(GameObject handsPrefab)
+    {
+        GameObject newHandsModel = Instantiate(handsPrefab, handsPoint.transform);
+        currentItemPrefab = newHandsModel;
+        handsPoint.name = "modelFromPrefab";
     }
 
     public virtual void HumanoidCharacterMovement()

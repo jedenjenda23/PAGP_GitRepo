@@ -9,9 +9,9 @@ public class UI_PlayerUI : MonoBehaviour
     [SerializeField]
     public static UI_PlayerUI instance;
 
-    public static Text UI_PlayerHp;
     public static bool inGameMenuToggle;
     public GameObject inGameMenu;
+    public Text playerHp;
 
     public GameObject playerHotbar;
     public GameObject itemSlotPreset;
@@ -27,7 +27,6 @@ public class UI_PlayerUI : MonoBehaviour
         else Destroy(gameObject);
 
         Time.timeScale = 1;
-        UI_PlayerHp = GameObject.Find("Text_PlayerHP").GetComponent<Text>();
     }
 
 

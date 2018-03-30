@@ -105,7 +105,7 @@ public class GameCharacter : MonoBehaviour
         {
             if (Camera.main.GetComponent<CameraController>().cameraTarget == gameObject.transform)
             {
-                UI_PlayerUI.UI_PlayerHp.text = "Dead";
+                UI_PlayerUI.instance.playerHp.text = "Dead";
             }
 
             charAttributes.hp = 0;
