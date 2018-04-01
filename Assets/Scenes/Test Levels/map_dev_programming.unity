@@ -993,22 +993,6 @@ Prefab:
       propertyPath: cameraTarget
       value: 
       objectReference: {fileID: 4759095}
-    - target: {fileID: 4190110286062472, guid: ba4518d6d316499438ec726ac2a0ee00, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4190110286062472, guid: ba4518d6d316499438ec726ac2a0ee00, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4190110286062472, guid: ba4518d6d316499438ec726ac2a0ee00, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 4190110286062472, guid: ba4518d6d316499438ec726ac2a0ee00, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba4518d6d316499438ec726ac2a0ee00, type: 2}
   m_IsPrefabParent: 0
