@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/map_newGameStartMap.unity
     guid: 1602e0c519d93e44788cdba6f9842065
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/map_buruno.unity
+    guid: 40fcc064bcb94594abe39177a77b6ca9
