@@ -122,7 +122,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
         {
             GameObject clickedObject = mouseRaycastHit.collider.gameObject;
 
-            if(GetDistance(transform.position, clickedObject.transform.position) < lootingDistance)
+            if (GetDistance(transform.position, clickedObject.transform.position) < lootingDistance)
             {
                 if (clickedObject.CompareTag("ItemPickUpContainer"))
                 {
@@ -139,30 +139,30 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
                   }
                  */
 
-                  else if (clickedObject.gameObject.GetComponent<LootInventory>()
-                 && lootInv != clickedObject.gameObject.GetComponent<LootInventory>())
-                  {
-                      // Whether this is the LootInventory stored or not
-                      if (clickedObject.GetComponent<LootInventory>() && lootInv != null)
-                      {
-                          lootInv.DrawInventory(false, Vector3.zero);
-                          lootInv = clickedObject.GetComponent<LootInventory>();
-                          lootInv.DrawInventory(true, Vector3.zero);
-                      }
+                else if (clickedObject.gameObject.GetComponent<LootInventory>()
+               && lootInv != clickedObject.gameObject.GetComponent<LootInventory>())
+                {
+                    // Whether this is the LootInventory stored or not
+                    if (clickedObject.GetComponent<LootInventory>() && lootInv != null)
+                    {
+                        lootInv.DrawInventory(false, Vector3.zero);
+                        lootInv = clickedObject.GetComponent<LootInventory>();
+                        lootInv.DrawInventory(true, Vector3.zero);
+                    }
 
-                      else if (clickedObject.GetComponent<LootInventory>() && lootInv == null)
-                      {
-                          lootInv = clickedObject.GetComponent<LootInventory>();
-                          lootInv.DrawInventory(true, Vector3.zero);
-                      }
-                  }
-              }
+                    else if (clickedObject.GetComponent<LootInventory>() && lootInv == null)
+                    {
+                        lootInv = clickedObject.GetComponent<LootInventory>();
+                        lootInv.DrawInventory(true, Vector3.zero);
+                    }
+                }
+            }
         }
 
         //Use slectedItem
         else if (Input.GetButtonDown("Fire1") && aiming)
         {
-            handsPoint.SendMessage("UseFunction");
+            handsPoint.GetComponentInChildren<Usable>().Use(transform);
             /* whole itemAbility system is obsolete after ItemPrefab update (JF)  30.03.2018
             ItemAbility ability = selectedItem.GetItemAbility();
 
@@ -307,11 +307,10 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
               targetVelocity = targetVelocity.normalized * movementSpeed * Time.deltaTime;
 
               rb.MovePosition(transform.position + targetVelocity);
-              rb.AddForce(new Vector3(0,gravity,0));
           }
+            rb.AddForce(new Vector3(0, -gravity * 1000, 0));
 
-
-      }
+    }
       void CharacterRotation()
       {
          // Rotate to mouse position

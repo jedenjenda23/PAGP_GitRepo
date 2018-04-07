@@ -11,25 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1336885822246274}
   m_IsPrefabParent: 1
---- !u!1 &1153344750143812
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4984456028579888}
-  - component: {fileID: 33127198857436382}
-  - component: {fileID: 65283521020363220}
-  - component: {fileID: 23902674036179372}
-  - component: {fileID: 114066602361675816}
-  m_Layer: 0
-  m_Name: Cube (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1215478765995942
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,6 +23,25 @@ GameObject:
   - component: {fileID: 23056196210261560}
   m_Layer: 0
   m_Name: sm_rowbuilding_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1233841055601426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4226438207903620}
+  - component: {fileID: 33830833206781156}
+  - component: {fileID: 65629704692662150}
+  - component: {fileID: 23616930129573676}
+  - component: {fileID: 114979241149197018}
+  m_Layer: 8
+  m_Name: HideTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,15 +69,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1336885822246274}
-  m_LocalRotation: {x: -0, y: 0.0000029653306, z: -0, w: -1}
-  m_LocalPosition: {x: 237.74, y: 0, z: 118.35}
+  m_LocalRotation: {x: -0, y: -0.70710355, z: -0, w: -0.70711005}
+  m_LocalPosition: {x: 130.15, y: 2.1108103, z: 118.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4514964660965936}
-  - {fileID: 4984456028579888}
+  - {fileID: 4226438207903620}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 449.999, z: 0}
+--- !u!4 &4226438207903620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233841055601426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.712506, y: 1, z: 12.045747}
+  m_Children: []
+  m_Father: {fileID: 4046236715996972}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4514964660965936
 Transform:
   m_ObjectHideFlags: 1
@@ -90,19 +103,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4046236715996972}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4984456028579888
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153344750143812}
-  m_LocalRotation: {x: 0, y: 1, z: -0, w: -0.0000029802318}
-  m_LocalPosition: {x: 0.37, y: 1.053, z: 6.04}
-  m_LocalScale: {x: 16.16755, y: 0.73632, z: 7.6950407}
-  m_Children: []
-  m_Father: {fileID: 4046236715996972}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23056196210261560
 MeshRenderer:
@@ -137,20 +137,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!23 &23902674036179372
+--- !u!23 &23616930129573676
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153344750143812}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1233841055601426}
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d0350ac4967fcba47b4e62e91d1fdc08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -169,13 +169,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33127198857436382
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153344750143812}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33539284600800492
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -183,6 +176,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215478765995942}
   m_Mesh: {fileID: 4300000, guid: 174b3c37d613b9f4d99887a708ffb9eb, type: 3}
+--- !u!33 &33830833206781156
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233841055601426}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &65171059331932138
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -195,29 +195,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6710815, y: 7.085664, z: 10.045906}
   m_Center: {x: -0.13140869, y: 3.042832, z: 0.0016975403}
---- !u!65 &65283521020363220
+--- !u!65 &65629704692662150
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153344750143812}
+  m_GameObject: {fileID: 1233841055601426}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114066602361675816
+--- !u!114 &114979241149197018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153344750143812}
+  m_GameObject: {fileID: 1233841055601426}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4a70024bb41a3545b4ee90e9b7a211c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  child: {fileID: 1215478765995942}
+  child: {fileID: 0}
   hidingSpeed: 10
-  hidingHeight: 0.2
+  hidingHeight: -1
