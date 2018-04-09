@@ -1384,7 +1384,7 @@ MonoBehaviour:
   lootingDistance: 2
   playerControl: 1
   movementState: 0
-  dashForce: 200
+  dashForce: 250
   dashRate: 1
   gravity: 10
   maxVelocityChange: 100
