@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484f76f7aa1f47f48921b2be2ecc6633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterPreset: {fileID: 11400000, guid: d79b87c5dc0fc74478cda3da4fb44c4b, type: 2}
+  characterPreset: {fileID: 11400000, guid: bb5be9a7bcf4b4f4c9c296eaa6c7d6c4, type: 2}
   strength: 14
   maxHp: 0
   maxDmg: 0
