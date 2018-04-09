@@ -5,7 +5,7 @@ using UnityEngine;
 public class MissionGameManager : MonoBehaviour
 {
     public static MissionGameManager mgmInstance;
-    public GameObject playerSpawnPoint;
+    public Transform[] PointsOfInterest;
 
     public void Awake()
     {

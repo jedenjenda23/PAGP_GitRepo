@@ -308,7 +308,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
 
               rb.MovePosition(transform.position + targetVelocity);
           }
-            rb.AddForce(new Vector3(0, -gravity * 1000, 0));
+            if(!Physics.Raycast(transform.position, Vector3.down, 0.6f))rb.AddForce(new Vector3(0, -gravity * 1000, 0));
 
     }
       void CharacterRotation()
