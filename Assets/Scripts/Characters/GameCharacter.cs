@@ -70,7 +70,7 @@ public class GameCharacter : MonoBehaviour
         yield return new WaitForSeconds(0.03f);
         Vector3 pos2 = transform.position;
 
-        if (pos1 != pos2)
+        if (Vector3.Distance(pos1, pos2) > 0.025f)
         {
             isMoving = true;
         }
