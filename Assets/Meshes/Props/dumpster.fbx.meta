@@ -1,37 +1,60 @@
 fileFormatVersion: 2
-guid: d28ebf183f74744beb2a2c83d2f45105
-timeCreated: 1459196250
-licenseType: Free
+guid: f7fd33b840e59d74897e11da2458c19e
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Torus
+    100002: dumpster_box
+    100004: dumpster_top
+    100006: pCube18
+    100008: pCube19
+    100010: pCube20
+    100012: pCube21
+    100014: pCube22
+    100016: pCube7
     400000: //RootNode
-    400002: Torus
-    2300000: Torus
-    3300000: Torus
-    4300000: Torus
+    400002: dumpster_box
+    400004: dumpster_top
+    400006: pCube18
+    400008: pCube19
+    400010: pCube20
+    400012: pCube21
+    400014: pCube22
+    400016: pCube7
+    2100000: lambert1
+    2300000: dumpster_box
+    2300002: dumpster_top
+    3300000: dumpster_box
+    3300002: dumpster_top
+    4300000: dumpster_top
+    4300002: dumpster_box
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -39,13 +62,18 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 1
     importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -55,9 +83,11 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -68,7 +98,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
