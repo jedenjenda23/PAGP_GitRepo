@@ -10,7 +10,7 @@ public class Usable : MonoBehaviour
     [SerializeField]
     protected float nextUse;
 
-    public virtual void Use(Transform parent)
+    public virtual void Use(Transform parent, Vector3 direction)
     {
     }
 }

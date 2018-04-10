@@ -37,13 +37,15 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
     public LayerMask detectLayer;
     List<Transform> nearbyEntities;
 
-    // Reference to audio script
-    private AudioCharacter sound;
+    // Reference to audio and animation script
+    AudioCharacter sound;
+    CharacterAnimationController animationController;
 
     // Use this for initialization
     public new void Start ()
     {
         sound = GetComponent<AudioCharacter>();
+        animationController = GetComponent<CharacterAnimationController>();
         charAttributes = GetComponent<CharacterAttributes>();
 
         rb = GetComponent<Rigidbody>();
@@ -93,6 +95,7 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
             HumanoidCharacterMovement();
             CharacterRotation();
             PlayerMovementStates();
+            animationController.UpdateAimingState(aiming);
         }
     }
 
@@ -162,7 +165,9 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
         //Use slectedItem
         else if (Input.GetButtonDown("Fire1") && aiming)
         {
-            handsPoint.GetComponentInChildren<Usable>().Use(transform);
+            Vector3 directionToMouse =  mouseRaycastHit.point - transform.position;
+            handsPoint.GetComponentInChildren<Usable>().Use(transform, directionToMouse.normalized);
+            animationController.UseItem();
             /* whole itemAbility system is obsolete after ItemPrefab update (JF)  30.03.2018
             ItemAbility ability = selectedItem.GetItemAbility();
 

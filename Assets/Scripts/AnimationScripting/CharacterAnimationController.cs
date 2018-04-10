@@ -91,4 +91,18 @@ public class CharacterAnimationController : MonoBehaviour
         targetAnimator.SetFloat("MovDirFwd", movingVector.y);
         targetAnimator.SetFloat("MovDirSide", movingVector.x);
     }
+
+
+    public void UpdateAimingState(bool aiming)
+    {
+        if (!aiming) targetAnimator.SetLayerWeight(1, 0);
+        else targetAnimator.SetLayerWeight(1, 1);
+
+        targetAnimator.SetBool("Aiming", aiming);
+    }
+
+    public void UseItem()
+    {
+        targetAnimator.SetBool("Use", true);
+    }
 }

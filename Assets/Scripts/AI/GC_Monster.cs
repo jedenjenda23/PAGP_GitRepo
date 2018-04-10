@@ -66,6 +66,9 @@ public class GC_Monster : GameCharacter
             case States.Idle:
                 myState = myDefaultState;
                 navAgent.speed = relaxedSpeed;
+
+                if (sensors.target) myState = States.Chase;
+                
                 break;
             case States.Chase:
                 Chase();

@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 23891599370891868}
   - component: {fileID: 114789532320317718}
   - component: {fileID: 111523682039250834}
+  - component: {fileID: 114194204549477360}
   m_Layer: 10
   m_Name: ItemPickupContainer
   m_TagString: ItemPickUpContainer
@@ -98,6 +99,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &114194204549477360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276167879143620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d789f5eefbe8a14cb6cefeb6324b79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hidden: 0
 --- !u!114 &114789532320317718
 MonoBehaviour:
   m_ObjectHideFlags: 1
