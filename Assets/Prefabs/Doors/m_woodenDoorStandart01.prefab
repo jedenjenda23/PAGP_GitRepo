@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 95647607238765628}
   - component: {fileID: 114714183342661090}
   - component: {fileID: 135126064873751010}
+  - component: {fileID: 65798051515016948}
   m_Layer: 10
   m_Name: m_woodenDoorStandart01 1
   m_TagString: Interaction
@@ -165,9 +166,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1625724242415226}
-  m_LocalRotation: {x: 0, y: 0.70710367, z: -0, w: -0.7071099}
-  m_LocalPosition: {x: 17.489916, y: 1.252, z: -12.430104}
-  m_LocalScale: {x: 1.2213172, y: 1.2457271, z: 1.2646705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 164.993, y: 1.319, z: 176.774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4131506140660026}
   - {fileID: 4727302313309152}
@@ -175,7 +176,7 @@ Transform:
   - {fileID: 4336692184425062}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4727302313309152
 Transform:
   m_ObjectHideFlags: 1
@@ -279,6 +280,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 0.22814941}
   m_Center: {x: -0.5, y: 1, z: 0.021664768}
+--- !u!65 &65798051515016948
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340256555310944}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.222501, y: 1.9999998, z: 1.4468435}
+  m_Center: {x: -0.575705, y: 0.9999999, z: -0.6854219}
 --- !u!82 &82759456188625348
 AudioSource:
   m_ObjectHideFlags: 1

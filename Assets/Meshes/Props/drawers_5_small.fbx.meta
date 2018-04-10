@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 52a39395d6a647c45a25a5c622b87ccf
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: drawers
     100002: //RootNode
@@ -55,12 +55,10 @@ ModelImporter:
     4300004: pTorus5
     4300006: pTorus9
     4300008: suplik8
-  externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -73,8 +71,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -99,8 +95,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -111,7 +105,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -127,7 +121,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
