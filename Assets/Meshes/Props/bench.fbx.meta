@@ -1,15 +1,18 @@
 fileFormatVersion: 2
-guid: 1c75f674c8af22949b5456b0dc161e6c
+guid: 8233116c06f6cbe49a76af16b90224aa
+timeCreated: 1523384457
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: lambert1
-    2100002: defaultPolygonShader
+    2100000: metal
+    2100002: lambert2
     2300000: //RootNode
     3300000: //RootNode
-    4300000: bench
+    4300000: polySurface13
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -29,7 +32,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -85,7 +87,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

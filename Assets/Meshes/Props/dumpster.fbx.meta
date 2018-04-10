@@ -1,33 +1,24 @@
 fileFormatVersion: 2
-guid: f7fd33b840e59d74897e11da2458c19e
+guid: 05fd275216df7a2439ae91cdb9271b32
+timeCreated: 1523384008
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: dumpster_box
     100004: dumpster_top
-    100006: pCube18
-    100008: pCube19
-    100010: pCube20
-    100012: pCube21
-    100014: pCube22
-    100016: pCube7
     400000: //RootNode
     400002: dumpster_box
     400004: dumpster_top
-    400006: pCube18
-    400008: pCube19
-    400010: pCube20
-    400012: pCube21
-    400014: pCube22
-    400016: pCube7
-    2100000: lambert1
+    2100000: lambert2
     2300000: dumpster_box
     2300002: dumpster_top
     3300000: dumpster_box
     3300002: dumpster_top
     4300000: dumpster_top
     4300002: dumpster_box
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -47,7 +38,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -103,7 +93,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

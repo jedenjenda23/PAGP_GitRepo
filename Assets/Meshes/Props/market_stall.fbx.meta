@@ -1,26 +1,19 @@
 fileFormatVersion: 2
-guid: 7ecc52f7918b3dc40a4e0102bd12dbf9
+guid: 72b41ef6c7fe9ee4689ae49262a160f2
+timeCreated: 1523384008
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: market_stall
-    100004: pCube15
-    100006: pCube16
-    100008: pCube17
-    100010: pCube18
     400000: //RootNode
-    400002: market_stall
-    400004: pCube15
-    400006: pCube16
-    400008: pCube17
-    400010: pCube18
     2100000: cloth
     2100002: wood
     2100004: lambert1
-    2300000: market_stall
-    3300000: market_stall
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: market_stall
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -40,7 +33,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -96,7 +88,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
