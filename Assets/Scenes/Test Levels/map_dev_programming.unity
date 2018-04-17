@@ -7178,11 +7178,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114709128206595766, guid: 9f930586fb1ce884cbb34721d4e5694c,
-        type: 2}
-      propertyPath: PointsOfInterest.Array.size
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4960202991400510, guid: 9f930586fb1ce884cbb34721d4e5694c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 79.90199
@@ -7235,11 +7230,6 @@ Prefab:
       propertyPath: PointsOfInterest.Array.data[3]
       value: 
       objectReference: {fileID: 2112148769}
-    - target: {fileID: 114709128206595766, guid: 9f930586fb1ce884cbb34721d4e5694c,
-        type: 2}
-      propertyPath: PointsOfInterest.Array.data[4]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 114709128206595766, guid: 9f930586fb1ce884cbb34721d4e5694c,
         type: 2}
       propertyPath: PointsOfInterest.Array.data[5]

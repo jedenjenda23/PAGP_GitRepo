@@ -1076,7 +1076,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1385,7 +1385,12 @@ Prefab:
     - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
         type: 2}
       propertyPath: shelterCharacters.Array.size
-      value: 4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
+        type: 2}
+      propertyPath: initialShelterCharacters.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4650038669909122, guid: 34eee66ab960ac24cb2a543da315cd3b, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1429,19 +1434,49 @@ Prefab:
         type: 2}
       propertyPath: shelterCharacters.Array.data[1]
       value: 
-      objectReference: {fileID: 1159614607822606, guid: 016209c2a4122984fb3aec3a5308552a,
+      objectReference: {fileID: 1090824521130352, guid: 36d8f8dbc78cba84c8512bdd6950cb3c,
         type: 2}
     - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
         type: 2}
       propertyPath: shelterCharacters.Array.data[2]
       value: 
-      objectReference: {fileID: 1159614607822606, guid: 016209c2a4122984fb3aec3a5308552a,
+      objectReference: {fileID: 1915076361269268, guid: cf228032eda32d34596baaecf589f575,
         type: 2}
     - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
         type: 2}
       propertyPath: shelterCharacters.Array.data[3]
       value: 
-      objectReference: {fileID: 1159614607822606, guid: 016209c2a4122984fb3aec3a5308552a,
+      objectReference: {fileID: 1156183141972064, guid: 39bbde909b90c6f4b95a5adf40175404,
+        type: 2}
+    - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
+        type: 2}
+      propertyPath: shelterCharacters.Array.data[4]
+      value: 
+      objectReference: {fileID: 1353917471242762, guid: de1f63fbde31e2b4fbe3842111fc682a,
+        type: 2}
+    - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
+        type: 2}
+      propertyPath: initialShelterCharacters.Array.data[1]
+      value: 
+      objectReference: {fileID: 1156183141972064, guid: 39bbde909b90c6f4b95a5adf40175404,
+        type: 2}
+    - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
+        type: 2}
+      propertyPath: initialShelterCharacters.Array.data[2]
+      value: 
+      objectReference: {fileID: 1915076361269268, guid: cf228032eda32d34596baaecf589f575,
+        type: 2}
+    - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
+        type: 2}
+      propertyPath: initialShelterCharacters.Array.data[3]
+      value: 
+      objectReference: {fileID: 1353917471242762, guid: de1f63fbde31e2b4fbe3842111fc682a,
+        type: 2}
+    - target: {fileID: 114606961737961506, guid: 34eee66ab960ac24cb2a543da315cd3b,
+        type: 2}
+      propertyPath: initialShelterCharacters.Array.data[4]
+      value: 
+      objectReference: {fileID: 1090824521130352, guid: 36d8f8dbc78cba84c8512bdd6950cb3c,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34eee66ab960ac24cb2a543da315cd3b, type: 2}

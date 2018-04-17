@@ -53,6 +53,7 @@ public class GameCharacter : MonoBehaviour
     {
         inventory = GetComponent<Inventory>();
         charAttributes = GetComponent<CharacterAttributes>();
+        charAttributes.RecalculateStats();
     }
 
     private void LateUpdate()

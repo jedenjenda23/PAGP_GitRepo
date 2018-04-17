@@ -26,6 +26,7 @@ public class CharacterAttributes : MonoBehaviour
     public int inventorySlots;
     public float sprintDuration;
     public float weaponControl;
+    public float nutrition = 5;
 
     [Header("__")]
     public float condition = 1f;
@@ -49,7 +50,17 @@ public class CharacterAttributes : MonoBehaviour
         //****************Visible stats*************************
         //Condition
         disease = illnes * 0.3f;
+
+        //wounds
+        //wound = maxHp - hp;
+        wound = 1 - (hp / maxHp);
+
+
         //condition = 1 - (wound - (woundTreatment - disease));
+         condition = 1 - wound;
+
+
+
 
 
         //Attributes
@@ -60,6 +71,9 @@ public class CharacterAttributes : MonoBehaviour
         weaponControl = baseWeaponControl * (condition + (0.5f * (1 - condition)));
 
 
+
+        //testing nutrition
+        nutrition = 5f;
     }
 
     public void CalculateIllnes(float locationToxicity, int numOfHits)

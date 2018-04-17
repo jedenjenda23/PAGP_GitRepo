@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalGameManager : MonoBehaviour {
-
+public class GlobalGameManager : MonoBehaviour
+{
     public static GlobalGameManager instance;           //instance of GGM
     public MissionGameManager currentMissionManager;    //save mission manager (potentialy usefull one day)
 
     public int totalDays;
+    [HideInInspector]
+    public int lastDay = -1;
     public GameObject[] initialShelterCharacters;
 
     public GameObject missionCharacter;
@@ -29,8 +31,6 @@ public class GlobalGameManager : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
         }
     }
-
-
 
     public void SetMissionLoadoutItems(List<VirtualItem> newItems)
     {
@@ -69,6 +69,7 @@ public class GlobalGameManager : MonoBehaviour {
 
     public void GGM_SaveGame()
     {
+        lastDay = totalDays;
         totalDays++;
 
         //save totald
@@ -79,6 +80,7 @@ public class GlobalGameManager : MonoBehaviour {
 
     public void GGM_StartNewGame()
     {
+        lastDay = -1;
         totalDays = 0;
         shelterCharacters = initialShelterCharacters;
         missionCharacter = shelterCharacters[0];

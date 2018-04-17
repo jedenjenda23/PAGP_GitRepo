@@ -1315,19 +1315,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPreset: {fileID: 11400000, guid: bb5be9a7bcf4b4f4c9c296eaa6c7d6c4, type: 2}
-  strength: 14
-  maxHp: 0
-  maxDmg: 0
-  maxInventorySlots: 0
+  strength: 10
+  maxHp: 100
+  maxDmg: 20
+  maxInventorySlots: 10
   baseSprintDuration: 0
   baseWeaponControl: 0
   baseVisibility: 0
   baseVision: 0
-  hp: 0
-  dmg: 0
-  inventorySlots: 0
+  hp: 100
+  dmg: 20
+  inventorySlots: 10
   sprintDuration: 0
   weaponControl: 0
+  nutrition: 5
   condition: 1
   wound: 0
   woundTreatment: 0
