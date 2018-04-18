@@ -1,19 +1,40 @@
 fileFormatVersion: 2
-guid: 29d79452d621148cf9d8a8ab3fa84b90
-timeCreated: 1462731137
+guid: 0d3a87bcbec19f044a9a3f697cd8f034
+timeCreated: 1524082273
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Train_trackSegment_small
-    100002: //RootNode
-    400000: Train_trackSegment_small
-    400002: //RootNode
-    2300000: Train_trackSegment_small
-    3300000: Train_trackSegment_small
-    4300000: Train_trackSegment_small
+    100000: //RootNode
+    100002: ammo_flare01
+    100004: ammo_flare02
+    100006: ammo_flare03
+    100008: box_bottom
+    100010: box_top
+    400000: //RootNode
+    400002: ammo_flare01
+    400004: ammo_flare02
+    400006: ammo_flare03
+    400008: box_bottom
+    400010: box_top
+    2300000: ammo_flare01
+    2300002: ammo_flare02
+    2300004: ammo_flare03
+    2300006: box_bottom
+    2300008: box_top
+    3300000: ammo_flare01
+    3300002: ammo_flare02
+    3300004: ammo_flare03
+    3300006: box_bottom
+    3300008: box_top
+    4300000: ammo_flare01
+    4300002: box_top
+    4300004: box_bottom
+    4300006: ammo_flare02
+    4300008: ammo_flare03
+    9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
@@ -42,10 +63,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -61,7 +82,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -79,9 +100,9 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
