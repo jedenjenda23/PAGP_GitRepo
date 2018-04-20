@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class pagpCustomEditorFunctions : MonoBehaviour
+public class jjGroupObjects : MonoBehaviour
 {
-    [MenuItem("PAGP_Custom/ GroupSelectedObjects %g")]
+    [MenuItem("JJToolkit/Functions/GroupSelectedObjects %g")]
 
 
     // create group of objects
-    static void GroupObject()
+    public static void GroupObject()
     {
         Vector3 groupOrigin = FindSelectionCenter();
 
