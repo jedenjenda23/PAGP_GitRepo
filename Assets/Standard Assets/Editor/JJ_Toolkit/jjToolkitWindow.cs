@@ -46,7 +46,7 @@ public class jjToolkitWindow : EditorWindow
 
         GUILayout.BeginHorizontal();
 
-        if (GUILayout.Button("Set Parent (P)"))
+        if (GUILayout.Button("Set Parent (Ctrl+Shift+P)"))
         {
             SetLastAsParent();
         }
@@ -178,7 +178,7 @@ public class jjToolkitWindow : EditorWindow
         return center / count;
     }
 
-    [MenuItem("JJToolkit/Functions/SetLastAsParent _p")]
+    [MenuItem("JJToolkit/Functions/SetLastAsParent %&p")]
     static void SetLastAsParent()
     {
         Undo.RecordObjects(Selection.transforms, "SetLastAsParent" + Selection.transforms[Selection.transforms.Length - 1]);
