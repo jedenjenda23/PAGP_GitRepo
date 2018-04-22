@@ -34,3 +34,21 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Assets/ProCore/
+Assets/Standard Assets/Characters/FirstPersonCharacter/Audio.meta
+Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta
+Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta
+Assets/Standard Assets/Characters/RollerBall/Materials.meta
+Assets/Standard Assets/Characters/RollerBall/Models.meta
+Assets/Standard Assets/Characters/RollerBall/Prefabs.meta
+Assets/Standard Assets/Characters/RollerBall/Scripts.meta
+Assets/Standard Assets/Characters/RollerBall/Textures.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Models.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures.meta
+Assets/Standard Assets/Characters/FirstPersonCharacter.meta
+Assets/Standard Assets/Characters/RollerBall.meta
+Assets/Standard Assets/Characters/ThirdPersonCharacter.meta
