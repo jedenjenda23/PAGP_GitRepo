@@ -13,7 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   itemName: Bandage
-  itemIcon: {fileID: 21300016, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
+  itemIcon: {fileID: 21300010, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
+  itemPrefabGround: {fileID: 0}
+  itemPrefabHands: {fileID: 0}
   itemMesh: {fileID: 4300000, guid: 6e2053191f00d3d43a2ac07ce0460975, type: 3}
   itemMaterial: {fileID: 2100000, guid: 4cbf2f1cb20000545b3b80b6be959b21, type: 2}
   itemWeight: 0.01
