@@ -94,10 +94,10 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
     {
         if (playerControl)
         {
+            animationController.UpdateAimingState(aiming);
             HumanoidCharacterMovement();
             CharacterRotation();
             PlayerMovementStates();
-            animationController.UpdateAimingState(aiming);
         }
     }
 

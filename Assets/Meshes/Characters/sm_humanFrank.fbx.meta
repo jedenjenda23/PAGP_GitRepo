@@ -914,7 +914,7 @@ ModelImporter:
     9500000: //RootNode
     13700000: frank_skinned:model:SM_human_frank
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
