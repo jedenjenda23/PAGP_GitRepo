@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Item_Weapon_Shovel
   m_EditorClassIdentifier: 
   itemType: 0
+  itemAnimationType: 2
   itemName: Shovel
   itemIcon: {fileID: 21300024, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
   itemPrefabGround: {fileID: 1893209837308750, guid: f88593bd852d6174c8bfe62d29539032,

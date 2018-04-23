@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+public enum animTypes { Barehand, OneHandMelee, TwoHandMelee, Pistol, Rifle};
 public enum types { Weapon, Ammo, Medicine, Nutrition, Null };
 [CreateAssetMenu(menuName = "PAGP/InventoryItem")]
 
@@ -10,6 +10,7 @@ public class InventoryItem : ScriptableObject
 
 {
     public types itemType;
+    public animTypes itemAnimationType = animTypes.Barehand;
 
     public string itemName = "NewItem";
     public Sprite itemIcon;
@@ -19,7 +20,7 @@ public class InventoryItem : ScriptableObject
     public Material itemMaterial;
 
     public float itemWeight;
-    public int itemMaxStack = 10;
+    public int itemMaxStack = 10;   
 
     [HideInInspector]//obsolete after ItemPrefab Update (JF) 30.03.2018 - Don't use
     public ItemAbility itemAbility;

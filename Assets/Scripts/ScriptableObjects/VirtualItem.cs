@@ -8,7 +8,7 @@ public class VirtualItem : InventoryItem
 {
     int itemAmount;
     bool itemWeaponAimed;
-    public VirtualItem(types newItemType, string newItemName, Sprite newItemIcon, Mesh newItemMesh, Material newItemMaterial, int newItemMaxStack, int newItemAmount, ItemAbility newItemAbility, GameObject newItemPrefabHands, GameObject newItemPrefabGround)
+    public VirtualItem(types newItemType, string newItemName, Sprite newItemIcon, Mesh newItemMesh, Material newItemMaterial, int newItemMaxStack, int newItemAmount, ItemAbility newItemAbility, GameObject newItemPrefabHands, GameObject newItemPrefabGround, animTypes newItemAnimationType)
     {
         itemType = newItemType;
         itemName = newItemName;
@@ -20,6 +20,7 @@ public class VirtualItem : InventoryItem
         itemAbility = newItemAbility;
         itemPrefabHands = newItemPrefabHands;
         itemPrefabGround = newItemPrefabGround;
+        itemAnimationType = newItemAnimationType;
     }
     public void SetAllVariables(InventoryItem inventoryItem, int newItemAmount)
     {
@@ -33,6 +34,7 @@ public class VirtualItem : InventoryItem
         itemAbility = inventoryItem.itemAbility;
         itemPrefabHands = inventoryItem.itemPrefabHands;
         itemPrefabGround = inventoryItem.itemPrefabGround;
+        itemAnimationType = inventoryItem.itemAnimationType;
     }
 
     public void MakeItemNull()
@@ -47,6 +49,7 @@ public class VirtualItem : InventoryItem
         itemAbility = null;
         itemPrefabHands = null;
         itemPrefabGround = null;
+        itemAnimationType = animTypes.Barehand;
     }
 
     public int GetItemAmount()

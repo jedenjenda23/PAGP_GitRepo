@@ -21,6 +21,8 @@ public class GC_HumanoidCharacter : GameCharacter
     protected float lootingDistance = 2f;
 
     protected LootInventory lootInv;
+
+    protected CharacterAnimationController animationController;
     public new void Start()
     {
         inventory = GetComponent<Inventory>();
@@ -70,6 +72,29 @@ public class GC_HumanoidCharacter : GameCharacter
         }
         else CallItemModel(null, null, itemToEquip.GetItemName());
 
+
+        //animatorUpdate
+        animationController.targetAnimator.SetLayerWeight(1, 0f);//pistol
+        animationController.targetAnimator.SetLayerWeight(2, 0f);//meleeTwoHand
+        animationController.targetAnimator.SetLayerWeight(3, 0f);//meleeOneHand
+       // animationController.targetAnimator.SetLayerWeight(4, 0f);//rifle
+
+
+        switch (itemToEquip.itemAnimationType)
+        {
+            case animTypes.OneHandMelee:
+               // animationController.targetAnimator.SetLayerWeight(3, 1f);
+                break;
+            case animTypes.TwoHandMelee:
+                animationController.targetAnimator.SetLayerWeight(2, 1f);
+                break;
+            case animTypes.Pistol:
+                animationController.targetAnimator.SetLayerWeight(1, 1f);
+                break;
+            case animTypes.Rifle:
+                //animationController.targetAnimator.SetLayerWeight(4, 1f);
+                break;
+        }
     }
 
     public void CallItemModel(Mesh itemMesh, Material itemMaterial, string itemName)

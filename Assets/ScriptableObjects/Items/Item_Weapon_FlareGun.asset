@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Item_Weapon_FlareGun
   m_EditorClassIdentifier: 
   itemType: 0
+  itemAnimationType: 3
   itemName: Flare Gun
   itemIcon: {fileID: 21300026, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
   itemPrefabGround: {fileID: 1436767483802682, guid: 9dc14725bd8273d42858b4a7de614216,
