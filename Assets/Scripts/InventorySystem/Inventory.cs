@@ -340,6 +340,7 @@ public class Inventory : MonoBehaviour
             droppedItem.AddComponent<SphereCollider>();
             droppedItem.AddComponent<MeshFilter>().mesh = itemToDrop.GetItemMesh();
             droppedItem.AddComponent<MeshRenderer>().material = itemToDrop.GetItemMaterial();
+            droppedItem.AddComponent<EntityHider>();
 
             ItemContainer itemContainer = droppedItem.AddComponent<ItemContainer>();
 
@@ -348,6 +349,8 @@ public class Inventory : MonoBehaviour
             droppedItem.gameObject.tag = "ItemPickUpContainer";
             droppedItem.GetComponent<SphereCollider>().isTrigger = true;
             itemContainer.SetVirtualItem(CreateVirtualItem(itemToDrop), itemToDrop.GetItemAmount());
+
+            droppedItem.layer = 10;
 
             // Remove item from list and update inventory
             RemoveItemFromList(index, true);

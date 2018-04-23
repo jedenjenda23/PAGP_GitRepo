@@ -72,23 +72,29 @@ public class EntityDetector : MonoBehaviour
     {
             if (Vector3.Distance(transform.position, Object.position) < entityHidingDistance)
             {
-                if (Vector3.Distance(transform.position, Object.position) > entityPreserveDistance)
+            if (Vector3.Distance(transform.position, Object.position) > entityPreserveDistance)
+            {
+                if (AngleToObject(Object) < fieldOfView / 2)
                 {
-                    if (AngleToObject(Object) < fieldOfView / 2)
+                    if (Physics.Linecast(transform.position, Object.position, fovLayer))
                     {
-                        if (Physics.Linecast(transform.position, Object.position, fovLayer))
-                        {
-                            return false;
-                        }
-                        else
-                        {
-                            return true;
-                        }
+                        return false;
                     }
-
-                    else return false;
+                    else
+                    {
+                        return true;
+                    }
                 }
-                else return true;
+
+                else return false;
+            }
+
+            else if (Physics.Linecast(transform.position, Object.position, fovLayer))
+            {
+                return false;
+            }
+
+            else return true;
 
             }           
 

@@ -62,8 +62,11 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
             StartCoroutine("MovementDetection");
             PlayerInputReader();
 
+            /*
             UI_PlayerUI.instance.playerHp.text = "HP: " + charAttributes.hp + " / " + charAttributes.maxHp;
             if(charAttributes.hp <= 0) UI_PlayerUI.instance.playerHp.text = "DEAD";
+            */
+            UI_PlayerUI.instance.UpdateHealthbar(charAttributes.hp, charAttributes.maxHp);
 
             if (lootInv != null && isMoving)
             {

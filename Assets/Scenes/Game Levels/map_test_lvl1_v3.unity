@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11851263, g: 0.11282391, b: 0.12010493, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3885,6 +3885,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8bee6d8b1a077345b1ff521217522b5, type: 2}
   m_IsPrefabParent: 0
+--- !u!224 &175602758 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224992826151590822, guid: d8bee6d8b1a077345b1ff521217522b5,
+    type: 2}
+  m_PrefabInternal: {fileID: 175602757}
 --- !u!1001 &176339481
 Prefab:
   m_ObjectHideFlags: 0
@@ -4304,6 +4309,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1167426597893208, guid: 9f930586fb1ce884cbb34721d4e5694c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114764793807286412, guid: 9f930586fb1ce884cbb34721d4e5694c,
+        type: 2}
+      propertyPath: playerHealthbar
+      value: 
+      objectReference: {fileID: 175602758}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f930586fb1ce884cbb34721d4e5694c, type: 2}
   m_IsPrefabParent: 0
