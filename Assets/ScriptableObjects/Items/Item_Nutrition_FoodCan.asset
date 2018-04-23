@@ -14,6 +14,8 @@ MonoBehaviour:
   itemType: 3
   itemName: Food Can
   itemIcon: {fileID: 21300002, guid: b0d4472cb02958f4da0d3ad07dacf8ea, type: 3}
+  itemPrefabGround: {fileID: 0}
+  itemPrefabHands: {fileID: 0}
   itemMesh: {fileID: 4300000, guid: b9694bae0629285458ffb39c2b893ac4, type: 3}
   itemMaterial: {fileID: 2100000, guid: ad5ceb8997a4ae04b9bb6ffcfcc56d78, type: 2}
   itemWeight: 0.2
