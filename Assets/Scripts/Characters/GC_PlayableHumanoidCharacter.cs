@@ -39,7 +39,6 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
 
     // Reference to audio and animation script
     AudioCharacter sound;
-    CharacterAnimationController animationController;
 
     // Use this for initialization
     public new void Start ()

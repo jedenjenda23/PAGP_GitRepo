@@ -10,8 +10,8 @@ public class CharacterAnimationController : MonoBehaviour
 
     [SerializeField]
     GameCharacter gameCharacter;
-    [SerializeField]
-    Animator targetAnimator;
+    //[SerializeField]
+    public Animator targetAnimator;
 
 
     Vector2 movingVector;
