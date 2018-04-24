@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liveSpan: 20
-  damage: 30
+  damage: 60
 --- !u!135 &135422456227720528
 SphereCollider:
   m_ObjectHideFlags: 1
