@@ -940,7 +940,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 1.1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -1164,152 +1164,152 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Root_M
       parentName: frank_skinned:DeformationSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.50913066, y: -0.49069953, z: -0.50913066, w: 0.49069953}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Hip_L
       parentName: frank_skinned:Root_M
-      position: {x: 0.02012219, y: -0.0043647108, z: 0.0781503}
+      position: {x: 0.022134408, y: -0.004801182, z: 0.085965335}
       rotation: {x: 0.98993355, y: 0.0016515768, z: 0.038316954, w: -0.1362376}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Knee_L
       parentName: frank_skinned:Hip_L
-      position: {x: 0.47965676, y: 4.152234e-16, z: -1.7763568e-17}
+      position: {x: 0.52762246, y: 4.567458e-16, z: -1.9539925e-17}
       rotation: {x: 0, y: 0, z: 0.01539522, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Ankle_L
       parentName: frank_skinned:Knee_L
-      position: {x: 0.36389545, y: 3.8413717e-16, z: -3.0198067e-16}
+      position: {x: 0.400285, y: 4.225509e-16, z: -3.3217874e-16}
       rotation: {x: -0.14270636, y: -0.03851762, z: -0.032087673, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Toes_L
       parentName: frank_skinned:Ankle_L
-      position: {x: 0.066315494, y: -0.11636125, z: -6.3948843e-16}
+      position: {x: 0.07294705, y: -0.12799738, z: -7.034373e-16}
       rotation: {x: 0.005015958, y: 0.0043811146, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:ToesEnd_L
       parentName: frank_skinned:Toes_L
-      position: {x: 0.059769794, y: 5.950795e-16, z: 1.9539925e-16}
+      position: {x: 0.06574678, y: 6.545875e-16, z: 2.1493918e-16}
       rotation: {x: 0.0000000877082, y: 0.0000012982732, z: -1.1386921e-13, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Hip_R
       parentName: frank_skinned:Root_M
-      position: {x: 0.02012219, y: -0.0043647108, z: -0.0781503}
+      position: {x: 0.022134408, y: -0.004801182, z: -0.085965335}
       rotation: {x: -0.0016515518, y: 0.98993355, z: -0.1362376, w: -0.038316958}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Knee_R
       parentName: frank_skinned:Hip_R
-      position: {x: -0.47965676, y: -4.3853807e-16, z: 1.9539925e-16}
+      position: {x: -0.52762246, y: -4.823919e-16, z: 2.1493918e-16}
       rotation: {x: 0, y: 0, z: 0.01539522, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Ankle_R
       parentName: frank_skinned:Knee_R
-      position: {x: -0.36389545, y: -2.509104e-16, z: 8.8817837e-17}
+      position: {x: -0.400285, y: -2.7600145e-16, z: 9.7699626e-17}
       rotation: {x: -0.14270636, y: -0.03851762, z: -0.032087673, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Toes_R
       parentName: frank_skinned:Ankle_R
-      position: {x: -0.066315494, y: 0.11636125, z: 4.0856205e-16}
+      position: {x: -0.07294705, y: 0.12799738, z: 4.4941826e-16}
       rotation: {x: 0.005014976, y: 0.0043802573, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:ToesEnd_R
       parentName: frank_skinned:Toes_R
-      position: {x: -0.059769794, y: -2.7635671e-14, z: 0.00000015448674}
+      position: {x: -0.06574678, y: -3.039924e-14, z: 0.00000016993542}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Spine1_M
       parentName: frank_skinned:Root_M
-      position: {x: -0.16590449, y: -7.105427e-17, z: -1.7824178e-16}
+      position: {x: -0.18249494, y: -7.81597e-17, z: -1.9606596e-16}
       rotation: {x: 0, y: 0, z: 0.08912221, w: 0.9960207}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Chest_M
       parentName: frank_skinned:Spine1_M
-      position: {x: -0.18435611, y: -2.1316282e-16, z: -1.4334665e-16}
+      position: {x: -0.20279172, y: -2.344791e-16, z: -1.5768132e-16}
       rotation: {x: 0, y: -0, z: -0.20637904, w: 0.9784722}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Neck_M
       parentName: frank_skinned:Chest_M
-      position: {x: -0.14932354, y: 7.105427e-16, z: 3.7119578e-16}
+      position: {x: -0.1642559, y: 7.81597e-16, z: 4.0831536e-16}
       rotation: {x: 0, y: 0, z: 0.0018765997, w: 0.9999983}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Head_M
       parentName: frank_skinned:Neck_M
-      position: {x: -0.06251349, y: -2.842171e-16, z: -1.5352832e-16}
+      position: {x: -0.06876484, y: -3.126388e-16, z: -1.6888115e-16}
       rotation: {x: 0, y: 0, z: 0.13477643, w: 0.990876}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HeadEnd_M
       parentName: frank_skinned:Head_M
-      position: {x: -0.19274093, y: -4.2632563e-16, z: -2.9389743e-16}
+      position: {x: -0.21201503, y: -4.689582e-16, z: -3.2328717e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Scapula_L
       parentName: frank_skinned:Chest_M
-      position: {x: -0.07574224, y: 0.01614321, z: 0.041620072}
+      position: {x: -0.08331646, y: 0.017757531, z: 0.04578208}
       rotation: {x: 0.7126299, y: -0.045635983, z: 0.6720225, w: -0.19611663}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Shoulder_L
       parentName: frank_skinned:Scapula_L
-      position: {x: 0.11082449, y: 0, z: -4.5474734e-15}
+      position: {x: 0.121906936, y: 0, z: -5.002221e-15}
       rotation: {x: -0.03470371, y: 0.018192964, z: -0.16115086, w: 0.9861517}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:ShoulderPart1_L
       parentName: frank_skinned:Shoulder_L
-      position: {x: 0.09729049, y: 7.105427e-17, z: -2.842171e-16}
+      position: {x: 0.10701954, y: 7.81597e-17, z: -3.126388e-16}
       rotation: {x: 0.0076641357, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:ShoulderPart2_L
       parentName: frank_skinned:ShoulderPart1_L
-      position: {x: 0.09729049, y: -5.3290704e-17, z: 1.4210854e-15}
+      position: {x: 0.10701954, y: -5.8619775e-17, z: 1.563194e-15}
       rotation: {x: 0.0076641357, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Elbow_L
       parentName: frank_skinned:ShoulderPart2_L
-      position: {x: 0.09729049, y: 3.5527136e-17, z: 5.684342e-16}
+      position: {x: 0.10701954, y: 3.907985e-17, z: 6.252776e-16}
       rotation: {x: 0.0049084076, y: -0.016437141, z: 0.009326951, w: 0.9998094}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Wrist_L
       parentName: frank_skinned:Elbow_L
-      position: {x: 0.24400331, y: -4.973799e-16, z: 6.536993e-15}
+      position: {x: 0.26840365, y: -5.471179e-16, z: 7.190692e-15}
       rotation: {x: 0.07173498, y: 0.005672535, z: 0.020669704, w: 0.9971934}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:MiddleFinger1_L
       parentName: frank_skinned:Wrist_L
-      position: {x: 0.05919849, y: 2.1316282e-16, z: 1.065814e-15}
+      position: {x: 0.06511834, y: 2.344791e-16, z: 1.1723955e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Scapula_R
       parentName: frank_skinned:Chest_M
-      position: {x: -0.07574224, y: 0.01614321, z: -0.041620072}
+      position: {x: -0.08331646, y: 0.017757531, z: -0.04578208}
       rotation: {x: -0.045635983, y: -0.7126299, z: 0.19611663, w: 0.6720225}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Shoulder_R
       parentName: frank_skinned:Scapula_R
-      position: {x: -0.11082449, y: -4.440892e-18, z: 8.526512e-15}
+      position: {x: -0.121906936, y: -4.8849813e-18, z: 9.379164e-15}
       rotation: {x: -0.03469898, y: 0.018190427, z: -0.16115817, w: 0.9861507}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:ShoulderPart1_R
       parentName: frank_skinned:Shoulder_R
-      position: {x: -0.09729049, y: -3.5527136e-17, z: 0}
+      position: {x: -0.10701954, y: -3.907985e-17, z: 0}
       rotation: {x: 0.0076622274, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:ShoulderPart2_R
       parentName: frank_skinned:ShoulderPart1_R
-      position: {x: -0.09729049, y: -3.5527136e-17, z: 0}
+      position: {x: -0.10701954, y: -3.907985e-17, z: 0}
       rotation: {x: 0.0076622274, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Elbow_R
       parentName: frank_skinned:ShoulderPart2_R
-      position: {x: -0.09729049, y: -8.8817837e-17, z: -2.842171e-16}
+      position: {x: -0.10701954, y: -9.7699626e-17, z: -3.126388e-16}
       rotation: {x: 0.0049064406, y: -0.01643744, z: 0.009329561, w: 0.9998093}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:Wrist_R
       parentName: frank_skinned:Elbow_R
-      position: {x: -0.24400331, y: 1.4210854e-16, z: -5.1159075e-15}
+      position: {x: -0.26840365, y: 1.563194e-16, z: -5.6274984e-15}
       rotation: {x: 0.071735896, y: 0.0056696204, z: 0.020667762, w: 0.9971934}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:MiddleFinger1_R
       parentName: frank_skinned:Wrist_R
-      position: {x: -0.05919849, y: -4.6185276e-16, z: -4.2632563e-16}
+      position: {x: -0.06511834, y: -5.0803803e-16, z: -4.689582e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:MotionSystem
@@ -1344,52 +1344,52 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKParentConstraintArm_L
       parentName: frank_skinned:FKIKSystem
-      position: {x: -0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: -0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.1189196, y: 0.71617544, z: -0.67605186, w: 0.12611416}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKArm_L
       parentName: frank_skinned:FKIKParentConstraintArm_L
-      position: {x: 0.21412966, y: -0.04761398, z: 0.07041382}
+      position: {x: 0.23554263, y: -0.052375376, z: 0.07745521}
       rotation: {x: 0.1189196, y: 0.71617544, z: -0.67605186, w: -0.12611416}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKParentConstraintArm_R
       parentName: frank_skinned:FKIKSystem
-      position: {x: 0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: 0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.12611416, y: 0.67605186, z: 0.71617544, w: -0.1189196}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKArm_R
       parentName: frank_skinned:FKIKParentConstraintArm_R
-      position: {x: -0.21412966, y: 0.04761398, z: -0.07041382}
+      position: {x: -0.23554263, y: 0.052375376, z: -0.07745521}
       rotation: {x: 0.12611416, y: 0.67605186, z: 0.71617544, w: 0.1189196}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKParentConstraintLeg_L
       parentName: frank_skinned:FKIKSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKLeg_L
       parentName: frank_skinned:FKIKParentConstraintLeg_L
-      position: {x: -0.18593301, y: -0.11562326, z: -0.037452485}
+      position: {x: -0.20452632, y: -0.12718558, z: -0.041197736}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKParentConstraintLeg_R
       parentName: frank_skinned:FKIKSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKLeg_R
       parentName: frank_skinned:FKIKParentConstraintLeg_R
-      position: {x: 0.18593301, y: -0.11562326, z: -0.037452485}
+      position: {x: 0.20452632, y: -0.12718558, z: -0.041197736}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKParentConstraintSpine_M
       parentName: frank_skinned:FKIKSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.50913066, y: -0.49069953, z: -0.50913066, w: 0.49069953}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKSpine_M
       parentName: frank_skinned:FKIKParentConstraintSpine_M
-      position: {x: -0.104949765, y: -4.440892e-18, z: 0.18307081}
+      position: {x: -0.11544474, y: -4.8849813e-18, z: 0.2013779}
       rotation: {x: 0.50913066, y: -0.49069953, z: -0.50913066, w: -0.49069953}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKSystem
@@ -1399,7 +1399,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetRoot_M
       parentName: frank_skinned:FKSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.50913066, y: -0.49069953, z: -0.50913066, w: 0.49069953}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraRoot_M
@@ -1414,12 +1414,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKXRoot_M
       parentName: frank_skinned:FKRoot_M
-      position: {x: -1.4210854e-16, y: -4.440892e-18, z: -6.310887e-32}
+      position: {x: -1.563194e-16, y: -4.8849813e-18, z: -6.941976e-32}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetSpine1_M
       parentName: frank_skinned:FKXRoot_M
-      position: {x: -0.16590449, y: -7.5495166e-17, z: -1.7824178e-16}
+      position: {x: -0.18249494, y: -8.3044685e-17, z: -1.9606596e-16}
       rotation: {x: 0, y: 0, z: 0.089122206, w: 0.9960207}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HipSwingerStabilizer
@@ -1444,7 +1444,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetChest_M
       parentName: frank_skinned:FKXSpine1_M
-      position: {x: -0.18435611, y: -1.0658141e-16, z: -1.4334665e-16}
+      position: {x: -0.20279172, y: -1.1723955e-16, z: -1.5768132e-16}
       rotation: {x: 0, y: -0, z: -0.20637904, w: 0.9784722}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraChest_M
@@ -1469,37 +1469,37 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HipSwingerOffset_M
       parentName: frank_skinned:FKRoot_M
-      position: {x: -0.082952246, y: 9.7699626e-17, z: -0.22691321}
+      position: {x: -0.09124747, y: 1.0746959e-16, z: -0.24960454}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HipSwinger_M
       parentName: frank_skinned:HipSwingerOffset_M
-      position: {x: -1.4210854e-16, y: -4.440892e-18, z: -1.2621774e-31}
+      position: {x: -1.563194e-16, y: -4.8849813e-18, z: -1.3883952e-31}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HipSwingerStabilizerTarget
       parentName: frank_skinned:FKRoot_M
-      position: {x: -0.16590449, y: -6.661338e-17, z: -1.7824178e-16}
+      position: {x: -0.18249494, y: -7.3274716e-17, z: -1.9606596e-16}
       rotation: {x: 0, y: 0, z: 0.089122206, w: 0.9960207}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HipSwingReverse
       parentName: frank_skinned:FKRoot_M
-      position: {x: -0.16590449, y: -7.9936054e-17, z: -1.7824178e-16}
+      position: {x: -0.18249494, y: -8.792966e-17, z: -1.9606596e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:HipSwingReverseRoot
       parentName: frank_skinned:HipSwingReverse
-      position: {x: 0.16590449, y: 7.9936054e-17, z: 1.7824178e-16}
+      position: {x: 0.18249494, y: 8.792966e-17, z: 1.9606596e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKParentConstraintToChest_M
       parentName: frank_skinned:FKSystem
-      position: {x: 9.363732e-17, y: 1.285369, z: -0.007817426}
+      position: {x: 1.0300106e-16, y: 1.413906, z: -0.008599169}
       rotation: {x: 0.5636285, y: -0.42699286, z: -0.5636285, w: 0.42699286}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetNeck_M
       parentName: frank_skinned:FKParentConstraintToChest_M
-      position: {x: -0.14932354, y: 6.3948843e-16, z: 3.1818226e-16}
+      position: {x: -0.1642559, y: 7.034373e-16, z: 3.500005e-16}
       rotation: {x: 0, y: 0, z: 0.0018765997, w: 0.9999983}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraNeck_M
@@ -1519,7 +1519,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetHead_M
       parentName: frank_skinned:FKXNeck_M
-      position: {x: -0.06251349, y: -2.1316282e-16, z: -1.7581188e-16}
+      position: {x: -0.06876484, y: -2.344791e-16, z: -1.9339307e-16}
       rotation: {x: 0, y: 0, z: 0.13477643, w: 0.990876}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKGlobalStaticHead_M
@@ -1529,7 +1529,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKGlobalHead_M
       parentName: frank_skinned:FKGlobalStaticHead_M
-      position: {x: -0, y: 8.881784e-18, z: 0}
+      position: {x: -0, y: 9.7699626e-18, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraHead_M
@@ -1549,7 +1549,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetScapula_L
       parentName: frank_skinned:FKParentConstraintToChest_M
-      position: {x: -0.07574224, y: 0.01614321, z: 0.041620072}
+      position: {x: -0.08331646, y: 0.017757531, z: 0.04578208}
       rotation: {x: 0.7126299, y: -0.04563599, z: 0.67202246, w: -0.19611666}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraScapula_L
@@ -1569,7 +1569,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetScapula_R
       parentName: frank_skinned:FKParentConstraintToChest_M
-      position: {x: -0.07574224, y: 0.01614321, z: -0.041620072}
+      position: {x: -0.08331646, y: 0.017757531, z: -0.04578208}
       rotation: {x: -0.04563599, y: -0.7126299, z: 0.19611666, w: 0.67202246}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraScapula_R
@@ -1589,12 +1589,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKParentConstraintToRoot_M
       parentName: frank_skinned:FKSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetHip_L
       parentName: frank_skinned:FKParentConstraintToRoot_M
-      position: {x: -0.0781503, y: -0.019947652, z: -0.005103369}
+      position: {x: -0.085965335, y: -0.021942418, z: -0.0056137056}
       rotation: {x: -0.39843595, y: 0.4558517, z: -0.5747656, w: 0.5505385}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraHip_L
@@ -1614,7 +1614,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetKnee_L
       parentName: frank_skinned:FKXHip_L
-      position: {x: 0.47965676, y: 5.639933e-16, z: -7.105427e-17}
+      position: {x: 0.52762246, y: 6.203926e-16, z: -7.81597e-17}
       rotation: {x: 0, y: 0, z: 0.015395194, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraKnee_L
@@ -1634,7 +1634,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetAnkle_L
       parentName: frank_skinned:FKXKnee_L
-      position: {x: 0.36389545, y: 3.6415315e-16, z: -2.3092638e-16}
+      position: {x: 0.400285, y: 4.0056847e-16, z: -2.5401901e-16}
       rotation: {x: -0.14270636, y: -0.038517617, z: -0.032087643, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraAnkle_L
@@ -1659,7 +1659,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetToes_L
       parentName: frank_skinned:FKXAnkle_L
-      position: {x: 0.066315494, y: -0.11636125, z: -6.9277914e-16}
+      position: {x: 0.07294705, y: -0.12799738, z: -7.6205707e-16}
       rotation: {x: 0.0050159586, y: 0.004381115, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraToes_L
@@ -1679,7 +1679,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetHip_R
       parentName: frank_skinned:FKParentConstraintToRoot_M
-      position: {x: 0.0781503, y: -0.019947652, z: -0.005103369}
+      position: {x: 0.085965335, y: -0.021942418, z: -0.0056137056}
       rotation: {x: 0.5505385, y: 0.5747656, z: 0.4558517, w: 0.39843595}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraHip_R
@@ -1699,7 +1699,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetKnee_R
       parentName: frank_skinned:FKXHip_R
-      position: {x: -0.47965676, y: -3.663736e-16, z: 3.0198067e-16}
+      position: {x: -0.52762246, y: -4.0301097e-16, z: 3.3217874e-16}
       rotation: {x: 0, y: 0, z: 0.015395194, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraKnee_R
@@ -1719,7 +1719,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetAnkle_R
       parentName: frank_skinned:FKXKnee_R
-      position: {x: -0.36389545, y: -2.9087842e-16, z: 1.2434498e-16}
+      position: {x: -0.400285, y: -3.1996627e-16, z: 1.3677948e-16}
       rotation: {x: -0.14270636, y: -0.038517617, z: -0.032087643, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraAnkle_R
@@ -1744,7 +1744,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetToes_R
       parentName: frank_skinned:FKXAnkle_R
-      position: {x: -0.066315494, y: 0.11636125, z: 4.0856205e-16}
+      position: {x: -0.07294705, y: 0.12799738, z: 4.4941826e-16}
       rotation: {x: 0.005014976, y: 0.004380257, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraToes_R
@@ -1764,12 +1764,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKParentConstraintToScapula_L
       parentName: frank_skinned:FKSystem
-      position: {x: -0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: -0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.1189196, y: 0.71617544, z: -0.67605186, w: 0.12611416}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetShoulder_L
       parentName: frank_skinned:FKParentConstraintToScapula_L
-      position: {x: 0.11082449, y: 4.440892e-18, z: -4.5474734e-15}
+      position: {x: 0.121906936, y: 4.8849813e-18, z: -5.002221e-15}
       rotation: {x: -0.12302903, y: -0.5608454, z: -0.17542794, w: 0.7997133}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraShoulder_L
@@ -1789,7 +1789,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetElbow_L
       parentName: frank_skinned:FKXShoulder_L
-      position: {x: 0.29187146, y: -4.973799e-16, z: -6.3948843e-16}
+      position: {x: 0.3210586, y: -5.471179e-16, z: -7.034373e-16}
       rotation: {x: 0, y: -0, z: -0.16476543, w: 0.9863328}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraElbow_L
@@ -1809,7 +1809,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetWrist_L
       parentName: frank_skinned:FKXElbow_L
-      position: {x: 0.24400331, y: -3.907985e-16, z: 6.3238302e-15}
+      position: {x: 0.26840365, y: -4.2987835e-16, z: 6.9562136e-15}
       rotation: {x: 0.050900918, y: -0.14662836, z: -0.03562691, w: 0.9872386}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraWrist_L
@@ -1834,12 +1834,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKParentConstraintToScapula_R
       parentName: frank_skinned:FKSystem
-      position: {x: 0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: 0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.12611416, y: 0.67605186, z: 0.71617544, w: -0.1189196}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetShoulder_R
       parentName: frank_skinned:FKParentConstraintToScapula_R
-      position: {x: -0.11082449, y: -1.3322676e-17, z: 7.958079e-15}
+      position: {x: -0.121906936, y: -1.4654944e-17, z: 8.7538865e-15}
       rotation: {x: -0.12302903, y: -0.5608454, z: -0.17542794, w: 0.7997133}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraShoulder_R
@@ -1859,7 +1859,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetElbow_R
       parentName: frank_skinned:FKXShoulder_R
-      position: {x: -0.29187146, y: 3.0198067e-16, z: -3.5527135e-16}
+      position: {x: -0.3210586, y: 3.3217874e-16, z: -3.907985e-16}
       rotation: {x: 0, y: -0, z: -0.16476543, w: 0.9863328}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraElbow_R
@@ -1879,7 +1879,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKOffsetWrist_R
       parentName: frank_skinned:FKXElbow_R
-      position: {x: -0.24400331, y: 2.842171e-16, z: -5.4001247e-15}
+      position: {x: -0.26840365, y: 3.126388e-16, z: -5.9401375e-15}
       rotation: {x: 0.050900918, y: -0.14662836, z: -0.03562691, w: 0.9872386}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKExtraWrist_R
@@ -1909,12 +1909,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:GlobalOffsetHead_M
       parentName: frank_skinned:GlobalSystem
-      position: {x: -1.10796204e-16, y: 1.4893594, z: 0.049302652}
+      position: {x: -1.2187583e-16, y: 1.6382953, z: 0.054232918}
       rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:GlobalHead_M
       parentName: frank_skinned:GlobalOffsetHead_M
-      position: {x: -0, y: 8.881784e-18, z: 0}
+      position: {x: -0, y: 9.7699626e-18, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSystem
@@ -1939,62 +1939,62 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_LFollow
       parentName: frank_skinned:IKFollow
-      position: {x: -0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: -0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 6.123234e-17, y: -1.6081226e-16, z: 2.8327693e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_LFollowNoScale
       parentName: frank_skinned:IKFollow
-      position: {x: -0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: -0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.1189196, y: 0.71617544, z: -0.67605186, w: 0.12611416}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_RFollow
       parentName: frank_skinned:IKFollow
-      position: {x: 0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: 0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: -6.123234e-17, y: -6.123234e-17, z: -6.123234e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_RFollowNoScale
       parentName: frank_skinned:IKFollow
-      position: {x: 0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: 0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.12611416, y: 0.67605186, z: 0.71617544, w: -0.1189196}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_LFollow
       parentName: frank_skinned:IKFollow
-      position: {x: -0.30609995, y: 1.0261066, z: -0.50105447}
+      position: {x: -0.33670995, y: 1.1287173, z: -0.5511599}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_LFollowNoScale
       parentName: frank_skinned:IKFollow
-      position: {x: -0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: -0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_RFollow
       parentName: frank_skinned:IKFollow
-      position: {x: 0.30609995, y: 1.0261066, z: -0.50105447}
+      position: {x: 0.33670995, y: 1.1287173, z: -0.5511599}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_RFollowNoScale
       parentName: frank_skinned:IKFollow
-      position: {x: 0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: 0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_LFollow
       parentName: frank_skinned:IKFollow
-      position: {x: -0.3414197, y: 0.40824935, z: 0.79123527}
+      position: {x: -0.37556168, y: 0.4490743, z: 0.8703588}
       rotation: {x: 0, y: -1.110223e-16, z: 1.110223e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_LFollowNoScale
       parentName: frank_skinned:IKFollow
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.5582751, y: 0.44716686, z: 0.4691684, w: 0.51793027}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_RFollow
       parentName: frank_skinned:IKFollow
-      position: {x: 0.3414197, y: 0.40824935, z: 0.79123527}
+      position: {x: 0.37556168, y: 0.4490743, z: 0.8703588}
       rotation: {x: -3.330669e-16, y: -1.110223e-16, z: 2.7755576e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_RFollowNoScale
       parentName: frank_skinned:IKFollow
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.4691684, y: 0.51793027, z: 0.5582751, w: 0.44716686}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKHandle
@@ -2004,7 +2004,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_L
       parentName: frank_skinned:IKHandle
-      position: {x: -0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: -0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKExtraArm_L
@@ -2019,7 +2019,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKArmHandle_L
       parentName: frank_skinned:IKArm_L
-      position: {x: 7.4606985e-16, y: 2.842171e-16, z: -2.842171e-16}
+      position: {x: 8.2067683e-16, y: 3.126388e-16, z: -3.126388e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedOffsetArm_L
@@ -2034,12 +2034,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureConstrainToArm_L
       parentName: frank_skinned:IKArm_L
-      position: {x: 7.4606985e-16, y: 2.842171e-16, z: -2.842171e-16}
+      position: {x: 8.2067683e-16, y: 3.126388e-16, z: -3.126388e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_R
       parentName: frank_skinned:IKHandle
-      position: {x: 0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: 0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKExtraArm_R
@@ -2054,12 +2054,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKArmHandle_R
       parentName: frank_skinned:IKArm_R
-      position: {x: 1.7763567e-16, y: -4.2632563e-16, z: -1.4210854e-16}
+      position: {x: 1.9539925e-16, y: -4.689582e-16, z: -1.563194e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedOffsetArm_R
       parentName: frank_skinned:IKArm_R
-      position: {x: -0, y: 1.4210854e-16, z: -4.4408918e-17}
+      position: {x: -0, y: 1.563194e-16, z: -4.8849813e-17}
       rotation: {x: 0.38247186, y: 0.5535233, z: 0.42738068, w: 0.6038816}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedArm_R
@@ -2069,12 +2069,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureConstrainToArm_R
       parentName: frank_skinned:IKArm_R
-      position: {x: 1.7763567e-16, y: -4.2632563e-16, z: -1.4210854e-16}
+      position: {x: 1.9539925e-16, y: -4.689582e-16, z: -1.563194e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetLeg_L
       parentName: frank_skinned:IKHandle
-      position: {x: -0.13949026, y: 0.07725874, z: -0.040835675}
+      position: {x: -0.1534393, y: 0.08498462, z: -0.044919245}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKExtraLeg_L
@@ -2089,7 +2089,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedOffsetLeg_L
       parentName: frank_skinned:IKLeg_L
-      position: {x: -1.7763568e-17, y: 8.881784e-18, z: 0}
+      position: {x: -1.9539925e-17, y: 9.7699626e-18, z: 0}
       rotation: {x: 0.50331855, y: -0.50331855, z: 0.4966593, w: -0.4966593}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedLeg_L
@@ -2104,7 +2104,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollOffsetHeel_L
       parentName: frank_skinned:IKLeg_L
-      position: {x: 3.5527136e-17, y: -0.07122982, z: -0.030480878}
+      position: {x: 3.907985e-17, y: -0.07835281, z: -0.03352897}
       rotation: {x: 0, y: 0.0066592502, z: -0, w: 0.9999778}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollRollerHeel_L
@@ -2124,7 +2124,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollOffsetToesEnd_L
       parentName: frank_skinned:RollHeel_L
-      position: {x: -0.0011948261, y: -0.003124784, z: 0.20606086}
+      position: {x: -0.0013143087, y: -0.0034372625, z: 0.22666694}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollRollerToesEnd_L
@@ -2144,17 +2144,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKLegLiftToe_L
       parentName: frank_skinned:RollToesEnd_L
-      position: {x: 0.0007888705, y: 0.008039115, z: -0.05922144}
+      position: {x: 0.0008677576, y: 0.008843027, z: -0.065143585}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKToesHandle_L
       parentName: frank_skinned:IKLegLiftToe_L
-      position: {x: -0.0007888705, y: -0.008039115, z: 0.05922144}
+      position: {x: -0.0008677576, y: -0.008843027, z: 0.065143585}
       rotation: {x: 0.70078444, y: -0.04734331, z: 0.71018153, w: -0.047978155}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollOffsetToes_L
       parentName: frank_skinned:RollToesEnd_L
-      position: {x: 0.0007888705, y: 0.008039115, z: -0.05922144}
+      position: {x: 0.0008677576, y: 0.008843027, z: -0.065143585}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollRollerToes_L
@@ -2174,22 +2174,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKAnkleHandle_L
       parentName: frank_skinned:RollToes_L
-      position: {x: -5.3290704e-17, y: -4.440892e-16, z: -3.2862602e-16}
+      position: {x: -5.8619775e-17, y: -4.8849814e-16, z: -3.6148862e-16}
       rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKLegHandle_L
       parentName: frank_skinned:RollToes_L
-      position: {x: 0.0000000050863123, y: 0.066315494, z: -0.11636125}
+      position: {x: 0.0000000055949436, y: 0.07294705, z: -0.12799738}
       rotation: {x: 0, y: -0.0066592502, z: -0, w: 0.9999778}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureConstrainToLeg_L
       parentName: frank_skinned:RollToes_L
-      position: {x: 0.0000000050863123, y: 0.066315494, z: -0.11636125}
+      position: {x: 0.0000000055949436, y: 0.07294705, z: -0.12799738}
       rotation: {x: 0, y: -0.0066592502, z: -0, w: 0.9999778}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetLeg_R
       parentName: frank_skinned:IKHandle
-      position: {x: 0.13949026, y: 0.07725874, z: -0.040835675}
+      position: {x: 0.1534393, y: 0.08498462, z: -0.044919245}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKExtraLeg_R
@@ -2204,7 +2204,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedOffsetLeg_R
       parentName: frank_skinned:IKLeg_R
-      position: {x: -0, y: 0, z: 8.881784e-18}
+      position: {x: -0, y: 0, z: 9.7699626e-18}
       rotation: {x: 0.4966593, y: 0.4966593, z: 0.50331855, w: 0.50331855}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFKAlignedLeg_R
@@ -2219,7 +2219,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollOffsetHeel_R
       parentName: frank_skinned:IKLeg_R
-      position: {x: -2.664535e-16, y: -0.07122982, z: -0.030480878}
+      position: {x: -2.9309886e-16, y: -0.07835281, z: -0.03352897}
       rotation: {x: 0, y: -0.0066592502, z: -0, w: 0.9999778}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollRollerHeel_R
@@ -2239,7 +2239,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollOffsetToesEnd_R
       parentName: frank_skinned:RollHeel_R
-      position: {x: 0.0011948261, y: -0.003124784, z: 0.20606086}
+      position: {x: 0.0013143087, y: -0.0034372625, z: 0.22666694}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollRollerToesEnd_R
@@ -2259,17 +2259,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKLegLiftToe_R
       parentName: frank_skinned:RollToesEnd_R
-      position: {x: -0.0007888705, y: 0.008039115, z: -0.05922144}
+      position: {x: -0.0008677576, y: 0.008843027, z: -0.065143585}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKToesHandle_R
       parentName: frank_skinned:IKLegLiftToe_R
-      position: {x: 0.0007888705, y: -0.008039115, z: 0.05922144}
+      position: {x: 0.0008677576, y: -0.008843027, z: 0.065143585}
       rotation: {x: 0.04797809, y: 0.71018064, z: 0.047343366, w: 0.7007854}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollOffsetToes_R
       parentName: frank_skinned:RollToesEnd_R
-      position: {x: -0.0007888705, y: 0.008039115, z: -0.05922144}
+      position: {x: -0.0008677576, y: 0.008843027, z: -0.065143585}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RollRollerToes_R
@@ -2289,17 +2289,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKAnkleHandle_R
       parentName: frank_skinned:RollToes_R
-      position: {x: 1.0658141e-16, y: 1.9539925e-16, z: 2.5757173e-16}
+      position: {x: 1.1723955e-16, y: 2.1493918e-16, z: 2.8332892e-16}
       rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKLegHandle_R
       parentName: frank_skinned:RollToes_R
-      position: {x: -0.0000000050863123, y: 0.066315494, z: -0.11636125}
+      position: {x: -0.0000000055949436, y: 0.07294705, z: -0.12799738}
       rotation: {x: 0, y: 0.0066592502, z: -0, w: 0.9999778}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureConstrainToLeg_R
       parentName: frank_skinned:RollToes_R
-      position: {x: -0.0000000050863123, y: 0.066315494, z: -0.11636125}
+      position: {x: -0.0000000055949436, y: 0.07294705, z: -0.12799738}
       rotation: {x: 0, y: 0.0066592502, z: -0, w: 0.9999778}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKRootConstraint
@@ -2309,7 +2309,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetSpine1_M
       parentName: frank_skinned:IKRootConstraint
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKExtraSpine1_M
@@ -2334,17 +2334,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKStiffOrientSpine1_M
       parentName: frank_skinned:IKSpine1_M
-      position: {x: 3.9443044e-33, y: 0, z: 8.881784e-18}
+      position: {x: 4.338735e-33, y: 0, z: 9.7699626e-18}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpineLocator1_M
       parentName: frank_skinned:IKStiffOrientSpine1_M
-      position: {x: -0.087615155, y: -1.7763568e-17, z: 0}
+      position: {x: -0.09637667, y: -1.9539925e-17, z: 0}
       rotation: {x: -0.48552576, y: 0.5140669, z: 0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetSpine2_M
       parentName: frank_skinned:IKRootConstraint
-      position: {x: -4.9674995e-17, y: 1.285369, z: -0.007817426}
+      position: {x: -5.4642496e-17, y: 1.413906, z: -0.008599169}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKExtraSpine2_M
@@ -2359,17 +2359,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpine2AlignTo_M
       parentName: frank_skinned:IKSpine2_M
-      position: {x: -1.0625523e-23, y: 0.000000017694102, z: -0.0000000010112541}
+      position: {x: -1.16880756e-23, y: 0.000000019463513, z: -0.0000000011123795}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpine2AlignUnIKTwistToOffset_M
       parentName: frank_skinned:IKSpine2_M
-      position: {x: -1.0625523e-23, y: 0.000000017694102, z: -0.0000000010112541}
+      position: {x: -1.16880756e-23, y: 0.000000019463513, z: -0.0000000011123795}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpine2AlignUnIKTwistTo_M
       parentName: frank_skinned:IKSpine2AlignUnIKTwistToOffset_M
-      position: {x: -0, y: 8.881784e-18, z: -6.310887e-32}
+      position: {x: -0, y: 9.7699626e-18, z: -6.941976e-32}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpineLocator3_M
@@ -2379,12 +2379,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKStiffOrientSpine2_M
       parentName: frank_skinned:IKSpine2_M
-      position: {x: 1.4331231e-16, y: 0, z: -4.440892e-18}
+      position: {x: 1.5764354e-16, y: 0, z: -4.8849813e-18}
       rotation: {x: 0.48552576, y: 0.5140669, z: 0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpineLocator2_M
       parentName: frank_skinned:IKStiffOrientSpine2_M
-      position: {x: -0.087615155, y: 1.7763568e-17, z: -1.4331231e-16}
+      position: {x: -0.09637667, y: 1.9539925e-17, z: -1.5764354e-16}
       rotation: {x: -0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKScalerChest_M
@@ -2404,22 +2404,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpineHandle_M
       parentName: frank_skinned:IKHandle
-      position: {x: 2.5609252e-16, y: 1.4595202, z: -0.017770523}
+      position: {x: 2.8170177e-16, y: 1.6054723, z: -0.019547576}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleAimLeg_L
       parentName: frank_skinned:IKHandle
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.5582751, y: 0.44716686, z: 0.4691684, w: 0.51793027}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleAimLeg_R
       parentName: frank_skinned:IKHandle
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.4691684, y: 0.51793027, z: 0.5582751, w: 0.44716686}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_L
       parentName: frank_skinned:IKHandle
-      position: {x: -0.30609995, y: 1.0261066, z: -0.50105447}
+      position: {x: -0.33670995, y: 1.1287173, z: -0.5511599}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleExtraArm_L
@@ -2434,7 +2434,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_R
       parentName: frank_skinned:IKHandle
-      position: {x: 0.30609995, y: 1.0261066, z: -0.50105447}
+      position: {x: 0.33670995, y: 1.1287173, z: -0.5511599}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleExtraArm_R
@@ -2449,7 +2449,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_L
       parentName: frank_skinned:IKHandle
-      position: {x: -0.3414197, y: 0.40824935, z: 0.79123527}
+      position: {x: -0.37556168, y: 0.4490743, z: 0.8703588}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleExtraLeg_L
@@ -2464,7 +2464,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_R
       parentName: frank_skinned:IKHandle
-      position: {x: 0.3414197, y: 0.40824935, z: 0.79123527}
+      position: {x: 0.37556168, y: 0.4490743, z: 0.8703588}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleExtraLeg_R
@@ -2484,22 +2484,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKParentConstraintHip_L
       parentName: frank_skinned:IKJoints
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKMessureFromHip_L
       parentName: frank_skinned:IKParentConstraintHip_L
-      position: {x: -0.0781503, y: -0.019947652, z: -0.005103369}
+      position: {x: -0.085965335, y: -0.021942418, z: -0.0056137056}
       rotation: {x: -0.39843595, y: 0.4558517, z: -0.5747656, w: 0.5505385}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXOffsetHip_L
       parentName: frank_skinned:IKParentConstraintHip_L
-      position: {x: -0.0781503, y: -0.019947652, z: -0.005103369}
+      position: {x: -0.085965335, y: -0.021942418, z: -0.0056137056}
       rotation: {x: -0.39843595, y: 0.4558517, z: -0.5747656, w: 0.5505385}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXHip_L
       parentName: frank_skinned:IKXOffsetHip_L
-      position: {x: -1.4210854e-16, y: -1.110223e-18, z: 1.7763568e-17}
+      position: {x: -1.563194e-16, y: -1.2212453e-18, z: 1.9539925e-17}
       rotation: {x: 1.2260806e-16, y: -9.981668e-18, z: -0.000000012904784, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Hip_L
@@ -2509,7 +2509,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXKnee_L
       parentName: frank_skinned:IKXHip_L
-      position: {x: 0.47965676, y: 4.2188474e-16, z: -3.5527135e-16}
+      position: {x: 0.52762246, y: 4.640732e-16, z: -3.907985e-16}
       rotation: {x: 3.1920818e-23, y: 7.671959e-22, z: 0.01539522, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Knee_L
@@ -2519,7 +2519,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXAnkle_L
       parentName: frank_skinned:IKXKnee_L
-      position: {x: 0.36389545, y: 4.052314e-16, z: -5.8619773e-16}
+      position: {x: 0.400285, y: 4.4575453e-16, z: -6.448175e-16}
       rotation: {x: -0.14270636, y: -0.03851762, z: -0.032087673, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Ankle_L
@@ -2529,7 +2529,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXToes_L
       parentName: frank_skinned:IKXAnkle_L
-      position: {x: 0.066315494, y: -0.11636125, z: -6.3948843e-16}
+      position: {x: 0.07294705, y: -0.12799738, z: -7.034373e-16}
       rotation: {x: 0.0050159553, y: 0.004381118, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Toes_L
@@ -2539,7 +2539,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXToesEnd_L
       parentName: frank_skinned:IKXToes_L
-      position: {x: 0.059769794, y: 1.3633538e-15, z: 2.842171e-16}
+      position: {x: 0.06574678, y: 1.4996893e-15, z: 3.126388e-16}
       rotation: {x: 0.00000026259275, y: 0.000002586703, z: -6.7924946e-13, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2ToesEnd_L
@@ -2554,22 +2554,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKParentConstraintHip_R
       parentName: frank_skinned:IKJoints
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKMessureFromHip_R
       parentName: frank_skinned:IKParentConstraintHip_R
-      position: {x: 0.0781503, y: -0.019947652, z: -0.005103369}
+      position: {x: 0.085965335, y: -0.021942418, z: -0.0056137056}
       rotation: {x: 0.5505385, y: 0.5747656, z: 0.4558517, w: 0.39843595}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXOffsetHip_R
       parentName: frank_skinned:IKParentConstraintHip_R
-      position: {x: 0.0781503, y: -0.019947652, z: -0.005103369}
+      position: {x: 0.085965335, y: -0.021942418, z: -0.0056137056}
       rotation: {x: 0.5505385, y: 0.5747656, z: 0.4558517, w: 0.39843595}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXHip_R
       parentName: frank_skinned:IKXOffsetHip_R
-      position: {x: -0, y: 1.110223e-18, z: -1.7763568e-17}
+      position: {x: -0, y: 1.2212453e-18, z: -1.9539925e-17}
       rotation: {x: -0.0000000074499233, y: -9.8962234e-11, z: -0.000000012904784,
         w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -2580,7 +2580,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXKnee_R
       parentName: frank_skinned:IKXHip_R
-      position: {x: -0.47965676, y: -4.4630965e-16, z: 2.4868996e-16}
+      position: {x: -0.52762246, y: -4.909406e-16, z: 2.7355895e-16}
       rotation: {x: 1.1013644e-23, y: -1.9887849e-22, z: 0.01539522, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Knee_R
@@ -2590,7 +2590,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXAnkle_R
       parentName: frank_skinned:IKXKnee_R
-      position: {x: -0.36389545, y: -2.6756373e-16, z: 1.0658141e-16}
+      position: {x: -0.400285, y: -2.943201e-16, z: 1.1723955e-16}
       rotation: {x: -0.14270636, y: -0.038517617, z: -0.032087673, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Ankle_R
@@ -2600,7 +2600,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXToes_R
       parentName: frank_skinned:IKXAnkle_R
-      position: {x: -0.066315494, y: 0.11636125, z: 3.907985e-16}
+      position: {x: -0.07294705, y: 0.12799738, z: 4.2987835e-16}
       rotation: {x: 0.0050149728, y: 0.0043802597, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Toes_R
@@ -2610,7 +2610,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXToesEnd_R
       parentName: frank_skinned:IKXToes_R
-      position: {x: -0.059769794, y: -2.7635671e-14, z: 0.00000015448674}
+      position: {x: -0.06574678, y: -3.039924e-14, z: 0.00000016993542}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2ToesEnd_R
@@ -2625,62 +2625,62 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKParentConstraintRoot_M
       parentName: frank_skinned:IKJoints
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: -0.50913066, y: 0.49069953, z: 0.50913066, w: -0.49069953}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKfake0Spine_M
       parentName: frank_skinned:IKParentConstraintRoot_M
-      position: {x: 1.4210854e-16, y: -4.440892e-18, z: -3.1554436e-32}
+      position: {x: 1.563194e-16, y: -4.8849813e-18, z: -3.470988e-32}
       rotation: {x: 0, y: 0, z: 0.046959855, w: 0.9988968}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKfake1Spine_M
       parentName: frank_skinned:IKfake0Spine_M
-      position: {x: -0.17443536, y: -1.7763568e-17, z: -1.6079422e-16}
+      position: {x: -0.1918789, y: -1.9539925e-17, z: -1.7687365e-16}
       rotation: {x: -1.110223e-16, y: -3.391776e-32, z: -1.1126651e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKFake1UpLocSpine_M
       parentName: frank_skinned:IKfake1Spine_M
-      position: {x: -1.4210854e-16, y: 0.01, z: -1.2621774e-31}
+      position: {x: -1.563194e-16, y: 0.011, z: -1.3883952e-31}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKfake2Spine_M
       parentName: frank_skinned:IKfake1Spine_M
-      position: {x: -0.17443536, y: -4.4408918e-17, z: -1.7481906e-17}
+      position: {x: -0.1918789, y: -4.8849813e-17, z: -1.9230098e-17}
       rotation: {x: -1.110223e-16, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKfake3Spine_M
       parentName: frank_skinned:IKfake2Spine_M
-      position: {x: -0.17443536, y: 0, z: 0}
+      position: {x: -0.1918789, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpSpine1_M
       parentName: frank_skinned:IKfake0Spine_M
-      position: {x: -0.17443536, y: -1.7763568e-17, z: -1.6079422e-16}
+      position: {x: -0.1918789, y: -1.9539925e-17, z: -1.7687365e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpChest_M
       parentName: frank_skinned:IKSpSpine1_M
-      position: {x: -0.17443536, y: -4.4408918e-17, z: -1.7481906e-17}
+      position: {x: -0.1918789, y: -4.8849813e-17, z: -1.9230098e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpChestFollowOffset_M
       parentName: frank_skinned:IKSpChest_M
-      position: {x: 0.000000008861488, y: 0, z: 1.3025262e-16}
+      position: {x: 0.000000009747637, y: 0, z: 1.4327789e-16}
       rotation: {x: 0, y: -0, z: -0.16485342, w: 0.9863181}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpSpine1FollowOffset_M
       parentName: frank_skinned:IKSpSpine1_M
-      position: {x: 0.00926257, y: 0.015564512, z: 1.1148613e-16}
+      position: {x: 0.010188827, y: 0.017120965, z: 1.2263475e-16}
       rotation: {x: 0, y: 0, z: 0.0422509, w: 0.99910706}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXOffsetRoot_M
       parentName: frank_skinned:IKParentConstraintRoot_M
-      position: {x: -1.4210854e-16, y: -4.440892e-18, z: 6.310887e-32}
+      position: {x: -1.563194e-16, y: -4.8849813e-18, z: 6.941976e-32}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXRoot_M
       parentName: frank_skinned:IKXOffsetRoot_M
-      position: {x: 1.4210854e-16, y: 0, z: -3.1554436e-32}
+      position: {x: 1.563194e-16, y: 0, z: -3.470988e-32}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Root_M
@@ -2690,7 +2690,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXSpine1_M
       parentName: frank_skinned:IKXRoot_M
-      position: {x: -0.16590449, y: -5.3290704e-17, z: -4.930808e-17}
+      position: {x: -0.18249494, y: -5.8619775e-17, z: -5.423889e-17}
       rotation: {x: 0, y: 0, z: 0.089122206, w: 0.9960207}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Spine1_M
@@ -2700,7 +2700,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXChest_M
       parentName: frank_skinned:IKXSpine1_M
-      position: {x: -0.18435614, y: 0.000000001496286, z: 1.445969e-16}
+      position: {x: -0.20279175, y: 0.0000000016459146, z: 1.590566e-16}
       rotation: {x: -1.9010641e-16, y: 4.0097186e-17, z: -0.20637904, w: 0.9784722}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Chest_M
@@ -2710,22 +2710,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKParentConstraintShoulder_L
       parentName: frank_skinned:IKJoints
-      position: {x: -0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: -0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.1189196, y: 0.71617544, z: -0.67605186, w: 0.12611416}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKMessureFromShoulder_L
       parentName: frank_skinned:IKParentConstraintShoulder_L
-      position: {x: 0.11082449, y: -3.5527136e-17, z: -5.1159075e-15}
+      position: {x: 0.121906936, y: -3.907985e-17, z: -5.6274984e-15}
       rotation: {x: -0.12302903, y: -0.5608454, z: -0.17542794, w: 0.7997133}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXOffsetShoulder_L
       parentName: frank_skinned:IKParentConstraintShoulder_L
-      position: {x: 0.11082449, y: -2.6645352e-17, z: -4.8316907e-15}
+      position: {x: 0.121906936, y: -2.9309888e-17, z: -5.31486e-15}
       rotation: {x: -0.12302903, y: -0.5608454, z: -0.17542794, w: 0.7997133}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXShoulder_L
       parentName: frank_skinned:IKXOffsetShoulder_L
-      position: {x: 1.4210854e-16, y: 0, z: 0}
+      position: {x: 1.563194e-16, y: 0, z: 0}
       rotation: {x: -2.012038e-17, y: -1.3260174e-16, z: -0.00000013818769, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Shoulder_L
@@ -2735,7 +2735,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXElbow_L
       parentName: frank_skinned:IKXShoulder_L
-      position: {x: 0.29187146, y: -2.664535e-16, z: 0}
+      position: {x: 0.3210586, y: -2.9309886e-16, z: 0}
       rotation: {x: -3.95367e-21, y: 2.3481498e-20, z: -0.16476513, w: 0.98633283}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Elbow_L
@@ -2745,7 +2745,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXWrist_L
       parentName: frank_skinned:IKXElbow_L
-      position: {x: 0.24400331, y: -2.842171e-16, z: 6.3238302e-15}
+      position: {x: 0.26840365, y: -3.126388e-16, z: 6.9562136e-15}
       rotation: {x: 0.050900895, y: -0.14662838, z: -0.03562708, w: 0.9872386}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Wrist_L
@@ -2760,22 +2760,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKParentConstraintShoulder_R
       parentName: frank_skinned:IKJoints
-      position: {x: 0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: 0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.12611416, y: 0.67605186, z: 0.71617544, w: -0.1189196}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKMessureFromShoulder_R
       parentName: frank_skinned:IKParentConstraintShoulder_R
-      position: {x: -0.11082449, y: -4.440892e-18, z: 8.2422955e-15}
+      position: {x: -0.121906936, y: -4.8849813e-18, z: 9.0665255e-15}
       rotation: {x: -0.12302903, y: -0.5608454, z: -0.17542794, w: 0.7997133}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXOffsetShoulder_R
       parentName: frank_skinned:IKParentConstraintShoulder_R
-      position: {x: -0.11082449, y: -1.3322676e-17, z: 7.958079e-15}
+      position: {x: -0.121906936, y: -1.4654944e-17, z: 8.7538865e-15}
       rotation: {x: -0.12302903, y: -0.5608454, z: -0.17542794, w: 0.7997133}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXShoulder_R
       parentName: frank_skinned:IKXOffsetShoulder_R
-      position: {x: -0, y: -1.7763568e-17, z: 7.105427e-17}
+      position: {x: -0, y: -1.9539925e-17, z: 7.81597e-17}
       rotation: {x: -1.11015764e-16, y: 8.467536e-17, z: -0.00000013818769, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Shoulder_R
@@ -2785,7 +2785,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXElbow_R
       parentName: frank_skinned:IKXShoulder_R
-      position: {x: -0.29187146, y: 1.2434498e-16, z: -6.3948843e-16}
+      position: {x: -0.3210586, y: 1.3677948e-16, z: -7.034373e-16}
       rotation: {x: -3.6972195e-21, y: 1.793231e-20, z: -0.16476513, w: 0.98633283}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Elbow_R
@@ -2795,7 +2795,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKXWrist_R
       parentName: frank_skinned:IKXElbow_R
-      position: {x: -0.24400331, y: 3.1974422e-16, z: -5.4001247e-15}
+      position: {x: -0.26840365, y: 3.5171865e-16, z: -5.9401375e-15}
       rotation: {x: 0.050900895, y: -0.14662838, z: -0.03562708, w: 0.9872386}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKX2Wrist_R
@@ -2810,17 +2810,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpSpineOffset_M
       parentName: frank_skinned:IKJoints
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpRoot_M
       parentName: frank_skinned:IKSpSpineOffset_M
-      position: {x: -0, y: -1.7763568e-17, z: 0}
+      position: {x: -0, y: -1.9539925e-17, z: 0}
       rotation: {x: -2.7755576e-16, y: -2.7755576e-16, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKSpRootFollowOffset_M
       parentName: frank_skinned:IKSpRoot_M
-      position: {x: -0, y: 8.881784e-18, z: 0}
+      position: {x: -0, y: 9.7699626e-18, z: 0}
       rotation: {x: 0, y: -0, z: -0.046959855, w: 0.9988968}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKMessure
@@ -2850,42 +2850,42 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc1Arm_L
       parentName: frank_skinned:IKMessure
-      position: {x: -0.14578475, y: 1.3538927, z: -0.009611875}
+      position: {x: -0.16036323, y: 1.489282, z: -0.010573062}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc2Arm_L
       parentName: frank_skinned:IKmessureLoc1Arm_L
-      position: {x: -0.16095649, y: -0.49902332, z: 0.06705938}
+      position: {x: -0.17705214, y: -0.54892564, z: 0.07376532}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc1Arm_R
       parentName: frank_skinned:IKMessure
-      position: {x: 0.14578475, y: 1.3538927, z: -0.009611875}
+      position: {x: 0.16036323, y: 1.489282, z: -0.010573062}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc2Arm_R
       parentName: frank_skinned:IKmessureLoc1Arm_R
-      position: {x: 0.16095649, y: -0.49902332, z: 0.06705938}
+      position: {x: 0.17705214, y: -0.54892564, z: 0.07376532}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc1Leg_L
       parentName: frank_skinned:IKMessure
-      position: {x: -0.0781503, y: 0.917119, z: 0.0069853947}
+      position: {x: -0.085965335, y: 1.0088309, z: 0.007683934}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc2Leg_L
       parentName: frank_skinned:IKmessureLoc1Leg_L
-      position: {x: -0.061339963, y: -0.83986026, z: -0.047821067}
+      position: {x: -0.06747396, y: -0.9238463, z: -0.052603174}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc1Leg_R
       parentName: frank_skinned:IKMessure
-      position: {x: 0.0781503, y: 0.917119, z: 0.0069853947}
+      position: {x: 0.085965335, y: 1.0088309, z: 0.007683934}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKmessureLoc2Leg_R
       parentName: frank_skinned:IKmessureLoc1Leg_R
-      position: {x: 0.061339963, y: -0.83986026, z: -0.047821067}
+      position: {x: 0.06747396, y: -0.9238463, z: -0.052603174}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKStatic
@@ -2895,32 +2895,32 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_LStatic
       parentName: frank_skinned:IKStatic
-      position: {x: -0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: -0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:IKOffsetArm_RStatic
       parentName: frank_skinned:IKStatic
-      position: {x: 0.30674124, y: 0.8548693, z: 0.057447504}
+      position: {x: 0.33741537, y: 0.94035625, z: 0.063192256}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_LStatic
       parentName: frank_skinned:IKStatic
-      position: {x: -0.30609995, y: 1.0261066, z: -0.50105447}
+      position: {x: -0.33670995, y: 1.1287173, z: -0.5511599}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetArm_RStatic
       parentName: frank_skinned:IKStatic
-      position: {x: 0.30609995, y: 1.0261066, z: -0.50105447}
+      position: {x: 0.33670995, y: 1.1287173, z: -0.5511599}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_LStatic
       parentName: frank_skinned:IKStatic
-      position: {x: -0.3414197, y: 0.40824935, z: 0.79123527}
+      position: {x: -0.37556168, y: 0.4490743, z: 0.8703588}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:PoleOffsetLeg_RStatic
       parentName: frank_skinned:IKStatic
-      position: {x: 0.3414197, y: 0.40824935, z: 0.79123527}
+      position: {x: 0.37556168, y: 0.4490743, z: 0.8703588}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RootSystem
@@ -2930,12 +2930,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:LegLockConstrained
       parentName: frank_skinned:RootSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RootOffsetX_M
       parentName: frank_skinned:RootSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RootExtraX_M
@@ -2955,7 +2955,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:RootZeroXform
       parentName: frank_skinned:RootX_M
-      position: {x: 1.8791351e-17, y: -0.93706673, z: -0.0120887635}
+      position: {x: 2.0670487e-17, y: -1.0307734, z: -0.01329764}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistSystem
@@ -2965,17 +2965,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKMixElbow_L
       parentName: frank_skinned:TwistSystem
-      position: {x: -0.43757552, y: 1.3556709, z: -0.016239569}
+      position: {x: -0.48133308, y: 1.491238, z: -0.017863525}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:FKIKMixElbow_R
       parentName: frank_skinned:TwistSystem
-      position: {x: 0.43757564, y: 1.3556695, z: -0.0162354}
+      position: {x: 0.48133323, y: 1.4912364, z: -0.017858941}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowOffsetChest_M
       parentName: frank_skinned:TwistSystem
-      position: {x: -4.9675008e-17, y: 1.285369, z: -0.007817428}
+      position: {x: -5.464251e-17, y: 1.413906, z: -0.0085991705}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowChest_M
@@ -2985,112 +2985,112 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistIKChest_M
       parentName: frank_skinned:TwistFollowChest_M
-      position: {x: -0.09793226, y: -1.7763568e-17, z: -6.523598e-17}
+      position: {x: -0.107725486, y: -1.9539925e-17, z: -7.1759586e-17}
       rotation: {x: -0.48552576, y: 0.5140669, z: 0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowOffsetElbow_L
       parentName: frank_skinned:TwistSystem
-      position: {x: -0.23938908, y: 1.0775173, z: -0.0162354}
+      position: {x: -0.263328, y: 1.185269, z: -0.017858941}
       rotation: {x: 0.51925486, y: -0.5276972, z: 0.59962535, w: -0.30390704}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowElbow_L
       parentName: frank_skinned:TwistFollowOffsetElbow_L
-      position: {x: -0.1991054, y: -0.03547901, z: -0.27521923}
+      position: {x: -0.21901594, y: -0.039026912, z: -0.30274117}
       rotation: {x: -0.071293056, y: 0.56500596, z: 0.19561654, w: 0.7983858}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistIKElbow_L
       parentName: frank_skinned:TwistFollowElbow_L
-      position: {x: 0.09793226, y: -1.0658141e-16, z: -1.4210854e-16}
+      position: {x: 0.107725486, y: -1.1723955e-16, z: -1.563194e-16}
       rotation: {x: 0.51925486, y: -0.5276972, z: 0.59962535, w: 0.30390704}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowOffsetElbow_R
       parentName: frank_skinned:TwistSystem
-      position: {x: 0.23938908, y: 1.0775173, z: -0.0162354}
+      position: {x: 0.263328, y: 1.185269, z: -0.017858941}
       rotation: {x: 0.30390704, y: 0.59962535, z: 0.5276972, w: 0.51925486}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowElbow_R
       parentName: frank_skinned:TwistFollowOffsetElbow_R
-      position: {x: 0.19910283, y: 0.035482585, z: 0.2752193}
+      position: {x: 0.21901312, y: 0.039030846, z: 0.30274123}
       rotation: {x: -0.07129599, y: 0.56500375, z: 0.19561338, w: 0.79838777}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistIKElbow_R
       parentName: frank_skinned:TwistFollowElbow_R
-      position: {x: -0.09793226, y: -1.0658141e-16, z: -1.4210854e-16}
+      position: {x: -0.107725486, y: -1.1723955e-16, z: -1.563194e-16}
       rotation: {x: -0.30390704, y: -0.59962535, z: -0.5276972, w: 0.51925486}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowOffsetShoulder_L
       parentName: frank_skinned:TwistSystem
-      position: {x: -0.14578475, y: 1.3538927, z: -0.009611875}
+      position: {x: -0.16036323, y: 1.489282, z: -0.010573062}
       rotation: {x: -0.42521188, y: 0.6060403, z: -0.54135674, w: 0.39855102}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowShoulder_L
       parentName: frank_skinned:TwistFollowOffsetShoulder_L
-      position: {x: 2.842171e-16, y: 5.3290704e-17, z: 7.105427e-17}
+      position: {x: 3.126388e-16, y: 5.8619775e-17, z: 7.81597e-17}
       rotation: {x: 0.013286223, y: 0.58236635, z: 0.056292396, w: 0.81086624}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistIKShoulder_L
       parentName: frank_skinned:TwistFollowShoulder_L
-      position: {x: 0.09793226, y: -2.3092638e-16, z: 1.4210854e-16}
+      position: {x: 0.107725486, y: -2.5401901e-16, z: 1.563194e-16}
       rotation: {x: -0.42521188, y: 0.6060403, z: -0.54135674, w: -0.39855102}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowOffsetShoulder_R
       parentName: frank_skinned:TwistSystem
-      position: {x: 0.14578475, y: 1.3538927, z: -0.009611875}
+      position: {x: 0.16036323, y: 1.489282, z: -0.010573062}
       rotation: {x: 0.39855102, y: 0.54135674, z: 0.6060403, w: 0.42521188}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowShoulder_R
       parentName: frank_skinned:TwistFollowOffsetShoulder_R
-      position: {x: -0, y: -8.8817837e-17, z: -7.105427e-17}
+      position: {x: -0, y: -9.7699626e-17, z: -7.81597e-17}
       rotation: {x: 0.013280788, y: 0.58236504, z: 0.05628733, w: 0.81086767}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistIKShoulder_R
       parentName: frank_skinned:TwistFollowShoulder_R
-      position: {x: -0.09793226, y: 1.0658141e-16, z: 1.4210854e-16}
+      position: {x: -0.107725486, y: 1.1723955e-16, z: 1.563194e-16}
       rotation: {x: 0.39855102, y: 0.54135674, z: 0.6060403, w: -0.42521188}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentOffsetChest_M
       parentName: frank_skinned:TwistSystem
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.48552576, y: -0.5140669, z: -0.48552576, w: 0.5140669}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentChest_M
       parentName: frank_skinned:TwistFollowParentOffsetChest_M
-      position: {x: -0, y: -8.881784e-18, z: 3.1554436e-32}
+      position: {x: -0, y: -9.7699626e-18, z: 3.470988e-32}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistChest_M
       parentName: frank_skinned:TwistFollowParentChest_M
-      position: {x: -0.34887072, y: -2.6645352e-17, z: 1.08348524e-16}
+      position: {x: -0.3837578, y: -2.9309888e-17, z: 1.1918337e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistBalancerChest_M
       parentName: frank_skinned:UnTwistChest_M
-      position: {x: -0, y: 0, z: 6.310887e-32}
+      position: {x: -0, y: 0, z: 6.941976e-32}
       rotation: {x: -2.220446e-16, y: 0, z: -5.551115e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistEndChest_M
       parentName: frank_skinned:UnTwistChest_M
-      position: {x: -0.09793226, y: 0, z: 0}
+      position: {x: -0.107725486, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentOffsetElbow_L
       parentName: frank_skinned:TwistSystem
-      position: {x: -0.14578475, y: 1.3538927, z: -0.009611875}
+      position: {x: -0.16036323, y: 1.489282, z: -0.010573062}
       rotation: {x: -0.42521188, y: 0.6060403, z: -0.54135674, w: 0.39855102}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentElbow_L
       parentName: frank_skinned:TwistFollowParentOffsetElbow_L
-      position: {x: 2.842171e-16, y: 5.3290704e-17, z: 7.105427e-17}
+      position: {x: 3.126388e-16, y: 5.8619775e-17, z: 7.81597e-17}
       rotation: {x: 0.013286223, y: 0.58236635, z: 0.056292396, w: 0.81086624}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistElbow_L
       parentName: frank_skinned:TwistFollowParentElbow_L
-      position: {x: 0.29187146, y: -4.796163e-16, z: -2.842171e-16}
+      position: {x: 0.3210586, y: -5.2757797e-16, z: -3.126388e-16}
       rotation: {x: -0.0027544103, y: -0.016488684, z: 0.009235518, w: 0.9998176}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistBalancerElbow_L
       parentName: frank_skinned:UnTwistElbow_L
-      position: {x: 2.1316282e-16, y: 3.5527136e-17, z: -2.842171e-16}
+      position: {x: 2.344791e-16, y: 3.907985e-17, z: -3.126388e-16}
       rotation: {x: 0.006608827, y: -0, z: -0, w: 0.9999782}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwisterElbow0_L
@@ -3110,27 +3110,27 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistEndElbow_L
       parentName: frank_skinned:UnTwistElbow_L
-      position: {x: 0.09793226, y: 0, z: 0}
+      position: {x: 0.107725486, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentOffsetElbow_R
       parentName: frank_skinned:TwistSystem
-      position: {x: 0.14578475, y: 1.3538927, z: -0.009611875}
+      position: {x: 0.16036323, y: 1.489282, z: -0.010573062}
       rotation: {x: 0.39855102, y: 0.54135674, z: 0.6060403, w: 0.42521188}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentElbow_R
       parentName: frank_skinned:TwistFollowParentOffsetElbow_R
-      position: {x: -0, y: -7.105427e-17, z: -7.105427e-17}
+      position: {x: -0, y: -7.81597e-17, z: -7.81597e-17}
       rotation: {x: 0.013280788, y: 0.58236504, z: 0.05628733, w: 0.81086767}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistElbow_R
       parentName: frank_skinned:TwistFollowParentElbow_R
-      position: {x: -0.29187146, y: 2.842171e-16, z: -2.842171e-16}
+      position: {x: -0.3210586, y: 3.126388e-16, z: -3.126388e-16}
       rotation: {x: -0.0027544687, y: -0.016489035, z: 0.009238059, w: 0.9998176}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistBalancerElbow_R
       parentName: frank_skinned:UnTwistElbow_R
-      position: {x: 7.105427e-17, y: -3.5527136e-17, z: 0}
+      position: {x: 7.81597e-17, y: -3.907985e-17, z: 0}
       rotation: {x: 0.006609831, y: -0, z: -0, w: 0.9999782}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwisterElbow0_R
@@ -3150,27 +3150,27 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistEndElbow_R
       parentName: frank_skinned:UnTwistElbow_R
-      position: {x: -0.09793226, y: 0, z: 0}
+      position: {x: -0.107725486, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentOffsetShoulder_L
       parentName: frank_skinned:TwistSystem
-      position: {x: -0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: -0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.1189196, y: 0.71617544, z: -0.67605186, w: 0.12611416}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentShoulder_L
       parentName: frank_skinned:TwistFollowParentOffsetShoulder_L
-      position: {x: 1.7763568e-17, y: -1.3322676e-17, z: -5.684342e-16}
+      position: {x: 1.9539925e-17, y: -1.4654944e-17, z: -6.252776e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistShoulder_L
       parentName: frank_skinned:TwistFollowParentShoulder_L
-      position: {x: 0.11082449, y: 5.3290704e-17, z: -3.9790393e-15}
+      position: {x: 0.121906936, y: 5.8619775e-17, z: -4.3769432e-15}
       rotation: {x: -0.034703724, y: 0.018192938, z: -0.16115086, w: 0.9861517}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistBalancerShoulder_L
       parentName: frank_skinned:UnTwistShoulder_L
-      position: {x: 1.7763568e-17, y: 0, z: 0}
+      position: {x: 1.9539925e-17, y: 0, z: 0}
       rotation: {x: 0.016383024, y: -0, z: -0, w: 0.99986583}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwisterShoulder0_L
@@ -3190,27 +3190,27 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistEndShoulder_L
       parentName: frank_skinned:UnTwistShoulder_L
-      position: {x: 0.09793226, y: 0, z: 0}
+      position: {x: 0.107725486, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentOffsetShoulder_R
       parentName: frank_skinned:TwistSystem
-      position: {x: 0.041620072, y: 1.3539131, z: 0.028227078}
+      position: {x: 0.04578208, y: 1.4893044, z: 0.031049786}
       rotation: {x: 0.12611416, y: 0.67605186, z: 0.71617544, w: -0.1189196}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistFollowParentShoulder_R
       parentName: frank_skinned:TwistFollowParentOffsetShoulder_R
-      position: {x: 1.7763568e-17, y: -4.8849813e-17, z: 2.842171e-16}
+      position: {x: 1.9539925e-17, y: -5.3734794e-17, z: 3.126388e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistShoulder_R
       parentName: frank_skinned:TwistFollowParentShoulder_R
-      position: {x: -0.11082449, y: 6.661338e-17, z: 7.958079e-15}
+      position: {x: -0.121906936, y: 7.3274716e-17, z: 8.7538865e-15}
       rotation: {x: -0.034698974, y: 0.018190444, z: -0.16115817, w: 0.9861507}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwistBalancerShoulder_R
       parentName: frank_skinned:UnTwistShoulder_R
-      position: {x: 1.7763568e-17, y: 3.5527136e-17, z: -5.684342e-16}
+      position: {x: 1.9539925e-17, y: 3.907985e-17, z: -6.252776e-16}
       rotation: {x: 0.016376296, y: -0, z: -0, w: 0.99986595}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:TwisterShoulder0_R
@@ -3230,7 +3230,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:UnTwistEndShoulder_R
       parentName: frank_skinned:UnTwistShoulder_R
-      position: {x: -0.09793226, y: 0, z: 0}
+      position: {x: -0.107725486, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinned:model:geo
@@ -3250,152 +3250,152 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Root_M
       parentName: sm_humanFrank(Clone)
-      position: {x: -1.8791351e-17, y: 0.93706673, z: 0.0120887635}
+      position: {x: -2.0670487e-17, y: 1.0307734, z: 0.01329764}
       rotation: {x: 0.50913066, y: -0.49069953, z: -0.50913066, w: 0.49069953}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Hip_R
       parentName: frank_skinnedBake:Root_M
-      position: {x: 0.02012219, y: -0.0043647108, z: -0.0781503}
+      position: {x: 0.022134408, y: -0.004801182, z: -0.085965335}
       rotation: {x: -0.0016515754, y: 0.98993355, z: -0.13623756, w: -0.038316954}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Knee_R
       parentName: frank_skinnedBake:Hip_R
-      position: {x: -0.47965676, y: -4.42979e-16, z: 1.7763567e-16}
+      position: {x: -0.52762246, y: -4.872769e-16, z: 1.9539925e-16}
       rotation: {x: 0, y: 0, z: 0.015395221, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Ankle_R
       parentName: frank_skinnedBake:Knee_R
-      position: {x: -0.36389545, y: -2.553513e-16, z: 5.3290704e-17}
+      position: {x: -0.400285, y: -2.8088642e-16, z: 5.8619775e-17}
       rotation: {x: -0.14270636, y: -0.03851762, z: -0.032087673, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Toes_R
       parentName: frank_skinnedBake:Ankle_R
-      position: {x: -0.066315494, y: 0.11636125, z: 4.0856205e-16}
+      position: {x: -0.07294705, y: 0.12799738, z: 4.4941826e-16}
       rotation: {x: 0.005014976, y: 0.004380257, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:ToesEnd_R
       parentName: frank_skinnedBake:Toes_R
-      position: {x: -0.059769794, y: -2.7622347e-14, z: 0.00000015448674}
+      position: {x: -0.06574678, y: -3.0384583e-14, z: 0.00000016993542}
       rotation: {x: 1.323489e-23, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Spine1_M
       parentName: frank_skinnedBake:Root_M
-      position: {x: -0.16590449, y: -7.105427e-17, z: -1.7824178e-16}
+      position: {x: -0.18249494, y: -7.81597e-17, z: -1.9606596e-16}
       rotation: {x: 0, y: 0, z: 0.089122206, w: 0.9960207}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Chest_M
       parentName: frank_skinnedBake:Spine1_M
-      position: {x: -0.18435611, y: -2.1316282e-16, z: -1.4334665e-16}
+      position: {x: -0.20279172, y: -2.344791e-16, z: -1.5768132e-16}
       rotation: {x: 0, y: -0, z: -0.20637904, w: 0.9784722}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Scapula_R
       parentName: frank_skinnedBake:Chest_M
-      position: {x: -0.07574224, y: 0.01614321, z: -0.041620072}
+      position: {x: -0.08331646, y: 0.017757531, z: -0.04578208}
       rotation: {x: -0.04563599, y: -0.7126299, z: 0.19611666, w: 0.67202246}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Shoulder_R
       parentName: frank_skinnedBake:Scapula_R
-      position: {x: -0.11082449, y: 4.8849813e-17, z: 9.094947e-15}
+      position: {x: -0.121906936, y: 5.3734794e-17, z: 1.0004442e-14}
       rotation: {x: -0.034698974, y: 0.018190444, z: -0.16115817, w: 0.9861507}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:ShoulderPart1_R
       parentName: frank_skinnedBake:Shoulder_R
-      position: {x: -0.09729049, y: 3.5527136e-17, z: -5.684342e-16}
+      position: {x: -0.10701954, y: 3.907985e-17, z: -6.252776e-16}
       rotation: {x: 0.0076622274, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:ShoulderPart2_R
       parentName: frank_skinnedBake:ShoulderPart1_R
-      position: {x: -0.09729049, y: 3.5527136e-17, z: -2.842171e-16}
+      position: {x: -0.10701954, y: 3.907985e-17, z: -3.126388e-16}
       rotation: {x: 0.0076622274, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Elbow_R
       parentName: frank_skinnedBake:ShoulderPart2_R
-      position: {x: -0.09729049, y: 1.7763568e-17, z: -5.684342e-16}
+      position: {x: -0.10701954, y: 1.9539925e-17, z: -6.252776e-16}
       rotation: {x: 0.004906441, y: -0.01643744, z: 0.009329553, w: 0.9998093}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Wrist_R
       parentName: frank_skinnedBake:Elbow_R
-      position: {x: -0.24400331, y: 2.1316282e-16, z: -5.4001247e-15}
+      position: {x: -0.26840365, y: 2.344791e-16, z: -5.9401375e-15}
       rotation: {x: 0.071735896, y: 0.005669621, z: 0.020667765, w: 0.9971934}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:MiddleFinger1_R
       parentName: frank_skinnedBake:Wrist_R
-      position: {x: -0.05919849, y: -4.2632563e-16, z: 2.842171e-16}
+      position: {x: -0.06511834, y: -4.689582e-16, z: 3.126388e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Scapula_L
       parentName: frank_skinnedBake:Chest_M
-      position: {x: -0.07574224, y: 0.01614321, z: 0.041620072}
+      position: {x: -0.08331646, y: 0.017757531, z: 0.04578208}
       rotation: {x: 0.7126299, y: -0.04563599, z: 0.67202246, w: -0.19611666}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Shoulder_L
       parentName: frank_skinnedBake:Scapula_L
-      position: {x: 0.11082449, y: 8.881784e-18, z: -4.5474734e-15}
+      position: {x: 0.121906936, y: 9.7699626e-18, z: -5.002221e-15}
       rotation: {x: -0.034703724, y: 0.018192938, z: -0.16115086, w: 0.9861517}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:ShoulderPart1_L
       parentName: frank_skinnedBake:Shoulder_L
-      position: {x: 0.09729049, y: 1.0658141e-16, z: -5.684342e-16}
+      position: {x: 0.10701954, y: 1.1723955e-16, z: -6.252776e-16}
       rotation: {x: 0.0076641357, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:ShoulderPart2_L
       parentName: frank_skinnedBake:ShoulderPart1_L
-      position: {x: 0.09729049, y: -3.5527136e-17, z: 1.1368684e-15}
+      position: {x: 0.10701954, y: -3.907985e-17, z: 1.2505552e-15}
       rotation: {x: 0.0076641357, y: -0, z: -0, w: 0.9999707}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Elbow_L
       parentName: frank_skinnedBake:ShoulderPart2_L
-      position: {x: 0.09729049, y: 7.105427e-17, z: 5.684342e-16}
+      position: {x: 0.10701954, y: 7.81597e-17, z: 6.252776e-16}
       rotation: {x: 0.0049084076, y: -0.016437141, z: 0.009326947, w: 0.9998094}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Wrist_L
       parentName: frank_skinnedBake:Elbow_L
-      position: {x: 0.24400331, y: -4.796163e-16, z: 6.536993e-15}
+      position: {x: 0.26840365, y: -5.2757797e-16, z: 7.190692e-15}
       rotation: {x: 0.07173498, y: 0.0056725363, z: 0.020669704, w: 0.9971934}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:MiddleFinger1_L
       parentName: frank_skinnedBake:Wrist_L
-      position: {x: 0.05919849, y: 2.3092638e-16, z: 1.1368684e-15}
+      position: {x: 0.06511834, y: 2.5401901e-16, z: 1.2505552e-15}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Neck_M
       parentName: frank_skinnedBake:Chest_M
-      position: {x: -0.14932354, y: 7.81597e-16, z: 3.7119578e-16}
+      position: {x: -0.1642559, y: 8.597567e-16, z: 4.0831536e-16}
       rotation: {x: 0, y: 0, z: 0.0018765997, w: 0.9999983}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Head_M
       parentName: frank_skinnedBake:Neck_M
-      position: {x: -0.06251349, y: -1.4210854e-16, z: -1.5352832e-16}
+      position: {x: -0.06876484, y: -1.563194e-16, z: -1.6888115e-16}
       rotation: {x: 0, y: 0, z: 0.13477643, w: 0.990876}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:HeadEnd_M
       parentName: frank_skinnedBake:Head_M
-      position: {x: -0.19274093, y: -4.440892e-16, z: -2.9389743e-16}
+      position: {x: -0.21201503, y: -4.8849814e-16, z: -3.2328717e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Hip_L
       parentName: frank_skinnedBake:Root_M
-      position: {x: 0.02012219, y: -0.0043647108, z: 0.0781503}
+      position: {x: 0.022134408, y: -0.004801182, z: 0.085965335}
       rotation: {x: 0.98993355, y: 0.0016515754, z: 0.038316954, w: -0.13623756}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Knee_L
       parentName: frank_skinnedBake:Hip_L
-      position: {x: 0.47965676, y: 4.196643e-16, z: -1.7763568e-17}
+      position: {x: 0.52762246, y: 4.6163073e-16, z: -1.9539925e-17}
       rotation: {x: 0, y: 0, z: 0.015395221, w: 0.9998815}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Ankle_L
       parentName: frank_skinnedBake:Knee_L
-      position: {x: 0.36389545, y: 3.7525537e-16, z: -3.0198067e-16}
+      position: {x: 0.400285, y: 4.1278091e-16, z: -3.3217874e-16}
       rotation: {x: -0.14270636, y: -0.03851762, z: -0.032087673, w: 0.98849463}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:Toes_L
       parentName: frank_skinnedBake:Ankle_L
-      position: {x: 0.066315494, y: -0.11636125, z: -6.5725204e-16}
+      position: {x: 0.07294705, y: -0.12799738, z: -7.2297724e-16}
       rotation: {x: 0.0050159586, y: 0.004381115, z: -0.6578223, w: 0.7531437}
       scale: {x: 1, y: 1, z: 1}
     - name: frank_skinnedBake:ToesEnd_L
       parentName: frank_skinnedBake:Toes_L
-      position: {x: 0.059769794, y: 5.8619773e-16, z: 1.7763567e-16}
+      position: {x: 0.06574678, y: 6.448175e-16, z: 1.9539925e-16}
       rotation: {x: 0.0000000877082, y: 0.0000012982733, z: -1.1386921e-13, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
