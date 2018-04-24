@@ -12,6 +12,9 @@ public class UI_PlayerUI : MonoBehaviour
     public static bool inGameMenuToggle;
     public GameObject inGameMenu;
     public Text playerHp;
+    public RectTransform playerHealthbar;
+    Vector2 initBarScale;
+
 
     public GameObject playerHotbar;
     public GameObject itemSlotPreset;
@@ -25,6 +28,8 @@ public class UI_PlayerUI : MonoBehaviour
         }
 
         else Destroy(gameObject);
+
+        initBarScale = playerHealthbar.localScale;
 
         Time.timeScale = 1;
     }
@@ -48,5 +53,16 @@ public class UI_PlayerUI : MonoBehaviour
             Time.timeScale = 0;
         }
         else Time.timeScale = 1;
+    }
+
+    public void UpdateHealthbar(float hp, float maxHP)
+    {
+        float percHp = (hp / maxHP);
+        percHp = Mathf.Clamp(percHp, 0, 100);
+
+        Vector2 newScale = initBarScale * percHp;
+        newScale.y = initBarScale.x;
+
+        playerHealthbar.localScale = newScale; 
     }
 }
