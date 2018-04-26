@@ -13663,7 +13663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62847b68f08d97e45bf0589a3523f579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Anim: {fileID: 0}
+  Anim: {fileID: 1668148998684804}
   Dirt: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}
   Puddle: {fileID: 11400000, guid: a1e5b49f11b302d4dafcd8090d72c327, type: 2}
   dashSound: {fileID: 8300000, guid: 8e7d23088a1080e45b3d244e02baeb7b, type: 3}
