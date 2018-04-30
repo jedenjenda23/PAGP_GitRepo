@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 108628866032312408}
   - component: {fileID: 114958461033486936}
   m_Layer: 0
-  m_Name: Invisible
+  m_Name: InvisibleProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ Light:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1498222507745366}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0, g: 0.9191176, b: 0.3105985, a: 1}
@@ -160,8 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3d47a33e0b4e949b06870f59087dc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  liveSpan: 0.1
+  liveSpan: 0.05
   damage: 30
+  shooter: {fileID: 0}
 --- !u!135 &135422456227720528
 SphereCollider:
   m_ObjectHideFlags: 1

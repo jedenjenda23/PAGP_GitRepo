@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -22,6 +23,8 @@ public class GameCharacter : MonoBehaviour
 
     public SurfaceType currentSurface;
     public SurfaceType defaultSurfaceType;
+
+    public Transform effectsOrigin;
 
     [SerializeField]
     public float normalSpeed = 2;
@@ -102,7 +105,7 @@ public class GameCharacter : MonoBehaviour
     {
         charAttributes.hp -= damage;
 
-        if(charAttributes.hp <= 0)
+        if (charAttributes.hp <= 0)
         {
             if (Camera.main.GetComponent<CameraController>().cameraTarget == gameObject.transform)
             {
@@ -111,9 +114,13 @@ public class GameCharacter : MonoBehaviour
             }
 
             charAttributes.hp = 0;
-            Destroy(gameObject);
+            charAnim.Die();
 
+            if (GetComponent<NavMeshAgent>() != null) GetComponent<NavMeshAgent>().enabled = false;
+            if (GetComponent<Collider>() != null) GetComponent<Collider>().enabled = false;
+            if (GetComponent<Rigidbody>() != null) GetComponent<Rigidbody>().isKinematic = true;
 
+            this.enabled = false;
         }
     }
 

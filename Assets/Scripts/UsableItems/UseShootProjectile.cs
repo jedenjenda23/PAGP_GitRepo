@@ -18,8 +18,9 @@ public class UseShootProjectile : Usable
         {
             nextUse = Time.time + cooldown;
 
-            GameObject newProjectile = Instantiate(projectilePrefab, transform.position, parent.rotation);
+            GameObject newProjectile = Instantiate(projectilePrefab, parent.transform.position, parent.rotation);
             newProjectile.GetComponent<Rigidbody>().AddForce(direction * force);
+            newProjectile.GetComponent<Projectile>().shooter = parent;
 
             Physics.IgnoreCollision(newProjectile.GetComponent<Collider>(), parent.GetComponent<Collider>());
         }

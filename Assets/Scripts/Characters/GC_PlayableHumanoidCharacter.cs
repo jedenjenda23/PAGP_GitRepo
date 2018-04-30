@@ -168,8 +168,11 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
         else if (Input.GetButtonDown("Fire1") && aiming)
         {
             Vector3 directionToMouse =  mouseRaycastHit.point - transform.position;
-            handsPoint.GetComponentInChildren<Usable>().Use(transform, directionToMouse.normalized);
-            animationController.UseItem();
+            if (handsPoint.GetComponentInChildren<Usable>().CanUse())
+            {
+                handsPoint.GetComponentInChildren<Usable>().Use(transform, directionToMouse.normalized);
+                animationController.UseItem();
+            }
             /* whole itemAbility system is obsolete after ItemPrefab update (JF)  30.03.2018
             ItemAbility ability = selectedItem.GetItemAbility();
 

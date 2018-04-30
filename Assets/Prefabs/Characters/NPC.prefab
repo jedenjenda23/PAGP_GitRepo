@@ -4123,6 +4123,7 @@ GameObject:
   - component: {fileID: 114849306184532576}
   - component: {fileID: 114975921579631378}
   - component: {fileID: 114412158640831940}
+  - component: {fileID: 114816353511133330}
   m_Layer: 10
   m_Name: NPC
   m_TagString: Untagged
@@ -13265,6 +13266,22 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   maxTargetMemoryTime: 5
   curTargetMemoryTime: 0
+--- !u!114 &114816353511133330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596472413115480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84570e3262fdea44ab71142d7fcd6d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendSmoothing: 1
+  movementDirection: {x: 0, y: 0, z: 0}
+  forwardDirection: {x: 0, y: 0, z: 0}
+  gameCharacter: {fileID: 114975921579631378}
+  targetAnimator: {fileID: 95034121842492590}
 --- !u!114 &114849306184532576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13301,6 +13318,7 @@ MonoBehaviour:
   surfaceCheckFrequency: 1
   currentSurface: {fileID: 0}
   defaultSurfaceType: {fileID: 11400000, guid: 0d69dd7610796b64e918bcf993743971, type: 2}
+  effectsOrigin: {fileID: 4232164553771930}
   normalSpeed: 2
   crouchSpeed: 1.5
   runningSpeed: 4

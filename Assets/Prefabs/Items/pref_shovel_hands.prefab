@@ -36,6 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4372059830682396}
+  - component: {fileID: 114094132998863126}
   m_Layer: 0
   m_Name: pref_shovel_hands
   m_TagString: Untagged
@@ -109,3 +110,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1324498304451502}
   m_Mesh: {fileID: 4300000, guid: 0dadde071668a05498e2242b19d475cc, type: 3}
+--- !u!114 &114094132998863126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588486512132380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d30da0c2e604348aee313c56faaf94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 1
+  nextUse: 0
+  projectilePrefab: {fileID: 1498222507745366, guid: 49665897c19a8884c8db770513e73d9e,
+    type: 2}
+  force: 2000

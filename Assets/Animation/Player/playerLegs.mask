@@ -1,0 +1,914 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: playerLegs
+  m_Mask: 00000000000000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: frank_skinned:Group
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Geometry
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_L/frank_skinned:Knee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_L/frank_skinned:Knee_L/frank_skinned:Ankle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_L/frank_skinned:Knee_L/frank_skinned:Ankle_L/frank_skinned:Toes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_L/frank_skinned:Knee_L/frank_skinned:Ankle_L/frank_skinned:Toes_L/frank_skinned:ToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_R
+    m_Weight: 1
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_R/frank_skinned:Knee_R
+    m_Weight: 1
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_R/frank_skinned:Knee_R/frank_skinned:Ankle_R
+    m_Weight: 1
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_R/frank_skinned:Knee_R/frank_skinned:Ankle_R/frank_skinned:Toes_R
+    m_Weight: 1
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Hip_R/frank_skinned:Knee_R/frank_skinned:Ankle_R/frank_skinned:Toes_R/frank_skinned:ToesEnd_R
+    m_Weight: 1
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Neck_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Neck_M/frank_skinned:Head_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Neck_M/frank_skinned:Head_M/frank_skinned:HeadEnd_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L/frank_skinned:Shoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L/frank_skinned:Shoulder_L/frank_skinned:ShoulderPart1_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L/frank_skinned:Shoulder_L/frank_skinned:ShoulderPart1_L/frank_skinned:ShoulderPart2_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L/frank_skinned:Shoulder_L/frank_skinned:ShoulderPart1_L/frank_skinned:ShoulderPart2_L/frank_skinned:Elbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L/frank_skinned:Shoulder_L/frank_skinned:ShoulderPart1_L/frank_skinned:ShoulderPart2_L/frank_skinned:Elbow_L/frank_skinned:Wrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_L/frank_skinned:Shoulder_L/frank_skinned:ShoulderPart1_L/frank_skinned:ShoulderPart2_L/frank_skinned:Elbow_L/frank_skinned:Wrist_L/frank_skinned:MiddleFinger1_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R/frank_skinned:Shoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R/frank_skinned:Shoulder_R/frank_skinned:ShoulderPart1_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R/frank_skinned:Shoulder_R/frank_skinned:ShoulderPart1_R/frank_skinned:ShoulderPart2_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R/frank_skinned:Shoulder_R/frank_skinned:ShoulderPart1_R/frank_skinned:ShoulderPart2_R/frank_skinned:Elbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R/frank_skinned:Shoulder_R/frank_skinned:ShoulderPart1_R/frank_skinned:ShoulderPart2_R/frank_skinned:Elbow_R/frank_skinned:Wrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:DeformationSystem/frank_skinned:Root_M/frank_skinned:Spine1_M/frank_skinned:Chest_M/frank_skinned:Scapula_R/frank_skinned:Shoulder_R/frank_skinned:ShoulderPart1_R/frank_skinned:ShoulderPart2_R/frank_skinned:Elbow_R/frank_skinned:Wrist_R/frank_skinned:MiddleFinger1_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:AimSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:BendSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:ConstraintSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:DynamicSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintArm_L/frank_skinned:FKIKArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintArm_R/frank_skinned:FKIKArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintLeg_L/frank_skinned:FKIKLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintLeg_R/frank_skinned:FKIKLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintSpine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKIKSystem/frank_skinned:FKIKParentConstraintSpine_M/frank_skinned:FKIKSpine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M/frank_skinned:FKXSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M/frank_skinned:FKXSpine1_M/frank_skinned:FKOffsetChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M/frank_skinned:FKXSpine1_M/frank_skinned:FKOffsetChest_M/frank_skinned:FKExtraChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M/frank_skinned:FKXSpine1_M/frank_skinned:FKOffsetChest_M/frank_skinned:FKExtraChest_M/frank_skinned:FKChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M/frank_skinned:FKXSpine1_M/frank_skinned:FKOffsetChest_M/frank_skinned:FKExtraChest_M/frank_skinned:FKChest_M/frank_skinned:FKXChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:FKXRoot_M/frank_skinned:FKOffsetSpine1_M/frank_skinned:HipSwingerStabilizer/frank_skinned:FKExtraSpine1_M/frank_skinned:FKSpine1_M/frank_skinned:FKXSpine1_M/frank_skinned:FKOffsetChest_M/frank_skinned:FKExtraChest_M/frank_skinned:FKChest_M/frank_skinned:FKXChest_M/frank_skinned:AlignIKToChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:HipSwingerOffset_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:HipSwingerOffset_M/frank_skinned:HipSwinger_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:HipSwingerStabilizerTarget
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:HipSwingReverse
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKOffsetRoot_M/frank_skinned:FKExtraRoot_M/frank_skinned:FKRoot_M/frank_skinned:HipSwingReverse/frank_skinned:HipSwingReverseRoot
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M/frank_skinned:FKOffsetHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M/frank_skinned:FKOffsetHead_M/frank_skinned:FKGlobalStaticHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M/frank_skinned:FKOffsetHead_M/frank_skinned:FKGlobalStaticHead_M/frank_skinned:FKGlobalHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M/frank_skinned:FKOffsetHead_M/frank_skinned:FKGlobalStaticHead_M/frank_skinned:FKGlobalHead_M/frank_skinned:FKExtraHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M/frank_skinned:FKOffsetHead_M/frank_skinned:FKGlobalStaticHead_M/frank_skinned:FKGlobalHead_M/frank_skinned:FKExtraHead_M/frank_skinned:FKHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetNeck_M/frank_skinned:FKExtraNeck_M/frank_skinned:FKNeck_M/frank_skinned:FKXNeck_M/frank_skinned:FKOffsetHead_M/frank_skinned:FKGlobalStaticHead_M/frank_skinned:FKGlobalHead_M/frank_skinned:FKExtraHead_M/frank_skinned:FKHead_M/frank_skinned:FKXHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_L/frank_skinned:FKExtraScapula_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_L/frank_skinned:FKExtraScapula_L/frank_skinned:FKScapula_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_L/frank_skinned:FKExtraScapula_L/frank_skinned:FKScapula_L/frank_skinned:FKXScapula_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_R/frank_skinned:FKExtraScapula_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_R/frank_skinned:FKExtraScapula_R/frank_skinned:FKScapula_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToChest_M/frank_skinned:FKOffsetScapula_R/frank_skinned:FKExtraScapula_R/frank_skinned:FKScapula_R/frank_skinned:FKXScapula_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L/frank_skinned:FKXAnkle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L/frank_skinned:FKXAnkle_L/frank_skinned:AlignIKToAnkle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L/frank_skinned:FKXAnkle_L/frank_skinned:FKOffsetToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L/frank_skinned:FKXAnkle_L/frank_skinned:FKOffsetToes_L/frank_skinned:FKExtraToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L/frank_skinned:FKXAnkle_L/frank_skinned:FKOffsetToes_L/frank_skinned:FKExtraToes_L/frank_skinned:FKToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_L/frank_skinned:FKExtraHip_L/frank_skinned:FKHip_L/frank_skinned:FKXHip_L/frank_skinned:FKOffsetKnee_L/frank_skinned:FKExtraKnee_L/frank_skinned:FKKnee_L/frank_skinned:FKXKnee_L/frank_skinned:FKOffsetAnkle_L/frank_skinned:FKExtraAnkle_L/frank_skinned:FKAnkle_L/frank_skinned:FKXAnkle_L/frank_skinned:FKOffsetToes_L/frank_skinned:FKExtraToes_L/frank_skinned:FKToes_L/frank_skinned:FKXToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R/frank_skinned:FKXAnkle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R/frank_skinned:FKXAnkle_R/frank_skinned:AlignIKToAnkle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R/frank_skinned:FKXAnkle_R/frank_skinned:FKOffsetToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R/frank_skinned:FKXAnkle_R/frank_skinned:FKOffsetToes_R/frank_skinned:FKExtraToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R/frank_skinned:FKXAnkle_R/frank_skinned:FKOffsetToes_R/frank_skinned:FKExtraToes_R/frank_skinned:FKToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToRoot_M/frank_skinned:FKOffsetHip_R/frank_skinned:FKExtraHip_R/frank_skinned:FKHip_R/frank_skinned:FKXHip_R/frank_skinned:FKOffsetKnee_R/frank_skinned:FKExtraKnee_R/frank_skinned:FKKnee_R/frank_skinned:FKXKnee_R/frank_skinned:FKOffsetAnkle_R/frank_skinned:FKExtraAnkle_R/frank_skinned:FKAnkle_R/frank_skinned:FKXAnkle_R/frank_skinned:FKOffsetToes_R/frank_skinned:FKExtraToes_R/frank_skinned:FKToes_R/frank_skinned:FKXToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L/frank_skinned:FKXElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L/frank_skinned:FKXElbow_L/frank_skinned:FKOffsetWrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L/frank_skinned:FKXElbow_L/frank_skinned:FKOffsetWrist_L/frank_skinned:FKExtraWrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L/frank_skinned:FKXElbow_L/frank_skinned:FKOffsetWrist_L/frank_skinned:FKExtraWrist_L/frank_skinned:FKWrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L/frank_skinned:FKXElbow_L/frank_skinned:FKOffsetWrist_L/frank_skinned:FKExtraWrist_L/frank_skinned:FKWrist_L/frank_skinned:FKXWrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_L/frank_skinned:FKOffsetShoulder_L/frank_skinned:FKExtraShoulder_L/frank_skinned:FKShoulder_L/frank_skinned:FKXShoulder_L/frank_skinned:FKOffsetElbow_L/frank_skinned:FKExtraElbow_L/frank_skinned:FKElbow_L/frank_skinned:FKXElbow_L/frank_skinned:FKOffsetWrist_L/frank_skinned:FKExtraWrist_L/frank_skinned:FKWrist_L/frank_skinned:FKXWrist_L/frank_skinned:AlignIKToWrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R/frank_skinned:FKXElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R/frank_skinned:FKXElbow_R/frank_skinned:FKOffsetWrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R/frank_skinned:FKXElbow_R/frank_skinned:FKOffsetWrist_R/frank_skinned:FKExtraWrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R/frank_skinned:FKXElbow_R/frank_skinned:FKOffsetWrist_R/frank_skinned:FKExtraWrist_R/frank_skinned:FKWrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R/frank_skinned:FKXElbow_R/frank_skinned:FKOffsetWrist_R/frank_skinned:FKExtraWrist_R/frank_skinned:FKWrist_R/frank_skinned:FKXWrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:FKSystem/frank_skinned:FKParentConstraintToScapula_R/frank_skinned:FKOffsetShoulder_R/frank_skinned:FKExtraShoulder_R/frank_skinned:FKShoulder_R/frank_skinned:FKXShoulder_R/frank_skinned:FKOffsetElbow_R/frank_skinned:FKExtraElbow_R/frank_skinned:FKElbow_R/frank_skinned:FKXElbow_R/frank_skinned:FKOffsetWrist_R/frank_skinned:FKExtraWrist_R/frank_skinned:FKWrist_R/frank_skinned:FKXWrist_R/frank_skinned:AlignIKToWrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:GlobalSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:GlobalSystem/frank_skinned:GlobalOffsetHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:GlobalSystem/frank_skinned:GlobalOffsetHead_M/frank_skinned:GlobalHead_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKCurve
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKCurve/frank_skinned:IKSpineCurve_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:IKOffsetArm_LFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:IKOffsetArm_LFollowNoScale
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:IKOffsetArm_RFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:IKOffsetArm_RFollowNoScale
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetArm_LFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetArm_LFollowNoScale
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetArm_RFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetArm_RFollowNoScale
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetLeg_LFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetLeg_LFollowNoScale
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetLeg_RFollow
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKFollow/frank_skinned:PoleOffsetLeg_RFollowNoScale
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L/frank_skinned:IKExtraArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L/frank_skinned:IKExtraArm_L/frank_skinned:IKArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L/frank_skinned:IKExtraArm_L/frank_skinned:IKArm_L/frank_skinned:IKArmHandle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L/frank_skinned:IKExtraArm_L/frank_skinned:IKArm_L/frank_skinned:IKFKAlignedOffsetArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L/frank_skinned:IKExtraArm_L/frank_skinned:IKArm_L/frank_skinned:IKFKAlignedOffsetArm_L/frank_skinned:IKFKAlignedArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_L/frank_skinned:IKExtraArm_L/frank_skinned:IKArm_L/frank_skinned:IKmessureConstrainToArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R/frank_skinned:IKExtraArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R/frank_skinned:IKExtraArm_R/frank_skinned:IKArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R/frank_skinned:IKExtraArm_R/frank_skinned:IKArm_R/frank_skinned:IKArmHandle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R/frank_skinned:IKExtraArm_R/frank_skinned:IKArm_R/frank_skinned:IKFKAlignedOffsetArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R/frank_skinned:IKExtraArm_R/frank_skinned:IKArm_R/frank_skinned:IKFKAlignedOffsetArm_R/frank_skinned:IKFKAlignedArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetArm_R/frank_skinned:IKExtraArm_R/frank_skinned:IKArm_R/frank_skinned:IKmessureConstrainToArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:IKFKAlignedOffsetLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:IKFKAlignedOffsetLeg_L/frank_skinned:IKFKAlignedLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:IKLegFootRoll_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:IKLegLiftToe_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:IKLegLiftToe_L/frank_skinned:IKToesHandle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L/frank_skinned:RollRollerToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L/frank_skinned:RollRollerToes_L/frank_skinned:RollExtraToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L/frank_skinned:RollRollerToes_L/frank_skinned:RollExtraToes_L/frank_skinned:RollToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L/frank_skinned:RollRollerToes_L/frank_skinned:RollExtraToes_L/frank_skinned:RollToes_L/frank_skinned:IKAnkleHandle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L/frank_skinned:RollRollerToes_L/frank_skinned:RollExtraToes_L/frank_skinned:RollToes_L/frank_skinned:IKLegHandle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_L/frank_skinned:IKExtraLeg_L/frank_skinned:IKLeg_L/frank_skinned:RollOffsetHeel_L/frank_skinned:RollRollerHeel_L/frank_skinned:RollExtraHeel_L/frank_skinned:RollHeel_L/frank_skinned:RollOffsetToesEnd_L/frank_skinned:RollRollerToesEnd_L/frank_skinned:RollExtraToesEnd_L/frank_skinned:RollToesEnd_L/frank_skinned:RollOffsetToes_L/frank_skinned:RollRollerToes_L/frank_skinned:RollExtraToes_L/frank_skinned:RollToes_L/frank_skinned:IKmessureConstrainToLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:IKFKAlignedOffsetLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:IKFKAlignedOffsetLeg_R/frank_skinned:IKFKAlignedLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:IKLegFootRoll_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:IKLegLiftToe_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:IKLegLiftToe_R/frank_skinned:IKToesHandle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R/frank_skinned:RollRollerToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R/frank_skinned:RollRollerToes_R/frank_skinned:RollExtraToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R/frank_skinned:RollRollerToes_R/frank_skinned:RollExtraToes_R/frank_skinned:RollToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R/frank_skinned:RollRollerToes_R/frank_skinned:RollExtraToes_R/frank_skinned:RollToes_R/frank_skinned:IKAnkleHandle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R/frank_skinned:RollRollerToes_R/frank_skinned:RollExtraToes_R/frank_skinned:RollToes_R/frank_skinned:IKLegHandle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKOffsetLeg_R/frank_skinned:IKExtraLeg_R/frank_skinned:IKLeg_R/frank_skinned:RollOffsetHeel_R/frank_skinned:RollRollerHeel_R/frank_skinned:RollExtraHeel_R/frank_skinned:RollHeel_R/frank_skinned:RollOffsetToesEnd_R/frank_skinned:RollRollerToesEnd_R/frank_skinned:RollExtraToesEnd_R/frank_skinned:RollToesEnd_R/frank_skinned:RollOffsetToes_R/frank_skinned:RollRollerToes_R/frank_skinned:RollExtraToes_R/frank_skinned:RollToes_R/frank_skinned:IKmessureConstrainToLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M/frank_skinned:IKExtraSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M/frank_skinned:IKExtraSpine1_M/frank_skinned:IKSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M/frank_skinned:IKExtraSpine1_M/frank_skinned:IKSpine1_M/frank_skinned:IKSpine0AlignTo_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M/frank_skinned:IKExtraSpine1_M/frank_skinned:IKSpine1_M/frank_skinned:IKSpineLocator0_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M/frank_skinned:IKExtraSpine1_M/frank_skinned:IKSpine1_M/frank_skinned:IKStiffOrientSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine1_M/frank_skinned:IKExtraSpine1_M/frank_skinned:IKSpine1_M/frank_skinned:IKStiffOrientSpine1_M/frank_skinned:IKSpineLocator1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M/frank_skinned:IKSpine2AlignTo_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M/frank_skinned:IKSpine2AlignUnIKTwistToOffset_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M/frank_skinned:IKSpine2AlignUnIKTwistToOffset_M/frank_skinned:IKSpine2AlignUnIKTwistTo_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M/frank_skinned:IKSpineLocator3_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M/frank_skinned:IKStiffOrientSpine2_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKRootConstraint/frank_skinned:IKOffsetSpine2_M/frank_skinned:IKExtraSpine2_M/frank_skinned:IKSpine2_M/frank_skinned:IKStiffOrientSpine2_M/frank_skinned:IKSpineLocator2_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKScalerChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKScalerRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKScalerSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:IKSpineHandle_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleAimLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleAimLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetArm_L/frank_skinned:PoleExtraArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetArm_L/frank_skinned:PoleExtraArm_L/frank_skinned:PoleArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetArm_R/frank_skinned:PoleExtraArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetArm_R/frank_skinned:PoleExtraArm_R/frank_skinned:PoleArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetLeg_L/frank_skinned:PoleExtraLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetLeg_L/frank_skinned:PoleExtraLeg_L/frank_skinned:PoleLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetLeg_R/frank_skinned:PoleExtraLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKHandle/frank_skinned:PoleOffsetLeg_R/frank_skinned:PoleExtraLeg_R/frank_skinned:PoleLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKMessureFromHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKX2Hip_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKX2Knee_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKXAnkle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKXAnkle_L/frank_skinned:IKX2Ankle_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKXAnkle_L/frank_skinned:IKXToes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKXAnkle_L/frank_skinned:IKXToes_L/frank_skinned:IKX2Toes_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKXAnkle_L/frank_skinned:IKXToes_L/frank_skinned:IKXToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:IKXAnkle_L/frank_skinned:IKXToes_L/frank_skinned:IKXToesEnd_L/frank_skinned:IKX2ToesEnd_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_L/frank_skinned:IKXOffsetHip_L/frank_skinned:IKXHip_L/frank_skinned:IKXKnee_L/frank_skinned:PoleAnnotationLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKMessureFromHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKX2Hip_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKX2Knee_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKXAnkle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKXAnkle_R/frank_skinned:IKX2Ankle_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKXAnkle_R/frank_skinned:IKXToes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKXAnkle_R/frank_skinned:IKXToes_R/frank_skinned:IKX2Toes_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKXAnkle_R/frank_skinned:IKXToes_R/frank_skinned:IKXToesEnd_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:IKXAnkle_R/frank_skinned:IKXToes_R/frank_skinned:IKXToesEnd_R/frank_skinned:IKX2ToesEnd_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintHip_R/frank_skinned:IKXOffsetHip_R/frank_skinned:IKXHip_R/frank_skinned:IKXKnee_R/frank_skinned:PoleAnnotationLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKfake1Spine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKfake1Spine_M/frank_skinned:IKFake1UpLocSpine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKfake1Spine_M/frank_skinned:IKfake2Spine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKfake1Spine_M/frank_skinned:IKfake2Spine_M/frank_skinned:IKfake3Spine_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKSpSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKSpSpine1_M/frank_skinned:IKSpChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKSpSpine1_M/frank_skinned:IKSpChest_M/frank_skinned:IKSpChestFollowOffset_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKfake0Spine_M/frank_skinned:IKSpSpine1_M/frank_skinned:IKSpSpine1FollowOffset_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M/frank_skinned:IKXRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M/frank_skinned:IKXRoot_M/frank_skinned:IKX2Root_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M/frank_skinned:IKXRoot_M/frank_skinned:IKXSpine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M/frank_skinned:IKXRoot_M/frank_skinned:IKXSpine1_M/frank_skinned:IKX2Spine1_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M/frank_skinned:IKXRoot_M/frank_skinned:IKXSpine1_M/frank_skinned:IKXChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintRoot_M/frank_skinned:IKXOffsetRoot_M/frank_skinned:IKXRoot_M/frank_skinned:IKXSpine1_M/frank_skinned:IKXChest_M/frank_skinned:IKX2Chest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKMessureFromShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L/frank_skinned:IKX2Shoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L/frank_skinned:IKXElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L/frank_skinned:IKXElbow_L/frank_skinned:IKX2Elbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L/frank_skinned:IKXElbow_L/frank_skinned:IKXWrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L/frank_skinned:IKXElbow_L/frank_skinned:IKXWrist_L/frank_skinned:IKX2Wrist_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_L/frank_skinned:IKXOffsetShoulder_L/frank_skinned:IKXShoulder_L/frank_skinned:IKXElbow_L/frank_skinned:PoleAnnotationArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKMessureFromShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R/frank_skinned:IKX2Shoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R/frank_skinned:IKXElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R/frank_skinned:IKXElbow_R/frank_skinned:IKX2Elbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R/frank_skinned:IKXElbow_R/frank_skinned:IKXWrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R/frank_skinned:IKXElbow_R/frank_skinned:IKXWrist_R/frank_skinned:IKX2Wrist_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKParentConstraintShoulder_R/frank_skinned:IKXOffsetShoulder_R/frank_skinned:IKXShoulder_R/frank_skinned:IKXElbow_R/frank_skinned:PoleAnnotationArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKSpSpineOffset_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKSpSpineOffset_M/frank_skinned:IKSpRoot_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKJoints/frank_skinned:IKSpSpineOffset_M/frank_skinned:IKSpRoot_M/frank_skinned:IKSpRootFollowOffset_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKdistanceArm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKdistanceArm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKdistanceLeg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKdistanceLeg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Arm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Arm_L/frank_skinned:IKmessureLoc2Arm_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Arm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Arm_R/frank_skinned:IKmessureLoc2Arm_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Leg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Leg_L/frank_skinned:IKmessureLoc2Leg_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Leg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKMessure/frank_skinned:IKmessureLoc1Leg_R/frank_skinned:IKmessureLoc2Leg_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic/frank_skinned:IKOffsetArm_LStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic/frank_skinned:IKOffsetArm_RStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic/frank_skinned:PoleOffsetArm_LStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic/frank_skinned:PoleOffsetArm_RStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic/frank_skinned:PoleOffsetLeg_LStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:IKSystem/frank_skinned:IKStatic/frank_skinned:PoleOffsetLeg_RStatic
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem/frank_skinned:LegLockConstrained
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem/frank_skinned:RootOffsetX_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem/frank_skinned:RootOffsetX_M/frank_skinned:RootExtraX_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem/frank_skinned:RootOffsetX_M/frank_skinned:RootExtraX_M/frank_skinned:RootX_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem/frank_skinned:RootOffsetX_M/frank_skinned:RootExtraX_M/frank_skinned:RootX_M/frank_skinned:RootSpineAligned
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:RootSystem/frank_skinned:RootOffsetX_M/frank_skinned:RootExtraX_M/frank_skinned:RootX_M/frank_skinned:RootZeroXform
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:FKIKMixElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:FKIKMixElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetChest_M/frank_skinned:TwistFollowChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetChest_M/frank_skinned:TwistFollowChest_M/frank_skinned:UnTwistIKChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetElbow_L/frank_skinned:TwistFollowElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetElbow_L/frank_skinned:TwistFollowElbow_L/frank_skinned:UnTwistIKElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetElbow_R/frank_skinned:TwistFollowElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetElbow_R/frank_skinned:TwistFollowElbow_R/frank_skinned:UnTwistIKElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetShoulder_L/frank_skinned:TwistFollowShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetShoulder_L/frank_skinned:TwistFollowShoulder_L/frank_skinned:UnTwistIKShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetShoulder_R/frank_skinned:TwistFollowShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowOffsetShoulder_R/frank_skinned:TwistFollowShoulder_R/frank_skinned:UnTwistIKShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetChest_M/frank_skinned:TwistFollowParentChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetChest_M/frank_skinned:TwistFollowParentChest_M/frank_skinned:UnTwistChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetChest_M/frank_skinned:TwistFollowParentChest_M/frank_skinned:UnTwistChest_M/frank_skinned:TwistBalancerChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetChest_M/frank_skinned:TwistFollowParentChest_M/frank_skinned:UnTwistChest_M/frank_skinned:UnTwistEndChest_M
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L/frank_skinned:UnTwistElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L/frank_skinned:UnTwistElbow_L/frank_skinned:TwistBalancerElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L/frank_skinned:UnTwistElbow_L/frank_skinned:TwisterElbow0_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L/frank_skinned:UnTwistElbow_L/frank_skinned:TwisterElbow1_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L/frank_skinned:UnTwistElbow_L/frank_skinned:TwisterElbow2_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_L/frank_skinned:TwistFollowParentElbow_L/frank_skinned:UnTwistElbow_L/frank_skinned:UnTwistEndElbow_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R/frank_skinned:UnTwistElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R/frank_skinned:UnTwistElbow_R/frank_skinned:TwistBalancerElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R/frank_skinned:UnTwistElbow_R/frank_skinned:TwisterElbow0_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R/frank_skinned:UnTwistElbow_R/frank_skinned:TwisterElbow1_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R/frank_skinned:UnTwistElbow_R/frank_skinned:TwisterElbow2_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetElbow_R/frank_skinned:TwistFollowParentElbow_R/frank_skinned:UnTwistElbow_R/frank_skinned:UnTwistEndElbow_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L/frank_skinned:UnTwistShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L/frank_skinned:UnTwistShoulder_L/frank_skinned:TwistBalancerShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L/frank_skinned:UnTwistShoulder_L/frank_skinned:TwisterShoulder0_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L/frank_skinned:UnTwistShoulder_L/frank_skinned:TwisterShoulder1_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L/frank_skinned:UnTwistShoulder_L/frank_skinned:TwisterShoulder2_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_L/frank_skinned:TwistFollowParentShoulder_L/frank_skinned:UnTwistShoulder_L/frank_skinned:UnTwistEndShoulder_L
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R/frank_skinned:UnTwistShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R/frank_skinned:UnTwistShoulder_R/frank_skinned:TwistBalancerShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R/frank_skinned:UnTwistShoulder_R/frank_skinned:TwisterShoulder0_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R/frank_skinned:UnTwistShoulder_R/frank_skinned:TwisterShoulder1_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R/frank_skinned:UnTwistShoulder_R/frank_skinned:TwisterShoulder2_R
+    m_Weight: 0
+  - m_Path: frank_skinned:Group/frank_skinned:Main/frank_skinned:MotionSystem/frank_skinned:TwistSystem/frank_skinned:TwistFollowParentOffsetShoulder_R/frank_skinned:TwistFollowParentShoulder_R/frank_skinned:UnTwistShoulder_R/frank_skinned:UnTwistEndShoulder_R
+    m_Weight: 0
+  - m_Path: frank_skinned:model:geo
+    m_Weight: 1
+  - m_Path: frank_skinned:model:geo/frank_skinned:model:SM_human_frank
+    m_Weight: 1
+  - m_Path: frank_skinned:model:shaderAssign
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_L/frank_skinnedBake:Knee_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_L/frank_skinnedBake:Knee_L/frank_skinnedBake:Ankle_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_L/frank_skinnedBake:Knee_L/frank_skinnedBake:Ankle_L/frank_skinnedBake:Toes_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_L/frank_skinnedBake:Knee_L/frank_skinnedBake:Ankle_L/frank_skinnedBake:Toes_L/frank_skinnedBake:ToesEnd_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_R/frank_skinnedBake:Knee_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_R/frank_skinnedBake:Knee_R/frank_skinnedBake:Ankle_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_R/frank_skinnedBake:Knee_R/frank_skinnedBake:Ankle_R/frank_skinnedBake:Toes_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Hip_R/frank_skinnedBake:Knee_R/frank_skinnedBake:Ankle_R/frank_skinnedBake:Toes_R/frank_skinnedBake:ToesEnd_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Neck_M
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Neck_M/frank_skinnedBake:Head_M
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Neck_M/frank_skinnedBake:Head_M/frank_skinnedBake:HeadEnd_M
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L/frank_skinnedBake:Shoulder_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L/frank_skinnedBake:Shoulder_L/frank_skinnedBake:ShoulderPart1_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L/frank_skinnedBake:Shoulder_L/frank_skinnedBake:ShoulderPart1_L/frank_skinnedBake:ShoulderPart2_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L/frank_skinnedBake:Shoulder_L/frank_skinnedBake:ShoulderPart1_L/frank_skinnedBake:ShoulderPart2_L/frank_skinnedBake:Elbow_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L/frank_skinnedBake:Shoulder_L/frank_skinnedBake:ShoulderPart1_L/frank_skinnedBake:ShoulderPart2_L/frank_skinnedBake:Elbow_L/frank_skinnedBake:Wrist_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_L/frank_skinnedBake:Shoulder_L/frank_skinnedBake:ShoulderPart1_L/frank_skinnedBake:ShoulderPart2_L/frank_skinnedBake:Elbow_L/frank_skinnedBake:Wrist_L/frank_skinnedBake:MiddleFinger1_L
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R/frank_skinnedBake:Shoulder_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R/frank_skinnedBake:Shoulder_R/frank_skinnedBake:ShoulderPart1_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R/frank_skinnedBake:Shoulder_R/frank_skinnedBake:ShoulderPart1_R/frank_skinnedBake:ShoulderPart2_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R/frank_skinnedBake:Shoulder_R/frank_skinnedBake:ShoulderPart1_R/frank_skinnedBake:ShoulderPart2_R/frank_skinnedBake:Elbow_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R/frank_skinnedBake:Shoulder_R/frank_skinnedBake:ShoulderPart1_R/frank_skinnedBake:ShoulderPart2_R/frank_skinnedBake:Elbow_R/frank_skinnedBake:Wrist_R
+    m_Weight: 1
+  - m_Path: frank_skinnedBake:Root_M/frank_skinnedBake:Spine1_M/frank_skinnedBake:Chest_M/frank_skinnedBake:Scapula_R/frank_skinnedBake:Shoulder_R/frank_skinnedBake:ShoulderPart1_R/frank_skinnedBake:ShoulderPart2_R/frank_skinnedBake:Elbow_R/frank_skinnedBake:Wrist_R/frank_skinnedBake:MiddleFinger1_R
+    m_Weight: 1

@@ -9,6 +9,9 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     int damage = 30;
 
+    [HideInInspector]
+    public Transform shooter;
+
     private void Start()
     {
         Destroy(gameObject, liveSpan);
@@ -19,5 +22,13 @@ public class Projectile : MonoBehaviour
 
         collision.gameObject.SendMessage("GetDamage", damage);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<AI_Sensors>() != null)
+        {
+            other.gameObject.GetComponent<AI_Sensors>().target = shooter;
+        }
     }
 }

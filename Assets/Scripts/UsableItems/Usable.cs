@@ -13,4 +13,13 @@ public class Usable : MonoBehaviour
     public virtual void Use(Transform parent, Vector3 direction)
     {
     }
+
+    public bool CanUse()
+    {
+        if (Time.time > nextUse)
+        {
+            return true;
+        }
+        return false;
+    }
 }
