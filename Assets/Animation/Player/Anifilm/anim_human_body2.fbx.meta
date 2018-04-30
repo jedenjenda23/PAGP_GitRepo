@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: cdad537eab79f8549987ca32c45fbf4a
+timeCreated: 1525096845
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: frank_skinned:Ankle_L
+    100004: frank_skinned:Ankle_R
+    100006: frank_skinned:Chest_M
+    100008: frank_skinned:DeformationSystem
+    100010: frank_skinned:Elbow_L
+    100012: frank_skinned:Elbow_R
+    100014: frank_skinned:Geometry
+    100016: frank_skinned:Head_M
+    100018: frank_skinned:HeadEnd_M
+    100020: frank_skinned:Hip_L
+    100022: frank_skinned:Hip_R
+    100024: frank_skinned:Knee_L
+    100026: frank_skinned:Knee_R
+    100028: frank_skinned:Main
+    100030: frank_skinned:MiddleFinger1_L
+    100032: frank_skinned:MiddleFinger1_R
+    100034: frank_skinned:Neck_M
+    100036: frank_skinned:Root_M
+    100038: frank_skinned:Scapula_L
+    100040: frank_skinned:Scapula_R
+    100042: frank_skinned:Shoulder_L
+    100044: frank_skinned:Shoulder_R
+    100046: frank_skinned:ShoulderPart1_L
+    100048: frank_skinned:ShoulderPart1_R
+    100050: frank_skinned:ShoulderPart2_L
+    100052: frank_skinned:ShoulderPart2_R
+    100054: frank_skinned:Spine1_M
+    100056: frank_skinned:Toes_L
+    100058: frank_skinned:Toes_R
+    100060: frank_skinned:ToesEnd_L
+    100062: frank_skinned:ToesEnd_R
+    100064: frank_skinned:Wrist_L
+    100066: frank_skinned:Wrist_R
+    400000: //RootNode
+    400002: frank_skinned:Ankle_L
+    400004: frank_skinned:Ankle_R
+    400006: frank_skinned:Chest_M
+    400008: frank_skinned:DeformationSystem
+    400010: frank_skinned:Elbow_L
+    400012: frank_skinned:Elbow_R
+    400014: frank_skinned:Geometry
+    400016: frank_skinned:Head_M
+    400018: frank_skinned:HeadEnd_M
+    400020: frank_skinned:Hip_L
+    400022: frank_skinned:Hip_R
+    400024: frank_skinned:Knee_L
+    400026: frank_skinned:Knee_R
+    400028: frank_skinned:Main
+    400030: frank_skinned:MiddleFinger1_L
+    400032: frank_skinned:MiddleFinger1_R
+    400034: frank_skinned:Neck_M
+    400036: frank_skinned:Root_M
+    400038: frank_skinned:Scapula_L
+    400040: frank_skinned:Scapula_R
+    400042: frank_skinned:Shoulder_L
+    400044: frank_skinned:Shoulder_R
+    400046: frank_skinned:ShoulderPart1_L
+    400048: frank_skinned:ShoulderPart1_R
+    400050: frank_skinned:ShoulderPart2_L
+    400052: frank_skinned:ShoulderPart2_R
+    400054: frank_skinned:Spine1_M
+    400056: frank_skinned:Toes_L
+    400058: frank_skinned:Toes_R
+    400060: frank_skinned:ToesEnd_L
+    400062: frank_skinned:ToesEnd_R
+    400064: frank_skinned:Wrist_L
+    400066: frank_skinned:Wrist_R
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'frank_skinned:Spine1_M' has translation animation
+      that will be discarded.\n\t'frank_skinned:Spine1_M' has scale animation that
+      will be discarded.\n\t'frank_skinned:Chest_M' has translation animation that
+      will be discarded.\n\t'frank_skinned:ShoulderPart1_R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'frank_skinned:ShoulderPart2_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'frank_skinned:ShoulderPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'frank_skinned:ShoulderPart2_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 8.6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: frank_skinned:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: frank_skinned:Chest_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: anim_human_body2(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Geometry
+      parentName: anim_human_body2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Main
+      parentName: anim_human_body2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:DeformationSystem
+      parentName: frank_skinned:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Root_M
+      parentName: frank_skinned:DeformationSystem
+      position: {x: -1.8791351e-17, y: 0.93698764, z: -0.007959342}
+      rotation: {x: 0.4894666, y: -0.5103161, z: -0.4894666, w: 0.5103161}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Hip_L
+      parentName: frank_skinned:Root_M
+      position: {x: 0.02012219, y: -0.0043647108, z: 0.0781503}
+      rotation: {x: 0.9898759, y: -0.008464939, z: 0.044658933, w: -0.1344604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Knee_L
+      parentName: frank_skinned:Hip_L
+      position: {x: 0.47965676, y: 4.1744386e-16, z: -3.7303492e-16}
+      rotation: {x: 0, y: 0, z: 0.05730544, w: 0.9983567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Ankle_L
+      parentName: frank_skinned:Knee_L
+      position: {x: 0.36389545, y: 4.1189272e-16, z: -6.0396133e-16}
+      rotation: {x: -0.14412016, y: -0.03372247, z: -0.044793222, w: 0.98797053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Toes_L
+      parentName: frank_skinned:Ankle_L
+      position: {x: 0.066315494, y: -0.11636125, z: -6.3948843e-16}
+      rotation: {x: 0.005015958, y: 0.0043811146, z: -0.6578223, w: 0.7531437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:ToesEnd_L
+      parentName: frank_skinned:Toes_L
+      position: {x: 0.059769794, y: 5.950795e-16, z: 1.9539925e-16}
+      rotation: {x: 0.0000000877082, y: 0.0000012982732, z: -1.1386921e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Hip_R
+      parentName: frank_skinned:Root_M
+      position: {x: 0.02012219, y: -0.0043647108, z: -0.0781503}
+      rotation: {x: 0.008464966, y: 0.9898759, z: -0.1344604, w: -0.044658933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Knee_R
+      parentName: frank_skinned:Hip_R
+      position: {x: -0.47965676, y: -5.4178885e-16, z: 3.0198067e-16}
+      rotation: {x: 0, y: 0, z: 0.05730544, w: 0.9983567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Ankle_R
+      parentName: frank_skinned:Knee_R
+      position: {x: -0.36389545, y: -3.5971226e-16, z: 1.4210854e-16}
+      rotation: {x: -0.14412016, y: -0.03372247, z: -0.044793222, w: 0.98797053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Toes_R
+      parentName: frank_skinned:Ankle_R
+      position: {x: -0.066315494, y: 0.11636125, z: 4.2632563e-16}
+      rotation: {x: 0.005014976, y: 0.0043802573, z: -0.6578223, w: 0.7531437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:ToesEnd_R
+      parentName: frank_skinned:Toes_R
+      position: {x: -0.059769794, y: -2.7635671e-14, z: 0.00000015448674}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Spine1_M
+      parentName: frank_skinned:Root_M
+      position: {x: -0.16527854, y: 0.011686851, z: -8.730479e-17}
+      rotation: {x: 0, y: 0, z: 0.053986497, w: 0.99854165}
+      scale: {x: 1, y: 1.0006154, z: 1.0006154}
+    - name: frank_skinned:Chest_M
+      parentName: frank_skinned:Spine1_M
+      position: {x: -0.18403454, y: -0.00002723134, z: -3.9614996e-17}
+      rotation: {x: 0, y: -0, z: -0.17178863, w: 0.9851338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Neck_M
+      parentName: frank_skinned:Chest_M
+      position: {x: -0.14932354, y: 6.750156e-16, z: 3.6683472e-16}
+      rotation: {x: 0, y: 0, z: 0.0018765997, w: 0.9999983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Head_M
+      parentName: frank_skinned:Neck_M
+      position: {x: -0.06251349, y: -2.1316282e-16, z: -1.5534865e-16}
+      rotation: {x: 0, y: 0, z: 0.09475843, w: 0.9955003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:HeadEnd_M
+      parentName: frank_skinned:Head_M
+      position: {x: -0.19274093, y: -4.2632563e-16, z: -2.9389743e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Scapula_L
+      parentName: frank_skinned:Chest_M
+      position: {x: -0.07574224, y: 0.01614321, z: 0.041620072}
+      rotation: {x: 0.7126299, y: -0.045635983, z: 0.6720225, w: -0.19611663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Shoulder_L
+      parentName: frank_skinned:Scapula_L
+      position: {x: 0.11082449, y: -3.1086245e-17, z: -4.263256e-15}
+      rotation: {x: -0.028932583, y: 0.014777973, z: -0.170169, w: 0.9848792}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:ShoulderPart1_L
+      parentName: frank_skinned:Shoulder_L
+      position: {x: 0.09729049, y: 8.8817837e-17, z: -2.842171e-16}
+      rotation: {x: 0.02018096, y: -0, z: -0, w: 0.99979633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:ShoulderPart2_L
+      parentName: frank_skinned:ShoulderPart1_L
+      position: {x: 0.09729049, y: 1.02140514e-16, z: 2.842171e-16}
+      rotation: {x: 0.02018096, y: -0, z: -0, w: 0.99979633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Elbow_L
+      parentName: frank_skinned:ShoulderPart2_L
+      position: {x: 0.09729049, y: 1.2434498e-16, z: 2.842171e-16}
+      rotation: {x: 0.018964674, y: -0.0072174217, z: -0.0034971447, w: 0.999788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Wrist_L
+      parentName: frank_skinned:Elbow_L
+      position: {x: 0.24400331, y: -4.2632563e-16, z: 5.968559e-15}
+      rotation: {x: 0.0026758327, y: 0.0013273464, z: 0.0046287198, w: 0.99998486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:MiddleFinger1_L
+      parentName: frank_skinned:Wrist_L
+      position: {x: 0.05919849, y: 2.1316282e-16, z: 1.065814e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Scapula_R
+      parentName: frank_skinned:Chest_M
+      position: {x: -0.07574224, y: 0.01614321, z: -0.041620072}
+      rotation: {x: -0.045635983, y: -0.7126299, z: 0.19611663, w: 0.6720225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Shoulder_R
+      parentName: frank_skinned:Scapula_R
+      position: {x: -0.11082449, y: -4.440892e-18, z: 7.958079e-15}
+      rotation: {x: -0.028930757, y: 0.014778946, z: -0.17017123, w: 0.9848789}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:ShoulderPart1_R
+      parentName: frank_skinned:Shoulder_R
+      position: {x: -0.09729049, y: 5.3290704e-17, z: -2.842171e-16}
+      rotation: {x: 0.020180259, y: -0, z: -0, w: 0.9997964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:ShoulderPart2_R
+      parentName: frank_skinned:ShoulderPart1_R
+      position: {x: -0.09729049, y: 4.440892e-18, z: -1.1368684e-15}
+      rotation: {x: 0.020180259, y: -0, z: -0, w: 0.9997964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Elbow_R
+      parentName: frank_skinned:ShoulderPart2_R
+      position: {x: -0.097290486, y: -3.5527136e-17, z: -3.7303492e-16}
+      rotation: {x: 0.018963976, y: -0.0072173863, z: -0.0034977975, w: 0.999788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:Wrist_R
+      parentName: frank_skinned:Elbow_R
+      position: {x: -0.24400333, y: -1.2396146e-11, z: 2.6859936e-11}
+      rotation: {x: 0.0026741205, y: 0.0013291341, z: 0.0046255966, w: 0.99998486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank_skinned:MiddleFinger1_R
+      parentName: frank_skinned:Wrist_R
+      position: {x: -0.05919849, y: -4.6185276e-16, z: -4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
