@@ -14,10 +14,14 @@ public class CameraController : MonoBehaviour
     public LayerMask raycastLayer;
     GameObject lastObj;
 
+    bool wireFrameMode;
+
     RaycastHit hit;
 	// Update is called once per frame
 	void FixedUpdate ()
     {
+        if (Input.GetKeyDown(KeyCode.F1)) wireFrameMode = !wireFrameMode;
+
         if (cameraTarget) audioListener.position = cameraTarget.position;
         else audioListener.position = transform.position;
 
@@ -58,5 +62,16 @@ public class CameraController : MonoBehaviour
             Debug.DrawRay(transform.position, -(transform.position - cameraTarget.position) * Vector3.Distance(transform.position, cameraTarget.position), Color.red);
         }
         */
+    }
+
+
+    //Render Wireframe
+    void OnPreRender()
+    {
+        GL.wireframe = wireFrameMode;
+    }
+    void OnPostRender()
+    {
+        GL.wireframe = false;
     }
 }
