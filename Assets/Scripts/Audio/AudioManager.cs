@@ -19,6 +19,8 @@ public class AudioManager : MonoBehaviour {
     [SerializeField] private float transitionTimeAttack = 0.04f;
     [SerializeField] private float[] transitionTimes;
 
+    [HideInInspector]
+    public bool attackMusicPlaying;
     private bool newLevel = true;
 
     //private AudioSource source1;                // Hlavní hudební ambient
@@ -97,6 +99,8 @@ public class AudioManager : MonoBehaviour {
         activeSources[0] = false;
         activeSources[1] = true;
         activeSources[2] = true;
+
+        attackMusicPlaying = true;
     }
 
     public void StopAttackTheme()
@@ -105,6 +109,10 @@ public class AudioManager : MonoBehaviour {
         activeSources[0] = true;
         activeSources[1] = false;
         activeSources[2] = false;
+
+        attackMusicPlaying = false;
+
+        Debug.Log("stopAttackTheme");
     }
 
     private void AdjustVolume(AudioSource source, bool turnUp, float time)

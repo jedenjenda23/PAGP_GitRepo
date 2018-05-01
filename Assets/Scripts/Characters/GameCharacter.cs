@@ -49,6 +49,11 @@ public class GameCharacter : MonoBehaviour
     [HideInInspector]
     public CharacterAnimationController charAnim;
 
+    public List<Transform> attackers = new List<Transform>();
+
+
+    protected bool dead;
+
    
 
 
@@ -97,6 +102,21 @@ public class GameCharacter : MonoBehaviour
         return inventory.GetInventoryItems();
     }
 
+    protected void RegisterMeAsAttacker(Transform target)
+    {
+        target.GetComponent<GameCharacter>().attackers.Add(transform);
+    }
+
+    protected void UnRegisterMeAsAttacker(Transform target)
+    {
+        for(int i = 0; i < target.GetComponent<GameCharacter>().attackers.Count; i++)
+        {
+            if (target.GetComponent<GameCharacter>().attackers[i].transform == transform) target.GetComponent<GameCharacter>().attackers.RemoveAt(i);
+            Debug.Log("unregMe");
+        }
+    }
+
+
     public void DealDamage(Transform target)
     {
         target.SendMessage("GetDamage", charAttributes.dmg);
@@ -107,6 +127,9 @@ public class GameCharacter : MonoBehaviour
 
         if (charAttributes.hp <= 0)
         {
+
+            dead = true;
+
             if (Camera.main.GetComponent<CameraController>().cameraTarget == gameObject.transform)
             {
                 //  UI_PlayerUI.instance.playerHp.text = "Dead";
@@ -119,7 +142,6 @@ public class GameCharacter : MonoBehaviour
             if (GetComponent<NavMeshAgent>() != null) GetComponent<NavMeshAgent>().enabled = false;
             if (GetComponent<Collider>() != null) GetComponent<Collider>().enabled = false;
             if (GetComponent<Rigidbody>() != null) GetComponent<Rigidbody>().isKinematic = true;
-
             this.enabled = false;
         }
     }

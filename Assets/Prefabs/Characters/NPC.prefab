@@ -13183,7 +13183,7 @@ Animator:
   m_GameObject: {fileID: 1311352082730662}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 587ab19ca0327bc4d9bb62d211b017b9, type: 3}
-  m_Controller: {fileID: 9100000, guid: 0af966a146835314ea151672f151b5b7, type: 2}
+  m_Controller: {fileID: 9100000, guid: e3ea64eda94f2ce43b1859d30d4fa377, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -13329,6 +13329,7 @@ MonoBehaviour:
   inventoryPosition: {x: 0, y: 0, z: 0}
   inventory: {fileID: 0}
   charAnim: {fileID: 0}
+  attackers: []
   myState: 3
   myDefaultState: 1
   relaxedSpeed: 0.5

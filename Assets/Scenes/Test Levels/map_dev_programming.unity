@@ -12443,6 +12443,61 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_UseSpring
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54257926098220774, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Mass
+      value: 33.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Spring.spring
+      value: 27.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Spring.damper
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_UseLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_UseMotor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Limits.min
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Limits.max
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 59056507938110320, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Limits.bounciness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54930099170181266, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_Drag
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 54930099170181266, guid: 016209c2a4122984fb3aec3a5308552a,
+        type: 2}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 016209c2a4122984fb3aec3a5308552a, type: 2}
   m_IsPrefabParent: 0

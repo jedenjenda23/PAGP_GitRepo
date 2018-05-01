@@ -13,7 +13,7 @@ using UnityEditor;
 
 public class GC_Monster : GameCharacter
 {
-    public enum States { Patrol, Wander, Attack, Idle, Chase }
+    public enum States { Patrol, Wander, Attack, Idle, Chase}
 
     AI_Sensors sensors;
     NavMeshAgent navAgent;
@@ -57,6 +57,12 @@ public class GC_Monster : GameCharacter
     {
         sensors.SetTargetNearestEnemy();
         StateMachineUpdate();
+
+        if(dead && sensors.target != null)
+        {
+            UnRegisterMeAsAttacker(sensors.target);
+            sensors.target = null;
+        }
     }
 
     void StateMachineUpdate()
@@ -86,6 +92,7 @@ public class GC_Monster : GameCharacter
     {
         if (sensors.target != null)
         {
+            RegisterMeAsAttacker(sensors.target);
             myState = States.Chase;
         }
 
@@ -112,8 +119,12 @@ public class GC_Monster : GameCharacter
 
         else
         {
+            if (sensors.curTargetMemoryTime > sensors.maxTargetMemoryTime * 0.7f)
+            {
+                UnRegisterMeAsAttacker(sensors.target);
+            }
 
-            if (Time.time > lastCharge + recoveryAfterCharge &&
+                if (Time.time > lastCharge + recoveryAfterCharge &&
              Time.time > lastDamageDeal + damageDealRate &&
              GetDistance(transform.position, sensors.target.position) < sensors.maxVisionRadius)
             {

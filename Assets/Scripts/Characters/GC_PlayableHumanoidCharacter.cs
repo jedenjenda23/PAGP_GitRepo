@@ -94,11 +94,33 @@ public class GC_PlayableHumanoidCharacter : GC_HumanoidCharacter
     {
         if (playerControl)
         {
+            ManageAudio();
             animationController.UpdateAimingState(aiming);
             HumanoidCharacterMovement();
             CharacterRotation();
             PlayerMovementStates();
         }
+    }
+
+    void ManageAudio()
+    {
+        if (attackers.Count < 1 && AudioManager.instance.attackMusicPlaying) AudioManager.instance.StopAttackTheme();
+
+        else if (attackers.Count > 0 && !AudioManager.instance.attackMusicPlaying)
+        {
+            AudioManager.instance.StartAttackTheme();
+        }
+
+        else if (attackers.Count > 0 && AudioManager.instance.attackMusicPlaying)
+        {
+            for (int i = 0; i < attackers.Count; i++)
+            {
+                if (attackers[i].GetComponent<CharacterAttributes>().hp <= 0) attackers.RemoveAt(i);
+            }
+        }
+
+
+
     }
 
     void PlayerInputReader()
