@@ -6,11 +6,11 @@ public class AttackZone : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        AudioManager.instance.Attack();
+        AudioManager.instance.StartAttackTheme();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        AudioManager.instance.StopAttack(50);
+        AudioManager.instance.StopAttackTheme();
     }
 }

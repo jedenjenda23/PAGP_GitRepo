@@ -11,6 +11,7 @@ public class MenuFunctions : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        AudioManager.instance.StopAudio();
         Application.LoadLevel(sceneName);
     }
 }

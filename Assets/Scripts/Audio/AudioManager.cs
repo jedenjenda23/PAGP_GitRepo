@@ -1,27 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
     public static AudioManager instance;
 
-    [SerializeField] private AudioClip clipCalm;
-    [SerializeField] private AudioClip clipStress;
-    [SerializeField] private AudioClip clipAttack;
+    [SerializeField] AudioSource[] Sources;
 
-    private AudioSource source1;                // Hlavní hudební ambient
-    private AudioSource source2;                // Podkres hudebního ambientu
-    private AudioSource source3;                // Sekundární hudební ambient
-    private AudioSource source4;                // Hlavní ambient prostředí
-    private AudioSource source5;                // Sekundární ambient prostředí
+    [SerializeField] private AudioClip ambientMain;
+    [SerializeField] private AudioClip ambientStress;
+    [SerializeField] private AudioClip ambientAttack;
+    [SerializeField] private AudioClip atmosphereMain;
+    [SerializeField] private AudioClip atmosphereSecondary;
 
-    private bool turnOffSource1 = false;
-    private bool turnOffSource2 = false;
-    private bool turnOffSource3 = false;
-    private bool turnOffSource4 = false;
-    private bool turnOffSource5 = false;
-    private int calmingTimmer = 0;
+    [SerializeField] private float transitionTimeMain = 0.04f;
+    [SerializeField] private float transitionTimeStress = 0.04f;
+    [SerializeField] private float transitionTimeAttack = 0.04f;
+    [SerializeField] private float[] transitionTimes;
 
+    private bool newLevel = true;
+
+    //private AudioSource source1;                // Hlavní hudební ambient
+    //private AudioSource source2;                // Podkres hudebního ambientu
+    //private AudioSource source3;                // Sekundární hudební ambient
+    //private AudioSource source4;                // Hlavní ambient prostředí
+    //private AudioSource source5;                // Sekundární ambient prostředí
+
+    [SerializeField] private bool[] activeSources = new bool[] { true, false, false, false, false };
 
     private void Awake()
     {
@@ -29,52 +35,87 @@ public class AudioManager : MonoBehaviour {
         else instance = this;
     }
 
-    // Use this for initialization
-    void Start () {
-        source1 = GetComponents<AudioSource>()[0];
-        source2 = GetComponents<AudioSource>()[1];
-        source3 = GetComponents<AudioSource>()[2];
-        source4 = GetComponents<AudioSource>()[3];
-        source5 = GetComponents<AudioSource>()[4];
-        source1.clip = clipCalm;
-        source2.clip = clipStress;
-        source3.clip = clipAttack;
-
-        source1.Play();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-        if (source2.volume <= 0.1f) source2.volume = 0f;
-        if (turnOffSource2)
-            if (calmingTimmer == 0) AdjustVolume(source2,0,0.01f);
-            else calmingTimmer -= 1;
-        if (source2.volume == 0f) turnOffSource2 = false;
+    void Start() {
+        transitionTimes = new float[] {transitionTimeMain, transitionTimeStress , transitionTimeAttack, transitionTimeMain, transitionTimeMain};
+        Sources = GetComponents<AudioSource>();
+        Sources[0].clip = ambientMain;
+        Sources[1].clip = ambientStress;
+        Sources[2].clip = ambientAttack;
+        Sources[3].clip = atmosphereMain;
+        Sources[4].clip = atmosphereSecondary;
     }
 
-    public void Attack()
-    {
-        source2.volume = 1;
-        source2.volume = 1;
-        source3.volume = 1;
-        turnOffSource2 = false;
-        source1.Stop();
-        source2.Play();
-        source3.Play();
+    // Update is called once per frame
+    void Update() {
+        if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 6) ChangeVolumes();
     }
 
-    public void StopAttack(int x)
+    public void PlayAudio()
     {
-        calmingTimmer = x;
-        turnOffSource2 = true;
-        source1.Play();
-        source3.Stop();
+        Sources[0].Play();
+        Sources[3].Play();
+        Sources[5].Play();
+        //if ((SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 6) && newLevel)
+        //{
+        //    newLevel = false;
+        //    Sources[0].Play();
+        //    Sources[3].Play();
+        //    Sources[5].Play();
+        //}
     }
 
-    private void AdjustVolume(AudioSource source, float volume, float time)
+    public void StopAudio()
     {
-        source.volume = Mathf.Lerp(source.volume, volume, time);
-        if (source.volume <= 0.1f) source.volume = 0;
+        newLevel = false;
+        foreach(AudioSource source in Sources)
+        {
+            source.Stop();
+        }
+
+        //Sources[0].Stop();
+        //Sources[1].Stop();
+        //Sources[2].Stop();
+        //Sources[3].Stop();
+        //Sources[4].Stop();
+        //Sources[5].Stop();
+    }
+
+    private void ChangeVolumes()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            AdjustVolume(Sources[i],activeSources[i],transitionTimes[i]);
+        }
+    }
+
+    public void StartAttackTheme()
+    {
+        Sources[0].Stop();
+        Sources[1].Stop();
+        Sources[1].Play();
+        Sources[2].Play();
+        activeSources[0] = false;
+        activeSources[1] = true;
+        activeSources[2] = true;
+    }
+
+    public void StopAttackTheme()
+    {
+        Sources[0].Play();
+        activeSources[0] = true;
+        activeSources[1] = false;
+        activeSources[2] = false;
+    }
+
+    private void AdjustVolume(AudioSource source, bool turnUp, float time)
+    {
+        //if ((source == Sources[2] && turnUp) || (source == Sources[3] && turnUp)) source.volume = 1;
+
+        if (turnUp) source.volume = Mathf.Lerp(source.volume, 1, time);
+        else source.volume = Mathf.Lerp(source.volume, 0, time);
+
+
+        //if (source.volume <= 0.01f) source.volume = 0;
+        //if (source.volume >= 0.98f) source.volume = 1;
     }
 }
