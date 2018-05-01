@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 355998091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb368c5fa179eb548ba3c1b54c73fafe, type: 3}
+  m_Script: {fileID: 11500000, guid: 07d989d648a839f418cd3ad8f07b1a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &377580125
@@ -2303,7 +2303,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 606026424
+  randomSeed: 887927735
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5525,7 +5525,7 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 944490191}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4229e81dc5df20b4a9a23f1f89b44835, type: 3}
@@ -6674,7 +6674,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1842557970
+  randomSeed: 846845274
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -11370,14 +11370,14 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1880812259
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880812258}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 58afbf1a3d6fa8f4e9838b32f63092a5, type: 3}
@@ -11786,6 +11786,11 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.startSize.scalar
       value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 82716474723407040, guid: 3137b9c45a149a3419e53a6f57d2e096,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3137b9c45a149a3419e53a6f57d2e096, type: 2}

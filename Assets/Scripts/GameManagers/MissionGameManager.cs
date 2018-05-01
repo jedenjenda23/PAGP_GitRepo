@@ -9,6 +9,7 @@ public class MissionGameManager : MonoBehaviour
 
     public void Awake()
     {
+        AudioManager.instance.PlayAudio();
         mgmInstance = this;
         MGM_StartMission();
     }

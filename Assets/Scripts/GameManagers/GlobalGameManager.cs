@@ -50,6 +50,7 @@ public class GlobalGameManager : MonoBehaviour
 
     public void GGM_LoadScene(string sceneName)
     {
+        AudioManager.instance.StopAudio();
         Application.LoadLevel(sceneName);
     }
 
